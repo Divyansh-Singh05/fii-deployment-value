@@ -1,0 +1,15 @@
+# data & outputs are reproducible / too large for git
+data/
+outputs/
+
+# environments & caches
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS noise
+.DS_Store
+
+# stray build artifact
+data-archive.tar.gz

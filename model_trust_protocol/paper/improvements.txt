@@ -1,0 +1,1005 @@
+1. What the research actually establishes
+
+The manuscript establishes something narrower and more defensible than "the signal is weak."
+
+The actual empirical pattern is:
+
+The underlying dataset contains statistically detectable and replicable relationships, but statistical detectability does not translate uniformly into usable incremental information. The point at which value disappears depends on the application and the constraint imposed on that application.
+
+That is not an interpretation invented after the fact. The manuscript explicitly constructs six sequential constraints—existence, replication, availability, competition, detectability, and execution—and reports that all seven applications survive the first two but attrition begins thereafter.
+
+The failures are heterogeneous:
+
+one application fails because the information disappears at the deployable lag;
+two fail when evaluated against stronger or more realistic baselines;
+two fail because the incremental contribution is not detectable in the metric that actually matters;
+one fails because the gross edge is smaller than realistic implementation cost;
+one market-level application survives the complete sequence.
+
+That heterogeneity is the paper's most interesting fact.
+
+The contribution is therefore not "FIHMM works," "FII flow predicts volatility," or even "FII flow is valuable."
+
+It is:
+
+A statistically credible financial relationship can survive conventional inference and out-of-sample replication while failing to deliver incremental decision value for materially different reasons once the information is evaluated under realistic deployment conditions.
+
+That is the paper hiding inside the current research.
+
+2. Candidate research questions
+RQ1 — Where does financial information stop surviving between statistical evidence and decision use?
+Meaning
+
+Rather than asking whether the predictor exists, this asks where the information ceases to be useful as increasingly realistic constraints are imposed.
+
+Evidence already available
+
+The entire seven-application / six-constraint architecture answers this directly. The manuscript's attrition figure gives the sequence:
+
+7 → 7 → 6 → 4 → 2 → 1.
+
+What you can claim
+
+You can say that, within this record and these applications, substantial attrition occurs after statistical existence and replication, with failures distributed across four different downstream constraints.
+
+What you cannot claim
+
+You cannot claim that all financial predictors experience the same survival curve, or that these six constraints constitute a universally complete evaluation hierarchy.
+
+Verdict
+
+Very strong.
+
+RQ2 — Is incremental predictive value a property of a predictor, or of the predictor's deployment context?
+Meaning
+
+This asks whether one can say that "X has incremental information" without specifying the baseline against which X competes.
+
+Existing evidence
+
+This is particularly well supported by Table 2. The same flow predictor passes against the exponentially weighted baseline but fails against the asymmetric GARCH baseline. Nothing about the predictor itself changes.
+
+The manuscript already states the implication:
+
+"Incremental value is a property of the pair, not of the predictor."
+
+That is arguably the cleanest conceptual insight in the whole paper.
+
+What you can claim
+
+The paper can demonstrate empirically that the assessed incremental value of a predictor depends materially on the baseline against which it is evaluated.
+
+What you cannot claim
+
+You cannot elevate one controlled pair into a universal theorem about all predictors or all forecast systems.
+
+Verdict
+
+Extremely strong, but better as a central mechanism than as the sole research question.
+
+RQ3 — How much of a statistically significant relationship survives increasingly realistic validation?
+Meaning
+
+This connects directly to the broader finance literature's focus on replication and significance.
+
+Evidence
+
+All seven applications pass conventional inference and frozen out-of-sample replication. They then begin to fail at later stages.
+
+What you can claim
+
+The paper demonstrates a substantial distinction between:
+
+statistical existence → replication → deployability → incrementality → detectability → economic capture.
+
+What you cannot claim
+
+You cannot report a general "survival probability" for financial predictors, because seven applications of one dataset are not a population of financial signals.
+
+Verdict
+
+Strong.
+
+RQ4 — Can a dataset be useful at one level of aggregation even when its more granular predictive applications fail?
+Meaning
+
+This asks whether "dataset value" is intrinsically a property of the data.
+
+Evidence
+
+The only complete survivor is the aggregate market-level flow application, whereas several stock-day applications fail. The manuscript explicitly identifies aggregation as a characteristic of the survivor.
+
+What you can claim
+
+The same dataset can have different assessed value depending on how the information is transformed and consumed.
+
+What you cannot claim
+
+You cannot conclude that aggregation generally improves alternative-data value.
+
+Verdict
+
+Good secondary question.
+
+RQ5 — Does statistical significance survive the transition from research measurement to institutional decision measurement?
+
+This is close to the original motivation.
+
+The problem is that it sounds like a sequence of robustness tests on a single predictor. Your actual paper is richer than that: the applications differ in what they ask of the dataset.
+
+Verdict
+
+Too narrow for the manuscript as currently constructed.
+
+3. The strongest research question
+
+I would select:
+
+Where, and for what reasons, does apparently valid financial information cease to provide incremental decision value when evaluated under progressively more realistic deployment constraints?
+
+This formulation has three advantages.
+
+First, it does not presuppose a positive result.
+
+Second, it accommodates both the failures and the survivor.
+
+Third, it makes the heterogeneity of the failure points part of the contribution.
+
+It also avoids the weak question:
+
+"Does FII flow predict X?"
+
+That question has already been answered repeatedly inside your pipeline, and answering it is not where the interesting evidence lies.
+
+4. The actual contribution
+
+The paper should not claim that it discovered a general "gap between significance and economic value." That is too broad and too familiar.
+
+The more precise contribution is:
+
+The paper documents heterogeneous attrition in the transition from statistical evidence to decision usefulness. Using one transaction-level information source across multiple applications, it shows that statistical significance and out-of-sample replication can coexist with failure at materially different downstream constraints—information timing, baseline competition, metric detectability, and implementation cost—while another use of the same information survives.
+
+That is an empirical contribution.
+
+The novelty is the mapping of where the value disappears, rather than the observation that significance is not sufficient.
+
+Your literature positioning already points toward exactly this gap: prior replication work largely asks whether effects exist, while friction work tends to hold a particular constraint fixed across many predictors, and alternative-data valuation work establishes methods without tracing one dataset through an ordered sequence of deployment constraints.
+
+One caution
+
+Do not call this a "general valuation framework" yet.
+
+The evidence is enough for:
+
+an empirical evaluation framework illustrated by a transaction-level case
+
+It is not enough for:
+
+a validated universal framework for valuing alternative data.
+
+That distinction matters.
+
+5. What the paper should explicitly stop claiming
+1. "We discovered a new anomaly."
+
+No.
+
+The paper's models are instruments for evaluating the data, not the scientific object themselves. The manuscript explicitly says this.
+
+2. "Foreign institutional flow predicts next-day volatility."
+
+Too strong.
+
+The contemporaneously observed flow share is statistically related to next-day volatility, but the relationship collapses at the two-day information lag:
+
+t = −5.53 contemporaneously → −0.32 at deployable lag.
+
+The defensible statement is:
+
+The contemporaneously measured association does not survive when the predictor is restricted to the information available at the stated decision lag.
+
+3. "The signal has strong predictive power."
+
+No.
+
+Some individual tests are statistically strong. That does not mean the record contains a robust, broadly useful forecasting signal.
+
+4. "The dataset generates profitable trading returns."
+
+Definitely not.
+
+Your own execution analysis says the strategy's breakeven one-way cost is 7.33–7.41 bps, compared with a 15-bps institutional assumption, under which the result becomes negative.
+
+The correct result is more interesting:
+
+The gross edge exists but is economically fragile relative to the cost required to capture it.
+
+5. "The economic mechanism is false."
+
+Not supported.
+
+The evidence only tells you where observed statistical information stops translating into the tested form of use.
+
+The failed mechanism ablation in the primary stratum says the mechanism does not produce detectable incremental score improvement there. It does not establish that the underlying economic mechanism does not exist.
+
+6. "The result generalizes to alternative datasets."
+
+No.
+
+The paper explicitly recognizes that the study concerns one dataset in one market and that magnitudes do not generalize.
+
+You can offer the evaluation logic as portable.
+
+You cannot offer the empirical survival pattern as general.
+
+7. "The six constraints are the definitive stages of information value."
+
+No.
+
+They are the constraints encountered in this research.
+
+That nuance should remain explicit.
+
+6. Rebuild the paper around the survival problem
+
+I would restructure the whole manuscript around one question:
+
+How much information survives when the definition of "useful" is progressively tightened?
+
+1. Introduction
+
+Job: establish the conceptual distinction between statistical evidence and usable information.
+
+The introduction should not open with the Indian market.
+
+It should open with the evaluation problem.
+
+Then:
+
+replication establishes whether an effect survives;
+deployment asks whether it can actually be used;
+these are not the same;
+existing literature often evaluates one friction at a time;
+this study follows one dataset through multiple constraints;
+the result is heterogeneous attrition.
+
+End with the empirical headline:
+
+All seven applications survive existence and replication; six subsequently fail at different downstream constraints, while one survives the complete sequence.
+
+2. Research question and motivation
+
+Job: define exactly what "value" means.
+
+Do not define value as:
+
+statistical significance.
+
+Instead define a sequence of increasingly restrictive forms of evidence.
+
+This also allows the paper to distinguish existence from usefulness.
+
+3. Conceptual framework
+
+This should probably become one of the paper's central sections.
+
+The six stages
+
+Existence
+Is the relationship detectable?
+
+↓
+
+Replication
+Does it survive a frozen out-of-sample era?
+
+↓
+
+Availability
+Would the information have been known when the decision had to be made?
+
+↓
+
+Competition
+Does it improve the baseline that would actually be deployed?
+
+↓
+
+Detectability
+Does the consuming decision metric register the improvement?
+
+↓
+
+Execution
+Can the improvement be economically captured?
+
+The manuscript already defines these distinctions explicitly.
+
+The critical conceptual move is to say:
+
+These are not six increasingly difficult significance tests.
+
+They are six different questions about the usability of information.
+
+That makes the paper much more interesting.
+
+7. Data and variable construction
+
+Do relatively little here.
+
+This portion is already strong and unusually transparent.
+
+You have:
+
+25,155,785 transactions,
+5,960 instrument identifiers,
+2011–2025 coverage,
+frozen training/test split,
+embargo period,
+point-in-time mapping,
+explicit identifier interpretation,
+missing-data treatment,
+walk-forward vintages.
+
+The provenance protocol also found stale figures and a previously unaudited stage.
+
+Keep this because it materially strengthens credibility.
+
+But don't let the verification machinery become the scientific narrative.
+
+It is a trust layer, not the contribution.
+
+8. Methodology
+
+The methodology should be organized by question, not model.
+
+Instead of:
+
+Panel regression
+FIHMM
+density forecast
+gradient boosting
+portfolio
+
+use:
+
+Can the information be detected?
+Can it be replicated?
+Can it be known in time?
+Does it add beyond the relevant baseline?
+Can the decision metric detect the addition?
+Can the value survive implementation cost?
+
+Then place each existing model underneath the relevant question.
+
+This will make the paper feel like one study instead of a collection of experiments.
+
+9. Results
+
+This is where I would make the largest structural change.
+
+Your Figure 2 should become the central figure of the paper.
+
+It is visually simple:
+
+7 → 7 → 6 → 4 → 2 → 1
+
+and immediately communicates the contribution.
+
+Everything else should explain the transitions.
+
+Stage 1: Existence
+
+Do not celebrate the t-statistics.
+
+Say:
+
+The information is statistically detectable.
+
+That is merely the entrance gate.
+
+Stage 2: Replication
+
+The important result is that the initial effects are not purely in-sample artefacts. All seven clear this stage.
+
+This is important because it makes the subsequent failures more interesting.
+
+10. The most important failed result: Availability
+
+The availability result is conceptually stronger than the raw significance result.
+
+You have a clean same-specification comparison:
+
+Information set	Full sample	Training	Test
+Contemporaneous	−5.53	−4.42	−3.25
+Two-day lag	−0.32	−0.30	−0.13
+
+Nothing else changes.
+
+That is unusually clean evidence.
+
+Your interpretation should therefore be:
+
+The relationship appears to describe contemporaneous market structure rather than a usable forecast at the stated decision lag.
+
+That is far more precise than saying "the signal disappears."
+
+11. The most conceptually valuable result: Competition
+
+This is probably the paper's strongest individual experiment.
+
+The same predictor:
+
+passes: exponential-weighted baseline
+fails: asymmetric GARCH baseline.
+
+This demonstrates that asking:
+
+"Does the predictor contain information?"
+
+is incomplete.
+
+The meaningful question is:
+
+"Does the predictor contain information not already contained in the information set against which it would be deployed?"
+
+That is a much stronger statement.
+
+The external control makes this even more interesting. A separate five-day foreign index return predictor is statistically stable and stronger out of sample, yet its engine fails at the same competition stage.
+
+That is very useful evidence against the simplistic conclusion:
+
+"The FII dataset is bad."
+
+Instead, the evidence suggests:
+
+Statistical quality of a predictor and incremental institutional value are distinct properties.
+
+You should emphasize this.
+
+12. Detectability
+
+This section should not be described merely as "weak effect sizes."
+
+The feature block has a striking divergence:
+
+top-minus-bottom quintile spread: 74.8 bp, t = 2.86;
+incremental information coefficient: 0.0012 versus threshold 0.005;
+IC t = 0.67 versus threshold 2.
+
+That tells you something precise:
+
+Cross-sectional extremes can exhibit visible separation while the average incremental information supplied to the consuming model is effectively negligible.
+
+That's a much more interesting result than "the model is weak."
+
+Likewise, the episode labels cluster strongly, but removing the conditioning mechanism produces no effect in the pre-registered primary stratum.
+
+This supports an important distinction:
+
+A real pattern can exist in the data without the named mechanism being responsible for useful incremental forecasting improvement.
+
+That is worth preserving.
+
+13. Execution
+
+The execution result should be presented as economic translation.
+
+Not:
+
+"The strategy failed."
+
+But:
+
+The statistical/gross edge is smaller than the cost required to monetize it under the stated institutional assumptions.
+
+That is a cleaner negative finding.
+
+The breakeven cost is especially important because it is portable across readers with different cost assumptions.
+
+14. The survivor
+
+The one surviving application should not become the paper's central positive result.
+
+I classify it as:
+
+B. Secondary evidence, with an important role as a boundary condition.
+
+Not A.
+
+Why?
+
+Because making the survivor the headline would tempt the paper back into the old "here is the successful model" story.
+
+But the survivor is important because it tells the reader that the conclusion is not
+
+"the dataset is worthless."
+
+The survivor works under a particular combination:
+
+market-level aggregation;
+two-day reporting lag;
+Student-t density;
+baseline that does not already contain the flow information.
+
+That gives you the paper's positive boundary condition:
+
+The information appears to retain value when it is aggregated to a stable level, becomes available at a deployable lag, is evaluated against a baseline that does not already contain it, and enters a metric capable of resolving its contribution.
+
+Be careful: that is a characterization of this application, not proof that these conditions are universally sufficient.
+
+15. The diagnosis of the apparent failure
+
+Here is how I would rank the possible explanations using only the current evidence.
+
+1. Redundancy with the existing information set
+
+Strongly supported.
+
+The baseline-competition experiment directly demonstrates this in at least one case. The same predictor's assessed incremental value changes when the baseline changes.
+
+This is probably the strongest explanation for at least part of the attrition.
+
+2. Information arrives too late
+
+Strongly supported for the specific stock-level effect.
+
+The contemporaneous association disappears at the deployable two-day lag.
+
+You can state this confidently for that application.
+
+3. Effect size is too small relative to decision noise
+
+Supported.
+
+The detectable feature spread does not translate into meaningful incremental information coefficients, and the density conditioning effect is minuscule in score units.
+
+4. Economic capture is too expensive
+
+Strongly supported for the strategy.
+
+The breakeven cost is below the institutional cost used in the manuscript.
+
+5. The signal is genuinely weak
+
+Partially supported, but too vague.
+
+The phrase "weak signal" conflates several different phenomena.
+
+You have evidence of statistical detectability, but weakness after conditioning, timing, baseline competition, metric translation and costs.
+
+The paper should therefore avoid "weak" as its principal diagnosis.
+
+6. The signal is unstable
+
+Some evidence, but not the dominant result.
+
+Your paper explicitly says the applications survive frozen out-of-sample replication, so the strongest conclusion is not simply instability.
+
+There are different kinds of downstream attrition.
+
+7. Aggregation destroys the information
+
+Not supported.
+
+The opposite is closer to what the surviving application suggests: aggregation can coincide with the only surviving use.
+
+But one application is insufficient to establish the causal role of aggregation.
+
+8. The economic mechanism is false
+
+Not established.
+
+Especially given the ablation result, you can say the proposed mechanism does not generate the incremental improvement claimed by that application.
+
+You cannot say the underlying economic mechanism is false.
+
+16. The new hypothesis architecture
+
+I would remove the original confirmatory prediction hypotheses from the conceptual center.
+
+The research has evolved.
+
+Instead of hypotheses like:
+
+H1: FII flow significantly predicts volatility.
+
+you should have propositions about translation.
+
+For example:
+
+Proposition 1 — Statistical evidence is not sufficient for deployability
+
+A statistically detectable relationship need not remain informative when evaluated using the information available at the decision lag.
+
+Your availability result supports this directly.
+
+Proposition 2 — Incremental value depends on the deployment baseline
+
+The assessed incremental value of a predictor depends on the information already contained in the baseline model against which it is evaluated.
+
+Table 2 provides the strongest evidence here.
+
+Proposition 3 — Detectable structure need not imply useful incremental information
+
+A statistically distinguishable pattern can fail to generate measurable improvement in the metric consumed by the decision process.
+
+The feature-block and ablation results support this.
+
+Proposition 4 — Economic usefulness requires an edge large enough to cover implementation friction
+
+Gross predictive or portfolio performance is not economically useful when its breakeven implementation cost falls below realistic execution costs.
+
+The execution result supports this.
+
+These are not "hypotheses" in the traditional anomaly-discovery sense.
+
+They are better treated as empirical propositions defining the evaluation architecture.
+
+17. What category of paper is this?
+
+Not anomaly discovery.
+
+Not conventional predictive finance.
+
+Not primarily a model-comparison paper.
+
+Not a pure replication paper either.
+
+The best classification is:
+
+Evidence-audit / methodological empirical-finance paper
+
+with a substantial negative-results / robustness component.
+
+More specifically:
+
+An empirical study of the translation of financial information from statistical evidence into deployable incremental value.
+
+That is the identity I would give it.
+
+This also explains why the FIHMM itself should stop being the intellectual centerpiece.
+
+The model is an instrument.
+
+The evaluation transition is the subject.
+
+18. What needs refinement versus new analysis
+
+This is where I think the manuscript has a favorable profile.
+
+A. Pure refinement — the overwhelming majority
+1. Change the central research question
+
+Move from:
+
+Does this financial signal work?
+
+to:
+
+Where does apparently valid information cease to provide incremental decision value?
+
+2. Reframe the hypotheses
+
+Replace directional predictor hypotheses with translation propositions.
+
+3. Reorganize the results
+
+Make the sequence:
+
+existence → replication → availability → competition → detectability → execution
+
+the primary structure.
+
+4. Make Figure 2 the central organizing figure
+
+It communicates the entire paper immediately.
+
+5. Promote the baseline experiment
+
+Table 2 is one of the clearest demonstrations of the paper's conceptual argument.
+
+6. Distinguish failure types terminologically
+
+Do not call every negative finding "the signal failed."
+
+Say:
+
+availability failure;
+redundancy failure;
+detectability failure;
+execution failure.
+7. Reduce model-specific discussion
+
+The FIHMM, density models, gradient boosting, and portfolio are vehicles for testing distinct constraints.
+
+8. Move provenance/audit material into a credibility subsection
+
+It is valuable, but should not compete with the main scientific contribution.
+
+9. Tighten causal language
+
+Replace mechanistic claims with conditional interpretations wherever necessary.
+
+10. Make limitations even more explicit
+
+Especially that the six-stage pattern is illustrative rather than estimated as a general population property.
+
+19. B. Minimal additional analysis
+
+I would keep this category very small.
+
+The manuscript itself identifies several methodological exposures.
+
+The additional work I would consider genuinely necessary is only work needed to defend claims you already want to make.
+
+1. Formalize the multiplicity issue around the "seven applications"
+
+The manuscript explicitly acknowledges that eight strategy books and four engine variants were examined without a formal correction for research selection.
+
+You do not need a huge new multiple-testing project.
+
+But you do need to be very disciplined about describing the surviving application as a pre-specified survivor under fixed criteria, rather than as proof that the successful model was selected from an unbiased universe of exactly seven opportunities.
+
+2. Tighten the validation of the survivor
+
+Because the entire headline "one survives" depends on that application, the reader needs to know exactly why it is not an artefact of model/specification selection.
+
+Your manuscript already helps itself here: the survivor was unchanged under later estimation corrections that turned three siblings into clear failures.
+
+That argument should be made extremely clearly.
+
+3. Potentially strengthen the tail forecast validation
+
+The manuscript itself acknowledges that the expected-shortfall evaluation is based on a coverage ratio rather than a direct backtest, and that the scoring rule emphasizes the centre even though the substantive claim concerns the tail.
+
+This is the one place where I would consider a limited confirmatory analysis if the surviving result relies materially on that tail claim.
+
+Not because you need a better result.
+
+Because you need the survivor's claim to be defensible.
+
+20. C. Major new research
+
+Very little should be done here.
+
+I would explicitly reject:
+
+collecting another market's FII dataset;
+adding multiple alternative institutional datasets;
+testing dozens of new predictors;
+hunting for additional successful FIHMM configurations;
+trying alternative windows until something survives;
+extensive subgroup discovery;
+constructing a new economic mechanism;
+changing the outcome because the original one failed;
+expanding to many additional markets solely to create significance.
+
+That would actually weaken the paper's identity.
+
+The current research is strongest when it says:
+
+Here is what happened to one information source when we refused to stop evaluating it at statistical significance.
+
+A large new empirical project changes the paper into something else.
+
+21. The "survival map" should become the core object
+
+I would make the central figure something like:
+
+Constraint	Question	Seven applications surviving	What failure means
+Existence	Is the relationship detectable?	7/7	Entry condition
+Replication	Does it survive frozen out-of-sample testing?	7/7	Not merely in-sample
+Availability	Is it known at decision time?	6/7	Information can be too late
+Competition	Does it beat the deployment baseline?	4/6	Information may be redundant
+Detectability	Does the consuming metric see the gain?	2/4	Statistical structure may be operationally invisible
+Execution	Does value exceed capture cost?	1/2	Gross edge may not be economically usable
+
+The exact denominators should correspond to your attrition design, not imply independent samples.
+
+The power of this table is that it transforms a collection of negative results into a structured empirical observation.
+
+22. Why the negative results are scientifically valuable
+
+The paper should make an important distinction:
+
+A negative result is not automatically interesting.
+
+"Variable X is insignificant" is usually not a contribution.
+
+What makes your negative results potentially interesting is that they answer different questions.
+
+Consider the contrast:
+
+Availability failure
+
+The information exists, but arrives too late.
+
+Competition failure
+
+The information exists, arrives in time, but the baseline already contains it.
+
+Detectability failure
+
+The information may be present, but its incremental effect is too small for the consuming metric to resolve.
+
+Execution failure
+
+The information may generate a gross edge, but not one large enough to pay for implementation.
+
+Those are economically and conceptually different failures.
+
+That is what makes the survival map potentially publishable.
+
+23. The uncomfortable question
+If every statistically significant result were removed, would a contribution remain?
+My answer: Yes, but only after one conceptual qualification.
+
+The contribution would not be:
+
+"This dataset predicts nothing."
+
+It would be:
+
+The paper demonstrates a structured distinction between statistical detection and deployable incremental value, and documents how the same information source encounters different downstream constraints depending on the application.
+
+However, the statistical results are still what establish that there is something worth following through the pipeline.
+
+So I would not literally delete all of them from the paper.
+
+Rather, the significance results should lose their status as the paper's conclusion.
+
+They become the starting condition for the experiment.
+
+This is a very important shift.
+
+The paper does not ask:
+
+"Was the coefficient significant?"
+
+It asks:
+
+"What does that significance survive?"
+
+24. The paper's strongest conceptual sentence
+
+I would build the whole manuscript toward something close to this:
+
+Statistical evidence establishes that an information source contains detectable structure; it does not establish that the structure is timely, incremental, measurable by the consuming decision, or economically capturable.
+
+Your existing results support each clause with a different experiment.
+
+That is much stronger than:
+
+"Significance does not imply economic significance."
+
+That statement is too generic.
+
+Your paper specifies the routes by which the translation can fail.
+
+25. What the manuscript is really about
+
+There is an even deeper reframing available.
+
+The paper is not really about weak signals.
+
+It is about friction in information translation.
+
+The dataset begins with information.
+
+Then each layer asks whether that information survives a transformation:
+
+information → forecast information → timely information → incremental information → measurable information → economic information.
+
+At each step some information is lost.
+
+That is the conceptual object.
+
+And importantly, the manuscript's survivor says the loss is not inevitable.
+
+Under the right aggregation, lag, baseline and metric, some information survives.
+
+That is why the result is more interesting than simply "negative."
+
+26. The appropriate title
+
+The current title—
+
+What Is an Alternative Dataset Worth? Mapping the Friction Boundary of Institutional Flow Data
+
+—is actually close to the right idea.
+
+But "friction boundary" is somewhat abstract.
+
+The stronger conceptual vocabulary is information survival, statistical-to-decision translation, or deployment boundary.
+
+Possible directions:
+
+What Is Financial Information Worth? From Statistical Evidence to Decision Use
+
+or
+
+From Statistical Significance to Decision Value: Where Financial Information Stops Surviving
+
+or, retaining the alternative-data framing:
+
+What Is an Alternative Dataset Worth? From Statistical Evidence to Decision Value
+
+Of these, I prefer the second conceptually, although the final title should depend on target journal style.
+
+27. How the conclusion should work
+
+The conclusion should not repeat every result.
+
+It should answer three questions.
+
+What was established?
+
+All seven applications showed statistical evidence and survived the frozen replication stage. Six subsequently failed under downstream use constraints.
+
+What does that mean?
+
+Statistical validity and decision usefulness are distinct empirical properties.
+
+What remains uncertain?
+
+Whether the exact six-stage pattern generalizes beyond this dataset and market.
+
+The manuscript already handles that limitation correctly.
+
+28. Final assessment
+
+My assessment is:
+
+This paper should not be presented as a failed predictive-finance paper.
+
+That framing undersells what is actually there.
+
+It should be presented as:
+
+An empirical study of how financial information degrades—or survives—as evaluation moves from statistical evidence toward deployable incremental decision value.
+
+The foreign-institutional transaction dataset is the empirical laboratory.
+
+The FIHMM / regression / density / ML / portfolio machinery is the evaluation infrastructure.
+
+The survival/attrition process is the contribution.
+
+And the most important empirical finding is not that six things fail.
+
+It is:
+
+They fail for different reasons.
+
+That is the part that cannot be reduced to "the signal was weak."
+
+The paper in one sentence
+
+Using a transaction-level record of foreign institutional activity, the study shows that statistical detection and out-of-sample replication are insufficient evidence of decision value, because the same information can subsequently fail through timing, baseline redundancy, metric detectability, or implementation cost, while remaining valuable in a different deployment context.
+
+The research question
+
+Where, and for what reasons, does apparently valid financial information cease to provide incremental decision value when evaluated under progressively more realistic deployment constraints?
+
+The central finding
+
+All seven tested applications survive statistical existence and frozen out-of-sample replication, but six subsequently fail, and they fail at four different downstream constraints; one aggregate market-level application survives the complete sequence.
+
+The contribution
+
+The study provides empirical evidence that the practical value of financial information is application-dependent: statistical significance and replication do not uniquely determine usefulness, and the binding constraint can arise from information timing, baseline competition, metric resolution, or economic capture.
+
+The strongest defensible claim
+
+For this dataset and these applications, the transition from statistical evidence to decision usefulness is characterized by heterogeneous attrition rather than a single universal failure mechanism.
+
+The claim we must NOT make
+
+We cannot claim that the six constraints form a universal law of financial information, that the FII flow signal is generally uninformative or profitable, or that the underlying economic mechanisms are false.
+
+Minimum changes before submission
+Recenter the entire paper on information survival/attrition rather than predictor discovery or model performance.
+Make the six-stage survival map the central organizing device and treat each model as evidence about a different deployment constraint.
+Tighten the interpretation of the surviving result and the multiplicity/selection exposure so that the paper demonstrates a credible boundary condition rather than appearing to hunt for one successful specification.
+
+The manuscript already contains most of the empirical ingredients needed for this version. The main work now is not discovering a better result; it is making the paper say exactly what its existing results establish, and nothing more.

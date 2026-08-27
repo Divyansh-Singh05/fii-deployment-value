@@ -1,0 +1,31 @@
+# ONE-TIME INGESTION ONLY. NOT READ AT RUNTIME.
+#
+# This is the only file in the package that names a path outside it. It is
+# consumed exclusively by `python -m src.data.ingest`, which copies and derives
+# the dataset into data/ once. After that the package is self-contained: every
+# runtime module resolves its inputs through config/paths.yaml, which contains
+# only package-relative paths.
+#
+# If these trees are absent, ingestion cannot run - but everything already in
+# data/ still works, because nothing at runtime looks here.
+
+source_trees:
+  tree_a:
+    root: "/Users/divyanshsingh/Desktop/Major Project 2"
+    artifacts:
+      panel_module: "src"
+      market_engine_v1: "outputs/validation/market_engine_scores.parquet"
+      market_engine_v2: "outputs/validation/market_engine_v2_scores.parquet"
+      market_engine_v4: "outputs/validation/market_engine_v4_weekly_scores.parquet"
+      backtest_metrics: "outputs/metrics/backtest_metrics.csv"
+      hazard_preds:     "data/VALIDATION_DATA/phase2_hazard_preds.parquet"
+      ca_factors:       "data/VALIDATION_DATA/ca_adjustment_factors.parquet"
+      ca_raw:           "data/VALIDATION_DATA/ca_raw.parquet"
+      nse_actions:      "data/ISIN_MAPPING/nse_corporate_actions.csv"
+      bse_actions:      "data/ISIN_MAPPING/bse_corporate_actions.csv"
+      isin_pit_map:     "data/ISIN_MAPPING/isin_pit_map.parquet"
+      isin_chains:      "data/ISIN_MAPPING/isin_mapping_final.csv"
+  tree_b:
+    root: "/Users/divyanshsingh/Desktop/fii_risk_engine"
+    artifacts:
+      c6_results: "outputs/phase3/c6_results.parquet"

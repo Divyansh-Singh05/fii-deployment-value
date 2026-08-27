@@ -1,0 +1,62 @@
+# Every constant below is transcribed from the producing stage, not chosen here.
+# Changing one invalidates the expected/ fixtures; verify_results.py will fail.
+
+ewma:
+  lam: 0.94
+  burn: 60              # burn-in days before the EWMA variance is trusted
+
+walk_forward:
+  first_fit: 750        # first vintage after this many scored days
+  refit: 21             # refit cadence, trading days
+  min_pairs: 500        # no parameter applied OOS on fewer training pairs
+  scheme: "expanding"   # NOT rolling - see note below
+  clamp: [0.5, 2.0]     # tilt multiplier clamp
+
+# NOTE ON THE ESTIMATION SCHEME. The scheme is expanding, not fixed-rolling.
+# This matters for inference: Giacomini-White (2006) licenses normal critical
+# values for NESTED comparisons only under a FINITE estimation window. Because
+# the window here grows, that licence does not apply, and the Diebold-Mariano
+# statistic on the nested gate is not distribution-free. The manuscript reports
+# this as boundary condition 5 on the surviving application and carries both a
+# stationary block bootstrap and a Clark-West adjustment alongside the gate.
+# Do not "fix" this to rolling without re-deriving every gate number.
+
+flow:
+  gross_window: 250     # trailing mean of daily gross flow, ending t-1
+  reporting_lag: 2      # deployable lag, in trading days
+
+density:
+  taus: {start: 0.01, stop: 1.00, step: 0.01}   # 99 quantiles for CRPS
+  dist: "student_t"
+
+inference:
+  nw_lags: 5            # Newey-West lags on the DAILY density gates
+  nw_lags_screen: 10    # Newey-West lags on the market-level screen
+  # The weekly control engine scores OVERLAPPING five-day returns, so its
+  # loss differential is autocorrelated by construction and needs a longer
+  # Bartlett window. Using the daily lag here inflates the statistic
+  # (+1.68 instead of +1.58) by understating the long-run variance.
+  nw_lags_weekly: 10
+  block_bootstrap:
+    n_boot: 20000
+    mean_block: 10
+    seed: 20260826
+
+# Pre-registered bars. Each was written into its stage header before the
+# stage's numbers existed. A miss is reported as a negative result and the
+# application is NOT re-specified.
+gates:
+  screen_abs_t: 2.50            # |t|, Bonferroni allowance for four cells
+  screen_era_abs_t: 1.50        # same sign, both eras
+  density_dm_t: -2.0            # score differential gate
+  incremental_ic: 0.005
+  incremental_ic_t: 2.0
+
+models:
+  # Feature column indices into X = [ln(VIX/20), NF+(t-2), NF-(t-2)]
+  M0_ewma_t:   []
+  M1_vix:      [0]
+  M2_vix_flow: [0, 1, 2]        # strictly nests M1_vix; 2 extra parameters
+  G0_gjr_t:    []
+  G1_vix:      [0]
+  G2a_vix_nf:  [0, 1, 2]        # the controlled counterpart to M2 on a GJR base

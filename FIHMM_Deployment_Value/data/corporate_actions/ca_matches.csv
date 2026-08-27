@@ -1,0 +1,3 @@
+exchange,filings_scanned,actions_parsed,parse_rate_of_filings,note
+NSE,34087,1103,0.03236,"most filings are dividends, which need no price adjustment; only splits and bonuses yield a factor"
+BSE,30325,1103,0.03637,"most filings are dividends, which need no price adjustment; only splits and bonuses yield a factor"

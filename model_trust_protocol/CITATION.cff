@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "convgap: measuring the conversion of statistical significance into forecasting value"
+message: "If you use this software or its exhibits, please cite the accompanying paper."
+type: software
+authors:
+  - family-names: Singh
+    given-names: Divyansh
+version: 0.1.0
+license: MIT
+abstract: >-
+  Research code for a study measuring how often, and by how much, statistically
+  significant predictors in financial modelling convert into forecasting or
+  decision value. Every reported number is bound to the artifact that produced
+  it and to a digest of that artifact, so an exhibit can state which of its
+  entries have been traced to a live computation and which have not.
+keywords:
+  - forecast evaluation
+  - backtesting
+  - model validation
+  - empirical finance

@@ -1,0 +1,49 @@
+# Filesystem contract. EVERY path here is package-relative.
+#
+# Nothing at runtime reads outside this directory. The dataset was ingested
+# once by `python -m src.data.ingest` (the only stage that ever names an
+# external path, via config/ingestion.yaml) and now lives entirely in data/.
+# The source trees can be deleted without affecting any result below.
+
+dataset:
+  # Equation (1): 577,245 instrument-days. Levels 0-2, Table 1.
+  panel:            "data/derived/panel_analysis.parquet"
+  panel_meta:       "data/derived/panel_analysis.meta.json"
+  # Equation (2): market-level daily flow and its inputs.
+  daily_features:   "data/derived/daily_features.parquet"
+  # Scored density panel. Table 2 and the survivor's boundary conditions.
+  analysis_dataset: "data/derived/analysis_dataset.parquet"
+  # The external non-flow control (Cext), weekly.
+  weekly_control:   "data/derived/weekly_control_scores.parquet"
+  # Episode-end hazard predictions. Table 3 and its calibration.
+  hazard:           "data/derived/hazard_predictions.parquet"
+  # The eight strategy books. Level 5 and the deflated Sharpe ratio.
+  backtest_metrics: "data/derived/backtest_metrics.csv"
+  # Measured depository reporting curve.
+  reporting_lag:    "data/expected/expected_reporting_lag.csv"
+  # The canonical application registry and ladder definition. Both the
+  # attrition summary and the figures derive their counts from these, so a
+  # figure can never disagree with a table about how many applications died.
+  applications:     "data/expected/applications_registry.csv"
+  ladder:           "data/expected/ladder_definition.csv"
+
+reference:
+  corporate_actions:  "data/corporate_actions/corporate_actions.csv"
+  ca_matches:         "data/corporate_actions/ca_matches.csv"
+  ca_validation:      "data/corporate_actions/ca_validation.csv"
+  instrument_map:     "data/instrument_mapping/instrument_map.csv"
+  mapping_validation: "data/instrument_mapping/mapping_validation.csv"
+  manifest:           "data/MANIFEST.csv"
+  restricted_note:    "data/derived/adjusted_transactions.RESTRICTED.json"
+
+# Artifacts carrying these infixes predate the audit that rebuilt the state
+# object. dataset() refuses any path matching one.
+quarantined_infixes: ["PREAUDIT", "BASELINE", "_smoke", "_trunc", "_unit"]
+
+local:
+  derived:  "data/derived"
+  expected: "data/expected"
+  tables:   "outputs/tables"
+  figures:  "outputs/figures"
+  logs:     "outputs/logs"
+  machine:  "outputs/machine_readable"

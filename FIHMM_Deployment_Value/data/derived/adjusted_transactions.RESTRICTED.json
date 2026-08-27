@@ -1,0 +1,17 @@
+{
+  "status": "RESTRICTED - not distributed",
+  "reason": "proprietary depository settlement records; not a commercial data product and not redistributable under any licence here",
+  "upstream_artifact": "/Users/divyanshsingh/Desktop/Major Project 2/data/VALIDATION_DATA/ca_raw.parquet",
+  "upstream_sha256": "04dcd21b844ac2a5009cd7f704eacb7bb54edc5d0d6f38091d1f9141846b1b22",
+  "rows_upstream": 156031,
+  "schema": {
+    "ISIN": "String",
+    "SCRIP_NAME": "String",
+    "TR_DATE": "Date",
+    "TR_TYPE": "Int8",
+    "QUANTITY": "Float64",
+    "RFDE_STLD_CODE": "Categorical",
+    "source_file": "String"
+  },
+  "note": "the derived panels in data/derived carry everything the reproduction path needs; the raw record is required only to REBUILD them from scratch"
+}

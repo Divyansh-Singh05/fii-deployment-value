@@ -1,0 +1,9 @@
+metric,gbdt_model,age_heuristic,tolerance
+auc_pooled,0.647,0.569,0.001
+auc_training,0.637,,0.001
+auc_test,0.657,,0.001
+paired_logloss_stat,14.42,,0.01
+test_anticipation_gain_bp,-18,16,1
+paired_difference_bp,-31,,1
+paired_difference_t,-1.85,,0.01
+common_episodes,402,,0

@@ -1,0 +1,104 @@
+{
+  "ladder": [
+    {
+      "level": "L0",
+      "constraint": "existence",
+      "question": "is the effect present under conventional inference?",
+      "applications_lost": 0,
+      "still_standing": 7
+    },
+    {
+      "level": "L1",
+      "constraint": "persistence",
+      "question": "does it hold on an era the design never touched?",
+      "applications_lost": 0,
+      "still_standing": 7
+    },
+    {
+      "level": "L2",
+      "constraint": "availability",
+      "question": "is it knowable when the decision must be made?",
+      "applications_lost": 1,
+      "still_standing": 6
+    },
+    {
+      "level": "L3",
+      "constraint": "competition",
+      "question": "does it beat the baseline it faces in use?",
+      "applications_lost": 2,
+      "still_standing": 4
+    },
+    {
+      "level": "L4",
+      "constraint": "detectability",
+      "question": "can the consuming metric resolve it?",
+      "applications_lost": 2,
+      "still_standing": 2
+    },
+    {
+      "level": "L5",
+      "constraint": "execution",
+      "question": "does the edge exceed the cost of capturing it?",
+      "applications_lost": 1,
+      "still_standing": 1
+    }
+  ],
+  "applications": [
+    {
+      "id": "A1",
+      "application": "Institutional share -> next-day stock volatility",
+      "binding_level": "L2",
+      "constraint": "availability",
+      "evidence": "t = -5.53 contemporaneous, -0.43 at the deployable lag"
+    },
+    {
+      "id": "A2",
+      "application": "Market density, flow tilt on a GJR-GARCH base",
+      "binding_level": "L3",
+      "constraint": "competition",
+      "evidence": "DM +0.28; the better-specified base already holds the information"
+    },
+    {
+      "id": "A4",
+      "application": "Episode-end hazard model",
+      "binding_level": "L3",
+      "constraint": "competition",
+      "evidence": "real skill (AUC 0.657 test) but loses 31 bp to a three-line rule"
+    },
+    {
+      "id": "A5",
+      "application": "Cross-sectional concentration book",
+      "binding_level": "L5",
+      "constraint": "execution",
+      "evidence": "breakeven 7.41 bp against a cost stack whose STT alone is 10 bp/side"
+    },
+    {
+      "id": "A6",
+      "application": "Participant-composition feature block",
+      "binding_level": "L4",
+      "constraint": "detectability",
+      "evidence": "74.8 bp in the extremes, incremental IC 0.0012 against a 0.005 bar"
+    },
+    {
+      "id": "A7",
+      "application": "Flow-regime conditioning in the stock-day density",
+      "binding_level": "L4",
+      "constraint": "detectability",
+      "evidence": "indistinguishable from its own ablation where it should bind hardest"
+    },
+    {
+      "id": "A8",
+      "application": "Aggregate flow -> market-level density (EWMA base)",
+      "binding_level": "survives",
+      "constraint": "-",
+      "evidence": "clears all six; reported under five stated boundary conditions"
+    },
+    {
+      "id": "Cext",
+      "application": "Foreign index return -> domestic weekly volatility (CONTROL)",
+      "binding_level": "L3",
+      "constraint": "competition",
+      "evidence": "+1.58 against a -2.0 gate; a NON-FLOW predictor, same failure"
+    }
+  ]
+}

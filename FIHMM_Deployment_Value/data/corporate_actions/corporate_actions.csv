@@ -1,0 +1,1104 @@
+symbol,ex_date,kind,factor,n_events,purpose
+LITL,2010-01-04,split,10.0,1,Fv Split Rs.10 To Re.1
+WINSOMYARN,2010-01-21,split,10.0,1,Fv Split Rs.10 To Re.1
+BAJAJELEC,2010-01-28,split,5.0,1,Fv Split Rs.10 To Rs.2
+SHREEASHTA,2010-02-01,bonus,5.0,1,Bonus 4:1
+CCCL,2010-02-10,split,5.0,1,Fv Split Rs.10 To Rs.2
+FCSSOFT,2010-02-26,bonus,2.0,1,Bonus 1:1
+BRITANNIA,2010-03-08,bonus,2.0,1,Sch Of Agmt- Bonus Deb1:1
+CGPOWER,2010-03-08,bonus,1.75,1,Bonus 3:4
+HINDDORROL,2010-03-15,bonus,2.0,1,Bonus 1:1
+PIDILITIND,2010-03-15,bonus,2.0,1,Bonus 1:1
+RENUKA,2010-03-15,bonus,2.0,1,Bonus 1:1
+IVRCLINFRA,2010-03-18,bonus,2.0,1,Bonus 1:1
+MURLIIND,2010-03-18,split,5.0,1,Fv Split Rs.10 To Rs.2
+IPCALAB,2010-03-22,split,5.0,1,Fv Split Rs.10 To Rs.2
+KMSUGAR,2010-03-26,split,5.0,1,Fv Split Rs.10 To Rs.2
+M&M,2010-03-29,split,2.0,1,Fv Split Rs.10 To Rs.5
+SEINVEST,2010-04-05,split,5.0,1,Fv Split Rs.10 To Rs.2
+ZYDUSLIFE,2010-04-05,bonus,1.5,1,Bonus 1: 2
+UNITY,2010-04-07,split,5.0,1,Fv Split Rs.10 To Rs.2
+CASTROL,2010-04-09,bonus,2.0,1,Bonus 1:1
+VIPUL,2010-05-04,split,2.0,1,Fv Split Rs.2/- To Re.1/-
+KABRAEXTRU,2010-05-17,split,2.0,1,Face Value Split From Rs.10/- To Rs.5/-
+SEINVEST,2010-05-18,bonus,4.0,1,Bonus 3:1
+IVRCLAH,2010-05-20,bonus,1.5,1,Bonus 1:2
+RALLIS,2010-06-08,bonus,1.5,1,Bonus 1: 2
+CYIENT,2010-06-10,bonus,2.0,1,Bonus 1:1
+KWALITY,2010-06-15,bonus,1.7142857142857142,1,Bonus 5:7
+WIPRO,2010-06-15,bonus,1.6666666666666667,1,Bonus 2:3 And Final Dividend Rs.6/- Per Share
+PANORAMUNI,2010-06-21,bonus,6.0,1,Bonus 5:1
+RSSOFTWARE,2010-06-21,bonus,1.28,1,Bonus 28:100
+STER,2010-06-21,bonus,4.0,2,Bonus 1:1 And Face Value Split From Rs.2/- To Re.1/-
+GENESYS,2010-06-23,split,2.0,1,Face Value Split From Rs.10/- To Rs.5/-
+KANSAINER,2010-06-23,bonus,2.0,1,Bonus 1:1
+ORBITCORP,2010-06-29,bonus,2.0,1,Bonus 1:1
+TATACONSUM,2010-06-30,split,10.0,1,Face Value Split From Rs.10/- To Re.1/-
+TULIP,2010-07-06,split,5.0,1,Fv Split Rs.10/- To Rs.2/-
+NESCO,2010-07-20,bonus,2.0,1,Bonus 1:1
+EMAMILTD,2010-07-21,split,2.0,1,Dividend Rs.6/- Per Share And Face Value Split From Rs.2/- To Re.1/-
+ZENSARTECH,2010-07-21,bonus,2.0,1,Dividend Rs.5.50 Per Share And Bonus 1:1
+ECLERX,2010-07-23,bonus,1.5,1,Bonus 1:2
+MMTC,2010-07-29,split,20.0,2,Bonus 1:1 And Face Value Split From Rs.10 To Re.1
+PRATIBHA,2010-07-30,split,5.0,1,Fv Split Rs.10/- To Rs.2/-
+ITC,2010-08-03,bonus,2.0,1,Bonus 1:1
+EDELWEISS,2010-08-10,split,10.0,2,Face Value Split From Rs.5/- To Re.1/- And Bonus 1:1
+HCC,2010-08-10,bonus,2.0,1,Bonus 1:1
+RAINBOWPAP,2010-08-11,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+ZENITHSTL,2010-08-11,bonus,1.2,1,Bonus 1:5
+JAYSREETEA,2010-08-13,split,2.0,1,Face Value Split From Rs.10/- To Rs.5/-
+POONAWALLA,2010-08-13,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+AEGISLOG,2010-08-18,bonus,1.6666666666666667,1,Bonus 2:3
+HDFC,2010-08-18,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+REDINGTON,2010-08-20,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+ZODIACLOTH,2010-08-23,bonus,1.5,1,Bonus 1:2
+LUPIN,2010-08-27,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+INDIANHUME,2010-08-30,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+APOLLOHOSP,2010-09-02,split,2.0,1,Face Value Split From Rs.10/- To Rs.5/-
+CERA,2010-09-02,bonus,2.0,1,Bonus 1:1
+KCP,2010-09-02,split,10.0,1,1st Interim Dividend Rs.2.50 Per Share And Face Value Split From Rs.10/- To Re.1/- (Purpose Revised)
+NRBBEARING,2010-09-03,bonus,2.0,1,Bonus 1:1
+KABRAEXTRU,2010-09-06,bonus,2.0,1,Bonus 1:1
+BAJAJ-AUTO,2010-09-08,bonus,2.0,1,Bonus 1:1
+BRITANNIA,2010-09-08,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+DABUR,2010-09-08,bonus,2.0,1,Bonus 1:1
+KPIL,2010-09-08,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+TVSMOTOR,2010-09-08,bonus,2.0,1,Bonus 1:1
+KOTAKBANK,2010-09-13,split,2.0,1,Face Value Split From Rs.10/- To Rs.5/-
+PDPL,2010-09-13,bonus,1.3333333333333333,1,Annual General Meeting/Dividend Rs.2/- Per Share/Bonus 1:3
+GILLANDERS,2010-09-14,bonus,1.5,1,Bonus 1:2
+ASTRAL,2010-09-15,split,2.0,1,Face Value Split From Rs.10/- To Rs.5/-
+RESURGERE,2010-09-15,split,30.0,2,Annual General Meeting/Bonus 2:1/Face Value Split From Rs.10/- To Re.1/-
+KARURVYSYA,2010-09-16,bonus,1.4,1,Bonus 2:5
+TATASTLBSL,2010-09-21,split,5.0,1,Annual General Meeting / Dividend Rs.2.50 Per Share And Face Value Split From Rs.10/- To Rs.2/-
+ADANIPORTS,2010-09-23,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+SOUTHBANK,2010-09-23,split,10.0,1,Face Value Split From Rs.10/- To Re.1/-
+NAUKRI,2010-09-27,bonus,2.0,1,Bonus 1:1
+NISSAN,2010-09-27,split,10.0,1,Face Value Split From Rs.10/- To Re.1/-
+TI,2010-09-28,bonus,3.0,1,Bonus 2:1
+BIRLACOT,2010-09-29,bonus,1.2,1,Bonus 1:5
+BLKASHYAP,2010-09-29,bonus,10.0,2,Bonus 1:1 / Face Value Split From Rs. 5/- To Re. 1/-
+AQUA,2010-10-01,split,10.0,1,Face Value Split From Rs.10/- To Re.1/-
+HAVELLS,2010-10-08,bonus,2.0,1,Bonus 1:1
+PARSVNATH,2010-10-18,split,2.0,1,Face Value Split From Rs.10/- To Rs.5/-
+SUPREMEIND,2010-10-18,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+BIRLAPOWER,2010-10-20,bonus,1.2,1,Bonus 1:5
+SEZALGLASS,2010-10-21,split,10.0,1,Face Value Split From Rs.10/- To Re.1/-
+UNICHEMLAB,2010-10-21,split,2.5,1,Interim Dividend Rs.3/- Per Share And Face Value Split From Rs.5/- To Rs.2/- (Purpose Revised)
+GENUSPOWER,2010-10-22,split,10.0,1,Face Value Split From Rs.10/- To Re.1/-
+JINDALPOLY,2010-10-22,bonus,2.0,1,Bonus 1:1
+SAVERA,2010-10-25,bonus,2.0,1,Bonus 1:1
+SINTEX,2010-10-27,split,2.0,1,Face Value Split From Rs.2/- To Re.1/-
+JISLJALEQS,2010-10-29,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+PFOCUS,2010-10-29,split,10.0,1,Face Value Split From Rs.10/- To Re.1/-
+SEINVEST,2010-10-29,split,2.0,1,Face Value Split From Rs.2/- To Re.1/-
+ARCHIES,2010-11-02,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+NITINFIRE,2010-11-04,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+ATLANTAA,2010-11-08,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+HSCL,2010-11-08,split,10.0,1,Face Value Split From Rs.10/- To Re.1/-
+ORIENTHOT,2010-11-10,split,10.0,1,Face Value Split From Rs.10/- To Re.1/-
+SOMANYCERA,2010-11-11,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+ZEEL,2010-11-11,bonus,2.0,1,Bonus 1:1
+MVL,2010-11-16,split,2.0,1,Face Value Split From Rs.2/- To Re.1/-
+BALAMINES,2010-11-18,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+GREAVESCOT,2010-11-24,split,5.0,1,Interim Dividend Rs 2/- Per Share And Face Value Split From Rs 10/- To Rs 2/-
+SUNPHARMA,2010-11-25,split,5.0,1,Face Value Split From Rs.5/- To Re.1/-
+HITECHGEAR,2010-12-01,bonus,2.0,1,Bonus 1:1
+SADBHAV,2010-12-07,split,10.0,1,Face Value Split From Rs.10/- To Re.1/-
+ELGIEQUIP,2010-12-14,bonus,2.0,1,Bonus 1:1
+BALKRISIND,2010-12-20,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+COROMANDEL,2010-12-23,split,2.0,1,Face Value Split From Rs.2/- To Re.1/-
+EIDPARRY,2010-12-23,split,2.0,1,Face Value Split From Rs.2/- To Re.1/-
+POLYPLEX,2010-12-23,bonus,2.0,1,Bonus 1:1
+SURYAPHARM,2010-12-23,split,10.0,1,Face Value Split From Rs.10/- To Re.1/-
+ASTRAMICRO,2010-12-30,bonus,1.5,1,Bonus 1:2
+KEC,2010-12-30,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+LICHSGFIN,2010-12-30,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+ANTELOPUS,2010-12-31,bonus,1.1,1,Bonus 1:10
+TULSI,2011-01-07,bonus,1.1,1,Bonus 1:10 (Record Date Revised)
+SUJANATOW,2011-01-10,split,5.0,1,Face Value Split From Rs.5/- To Re.1/-
+SHOPERSTOP,2011-01-12,split,2.0,1,Face Value Split From Rs.10/- To Rs.5/-
+ONGC,2011-02-08,split,4.0,2,Bonus 1:1 And Face Value Split From Rs.10/- To Rs.5/-
+AUROPHARMA,2011-02-10,split,5.0,1,Face Value Split From Rs.5/- To Re.1/-
+GLODYNE,2011-02-10,split,1.6666666666666667,1,Face Value Split From Rs.10/- To Rs.6/-
+SREINFRA,2011-02-10,bonus,1.8,1,Bonus 4:5 (Pursuant To Scheme Of Amalgamation)
+HEXAWARE,2011-02-24,bonus,2.0,1,Dividend Rs 1.40 Per Share / Bonus 1:1
+HINDZINC,2011-03-07,split,10.0,2,Bonus - 1:1 And Face Value Split From Rs. 10 To Rs. 2
+NATIONALUM,2011-03-15,bonus,4.0,2,Bonus 1:1 And Face Value Split From Rs.10/- To Rs.5/-
+DRREDDY,2011-03-17,bonus,7.0,1,Scheme Of Arrangement - Bonus Debentures 6:1
+SANWARIA,2011-04-07,bonus,2.0,1,Bonus 1:1
+KSB,2011-04-18,bonus,2.0,1,Bonus 1:1
+ONMOBILE,2011-05-03,bonus,2.0,1,Bonus 1:1
+BAJAJCON,2011-05-05,split,5.0,1,Face Value Split From Rs.5/- To Re.1/-
+CMC,2011-06-08,bonus,2.0,1,Dividend Rs.20/- Per Share And Bonus 1:1
+MANAPPURAM,2011-06-09,bonus,2.0,1,Bonus Shares In The Ratio Of 1:1
+RAIN,2011-06-15,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+COX&KINGS,2011-06-21,split,2.0,1,Face Value Split From Rs.10/- To Rs.5/-
+TITAN,2011-06-23,bonus,20.0,2,Bonus 1:1 / Face Value Split From Rs.10/- To Re.1/-
+RAJPALAYAM,2011-07-13,bonus,2.0,1,Final Dividend Rs.7.50 Per Share And Special Dividend Rs.7.50 Per Share/Bonus 1:1 (Purpose Revised)
+HDFCBANK,2011-07-14,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+RALLIS,2011-07-15,split,10.0,1,Face Value Split From Rs.10/- To Re.1/-
+ASHOKLEY,2011-08-02,bonus,2.0,1,Bonus 1:1
+WABAG,2011-08-16,split,2.5,1,Face Value Split From Rs.5/- To Rs.2/-
+PIIND,2011-08-17,split,2.0,1,Face Value Split From Rs.10/- To Rs.5/-
+DHANUS,2011-08-29,bonus,3.4,1,Bonus 12:5
+NELCAST,2011-09-06,split,5.0,1,Face Value Split From Rs 10 To Rs 2
+TATAMTRDVR,2011-09-12,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+TMPV,2011-09-12,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+CUMMINSIND,2011-09-20,bonus,1.4,1,Bonus 2:5
+INDNIPPON,2011-09-20,bonus,1.4,1,Bonus 2:5
+NITINFIRE,2011-09-22,bonus,3.5,1,Bonus 5:2
+ENTEGRA,2011-09-26,bonus,1.3076923076923077,1,Bonus 4:13
+TATAPOWER,2011-09-26,split,10.0,1,Face Value Split From Rs.10/- To Re.1/-
+JOCIL,2011-09-27,bonus,2.0,1,Bonus 1:1
+ZODIACLOTH,2011-09-27,bonus,1.5,1,Bonus 1:2
+CRISIL,2011-09-28,split,10.0,1,Face Value Split From Rs.10/- To Re.1/-
+VASWANI,2011-09-29,bonus,1.25,1,Bonus 1:4
+BHEL,2011-10-03,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+CARBORUNIV,2011-10-05,split,2.0,1,Face Value Split From Rs.2/- To Re.1/-
+MONSANTO,2011-10-05,bonus,2.0,1,Bonus 1:1
+VIPIND,2011-10-31,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+METKORE,2011-11-03,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+CASTEXTECH,2011-11-21,bonus,2.0,1,Bonus 1:1
+DPSCLTD,2011-12-15,split,10.0,1,Bonus 22:1 And Face Value Split From Rs.10/- To Re.1/-
+MUNJALAU,2011-12-29,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+SYMPHONY,2012-02-15,split,5.0,1,Face Value Split Rs.10/- To Rs.2/-
+PLASTIBLEN,2012-02-29,split,2.0,1,Face Value Split From Rs.10/- To Rs.5/-
+BSOFT,2012-03-13,bonus,2.0,1,Bonus 1:1
+MINDACORP,2012-03-27,bonus,2.0,1,Bonus 1:1
+OIL,2012-03-29,bonus,2.5,1,Bonus 3:2
+OPTOCIRCUI,2012-03-29,bonus,1.3,1,Bonus 3:10
+VAKRANGEE,2012-04-12,bonus,20.0,2,Bonus 1:1 And Face Value Split From Rs.10/- To Re.1/-
+SUNDARAM,2012-04-13,bonus,3.0,1,Bonus 2:1
+INDOCO,2012-05-17,bonus,7.5,2,Bonus 1:2 And Face Value Split From Rs.10 To Rs.2
+INVENTURE,2012-05-22,bonus,4.0,1,Bonus - 3:1
+GRAVITA,2012-05-25,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+AVTNPL,2012-06-07,split,10.0,1,Face Value Split From Rs 10 To Re 1
+NAUKRI,2012-06-22,bonus,2.0,1,Annual General Meeting/Dividend-Re.1/- Per Share/Bonus 1:1
+ZYLOG,2012-06-29,split,2.0,1,Face Value Split From Rs 10 To Rs 5
+HERCULES,2012-07-11,bonus,2.0,1,Annual General Meeting/Dividend Rs.3.50 Per Share/Bonus 1:1 (Purpose Revised)
+GABRIEL,2012-07-12,bonus,2.0,1,Bonus 1:1
+JYOTHYLAB,2012-07-12,bonus,2.0,1,Annual General Meeting/Dividend Of Rs.2.50 Per Share/ Bonus 1:1
+BPCL,2012-07-13,bonus,2.0,1,Annual General Meeting/ Dividend Rs 11/- Per Share/ Bonus 1:1
+COROMANDEL,2012-07-13,bonus,2.0,1,Annual General Meeting/Dividend Rs.3/- Per Share/Scheme Of Arrangement - Bonus Debentures 1:1 (Purpose Revised)
+MICROTECH,2012-07-17,bonus,2.0,1,Bonus 1:1
+GRUH,2012-07-24,split,5.0,1,Face Value Split From Rs 10 To Rs 2
+AJANTPHARM,2012-08-09,split,2.0,1,Face Value Split From Rs. 10/- To Rs. 5/-
+VTMLTD,2012-08-16,split,10.0,1,Face Value Split From  Rs.10/- To Re.1/-
+CASTROL,2012-09-04,bonus,2.0,1,Bonus 1:1
+IMPAL,2012-09-10,bonus,2.0,1,Bonus 1:1
+GSFC,2012-09-20,split,5.0,1,Face Value Split From Rs 10 To Rs 2
+ARE&M,2012-09-25,split,2.0,1,Face Value Split From Rs.2/- To Re.1/-
+MOTHERSON,2012-10-03,bonus,1.5,1,Bonus 1:2
+BILPOWER,2012-10-04,bonus,2.0,1,Bonus 1:1
+AMRUTANJAN,2012-10-25,split,5.0,1,Face Value  Split From Rs. 10 To Rs. 2/-
+GOENKA,2012-10-25,split,10.0,1,Face Value Split From Rs.10/- To Re.1/-
+ORISSAMINE,2012-10-29,split,10.0,1,Face Value Split From Rs.10/- To Re.1/-
+BOMDYEING,2012-10-30,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+KANANIIND,2012-11-01,split,5.0,1,Face Value Split From Rs.5/- To Re.1/-
+BBTC,2012-11-08,split,5.0,1,Face Value Split From Rs 10 To Rs 2
+RUBYMILLS,2012-11-22,split,2.0,1,Face Value Split From Rs 10 To Rs 5
+SHALPAINTS,2012-11-22,split,5.0,1,Face Value Split From Rs 10 To Rs 2
+SETUINFRA,2012-12-13,split,10.0,1,Face Value Split From Rs 10 To Re 1
+SUNDARMFIN,2012-12-13,bonus,2.0,1,Bonus 1:1
+BBOX,2012-12-19,bonus,2.0,1,Bonus 1:1
+UJAAS,2012-12-21,split,10.0,1,Face Value Split From Rs 10 To Re 1
+VISESHINFO,2013-01-03,split,10.0,1,Face Value Split From Rs 10 To Re 1
+AJRINFRA,2013-01-23,bonus,1.0294117647058822,1,Bonus 1:34
+20MICRONS,2013-01-28,split,2.0,1,Face Value Split Rs 10 To Rs 5
+KANANIIND,2013-02-01,bonus,1.1,1,Bonus 1:10
+PRADIP,2013-02-12,bonus,1.2,1,Bonus 1:5
+M&MFIN,2013-02-15,split,5.0,1,Face Value Split Rs 10 To Rs 2
+VKSPL,2013-02-27,split,10.0,1,Face Value Split From Rs 10 To Re 1
+RAJRAYON,2013-03-04,split,10.0,1,Face Value Split From Rs 10 To Re 1
+VISESHINFO,2013-03-07,bonus,1.1,1,Bonus 1 : 10
+RASOYPR,2013-03-21,split,15.0,2,Bonus 2:1 / Face Value Split From Rs. 5/- To Re. 1/-
+BILENERGY,2013-03-26,split,10.0,1,Face Value Split From Rs.10/- To Re. 1/-
+ANSALHSG,2013-04-10,bonus,3.0,1,Bonus 2:1
+SHEKHAWATI,2013-04-10,split,10.0,1,Face Value Split From Rs.10 To Re.1
+PIIND,2013-04-12,split,5.0,1,Face Value Split From Rs.5/- Per Share To Re.1/- Per Share
+VKSPL,2013-05-03,bonus,3.5,1,Bonus 5:2
+BALMLAWRIE,2013-05-23,bonus,1.75,1,Bonus 3:4
+TARIL,2013-06-13,bonus,1.1111111111111112,1,Bonus 1:9
+EMAMILTD,2013-06-26,bonus,1.5,1,Bonus 1:2 And Dividend Rs.8/- Per Share
+SUTLEJTEX,2013-06-27,bonus,1.5,1,Bonus 1:2
+ASHOKA,2013-07-03,bonus,3.0,2,Bonus 1:2 And Face Value Split Rs.10/- To Rs.5/-
+PNBGILTS,2013-07-03,bonus,1.3333333333333333,1,Bonus 1:3
+ADVANTA,2013-07-05,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+GULFPETRO,2013-07-09,bonus,2.210526315789474,1,Bonus 23:19
+POLYMED,2013-07-09,bonus,2.0,1,Bonus 1:1
+LT,2013-07-11,bonus,1.5,1,Bonus 1:2
+SHILPAMED,2013-07-16,bonus,1.5,1,Annual General Meeting / Dividend - Rs 1.30/- Per Share / Bonus 1:2
+TORNTPHARM,2013-07-23,bonus,2.0,1,Bonus 1:1
+HERITGFOOD,2013-07-26,bonus,2.0,1,Bonus 1:1
+SUNPHARMA,2013-07-29,bonus,2.0,1,Bonus 1:1
+ASIANPAINT,2013-07-30,split,10.0,1,Face Value Split Rs 10 To Re 1
+TTML,2013-08-07,bonus,1.1333333333333333,1,Bonus 2:15
+APCOTEXIND,2013-08-14,split,2.0,1,Face Value Split From Rs.10/- To Rs.5/-
+CCL,2013-08-19,bonus,10.0,2,Bonus 1:1 And Face Value Split From Rs.10/- To Rs.2/-
+DIAPOWER,2013-08-26,bonus,1.3333333333333333,1,Bonus 1:3
+ASTRAL,2013-09-05,split,2.5,1,Face Value Split From Rs.5/- To Rs.2/-
+CONCOR,2013-09-06,bonus,1.5,1,Bonus 1:2
+AJANTPHARM,2013-09-17,bonus,1.5,1,Bonus 1:2
+MAYURUNIQ,2013-09-25,split,2.0,1,Face Value Split From Rs.10/- To Rs.5/-
+AVTNPL,2013-09-26,bonus,2.0,1,Bonus 1:1
+ALEMBICLTD,2013-09-27,bonus,2.0,1,Bonus 1:1
+BSLIMITED,2013-09-30,bonus,2.0,1,Bonus 1:1
+PRECOT,2013-10-03,bonus,1.5,1,Bonus 1:2
+FEDERALBNK,2013-10-17,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+ASHIANA,2013-10-24,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+AROGRANITE,2013-10-30,bonus,1.5,1,Bonus 1 : 2
+OMAXE,2013-11-11,bonus,1.2564102564102564,1,Bonus 10:39
+GODREJPROP,2013-11-21,split,2.0,1,Face Value Split From Rs.10/- To Rs.5/-
+RELAXO,2013-11-22,split,5.0,1,Face Value Split From Rs.5/- To Re.1/-
+MOTHERSON,2013-12-20,bonus,1.5,1,Bonus 1:2
+IVC,2013-12-26,bonus,1.5,1,Bonus 1:2
+BSLIMITED,2014-01-21,split,10.0,1,Face Value Split From Rs 10/- To Re 1/-
+KSCL,2014-01-27,split,5.0,1,Face Value Split From Rs 10/- To Rs 2/-
+SWANCORP,2014-02-03,split,2.0,1,Face Value Split From Rs 2/- To Re 1/-
+MOHOTAIND,2014-02-06,bonus,3.0,1,Bonus 2 : 1
+SHARONBIO,2014-02-20,bonus,10.0,2,Bonus 1:1 / Face Value Split From 10/- To Face Value 2/-
+RSYSTEMS,2014-02-26,split,10.0,1,Face Value Split From Rs 10/- To Re 1/- Per Share
+RAJTV,2014-03-25,bonus,4.0,2,Bonus 1:1 / Face Value Split From Rs.10/- To Rs.5/-
+VIKASECO,2014-03-27,split,10.0,1,Face Value Split From Rs 10/- To Re 1/-
+KOTHARIPRO,2014-03-28,bonus,3.0,1,Bonus 2 : 1
+MAYURUNIQ,2014-03-28,bonus,2.0,1,Bonus 1 : 1
+GMBREW,2014-05-16,bonus,1.25,1,Dividend Rs 2.50/- Per Share / Bonus 1 : 4
+MINDTREE,2014-06-03,bonus,2.0,1,Bonus 1 : 1
+GRUH,2014-06-09,bonus,2.0,1,Bonus Issue 1 : 1
+DEEPAKNTR,2014-06-20,bonus,10.0,2,Bonus 1 : 1 / Face Value Split From Rs 10/- Each To Rs 2/- Each
+LGBBROSLTD,2014-07-04,bonus,2.0,1,Annual General Meeting / Final Dividend - Rs 7/- Per Share / Bonus 1 : 1
+SHRENUJ,2014-07-15,bonus,2.0,1,Annual General Meeting / Dividend - Re 0.60/- Per Share / Bonus 1 : 1
+AXISBANK,2014-07-28,split,5.0,1,Face Value Split From Rs 10/- To Rs 2/- Per Share
+JMTAUTOLTD,2014-07-30,bonus,3.5,1,Bonus 5:2
+HAVELLS,2014-08-26,split,5.0,1,Face Value Split From Rs 5/- Per Share To Re 1/- Per Share
+MANINFRA,2014-08-28,split,5.0,1,Annual General Meeting / Dividend - Rs 1.35/- Per Share / Face Value Split - From Rs 10/- Per Share To Rs 2/- Per Share
+J&KBANK,2014-09-04,split,10.0,1,Face Value Split - From Rs 10/- Per Share To Re 1/- Per Share
+ALKYLAMINE,2014-09-08,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+ATULAUTO,2014-09-12,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+SHILPI,2014-09-16,bonus,2.0,1,Bonus 1:1
+PANAMAPET,2014-09-19,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+SOUISPAT,2014-09-22,split,10.0,1,Annual General Meeting And Face Value Split From Rs.10/- To Re.1/-
+ASTRAL,2014-09-25,split,2.0,1,Face Value Split From Rs 2/- Per Share To Re 1/- Per Share
+LYPSAGEMS,2014-09-29,bonus,1.5,1,Bonus 1:2
+SUDARSCHEM,2014-09-30,bonus,10.0,2,Bonus 1 : 1 / Face Value Split From Rs 10/- To Rs 2/- Per Share
+JBMA,2014-10-08,bonus,4.0,2,Bonus 1:1 And Face Value Split Rs.10/- To Rs.5/- Per Share
+THEBYKE,2014-10-09,bonus,2.0,1,Bonus 1:1
+SHIVAMAUTO,2014-10-30,split,5.0,1,Face Value Split From Rs.10/- To Rs.2/-
+NITINFIRE,2014-11-13,bonus,1.3333333333333333,1,Bonus 1:3
+VIKASECO,2014-11-13,bonus,2.5,1,Bonus 3 : 2
+SBIN,2014-11-20,split,10.0,1,Face Value Split Rs.10/- To Re.1/- Per Share
+SURANASOL,2014-11-25,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+SURANAT&P,2014-11-25,split,5.0,1,Face Value Split (Sub-Division) - From Rs 5/- Per Share To Re 1/- Per Share
+GODFRYPHLP,2014-11-28,split,5.0,1,Face Value Split From Rs 10/- Per Share To Rs 2/- Per Share
+INFY,2014-12-02,bonus,2.0,1,Bonus 1:1
+ICICIBANK,2014-12-04,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+JKTYRE,2014-12-18,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+PNB,2014-12-18,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+INFODRIVE,2014-12-24,split,10.0,1,Face Value Split (Sub Division) - From Rs 10/- Per Share To Re 1/- Per Share
+MINDACORP,2015-01-05,split,10.0,2,Bonus 1:1 / Face Value Split From Rs 10/- Per Share To Rs 2/- Per Share
+HATHWAY,2015-01-06,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+BERGEPAINT,2015-01-08,split,2.0,1,Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+RSSOFTWARE,2015-01-21,split,2.0,1,Interim Dividend - Rs 1.50/- Per Share / Face Value Split - From Rs 10/- Per Share To Rs 5/- Per Share (Purpose Revised)
+BANKBARODA,2015-01-22,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+CORPBANK,2015-01-22,split,5.0,1,Face Valus Split (Sub-Division) - From Rs 10/- Per To Rs 2/- Per Share
+TATACOFFEE,2015-01-23,split,10.0,1,Face Value Split (Sub-Division): From Rs 10/- Per Share To Re 1/- Per Share
+POLYMED,2015-02-02,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+FCL,2015-02-12,bonus,2.0,1,Bonus 1:1
+HIKAL,2015-02-27,split,5.0,1,Face Value Split (Sub-Division): From Rs 10/- Per Share To Rs 2/- Per Share
+PERSISTENT,2015-03-10,bonus,2.0,1,Bonus 1 : 1
+MOHOTAIND,2015-03-16,bonus,1.1666666666666667,1,Bonus 1:6
+HCLTECH,2015-03-19,bonus,2.0,1,Bonus 1 : 1
+TECHM,2015-03-19,bonus,4.0,2,Bonus 1:1 / Face Value Split - From Rs 10/- Per Share To Rs 5/- Per Share
+AJANTPHARM,2015-03-20,split,2.5,1,Face Value Split (Sub-Division) - From Rs 5/- Per Share To Rs 2/- Per Share
+NTPC,2015-03-20,bonus,2.0,1,Scheme Of Arrangement - Bonus Debentures 1:1
+GRANULES,2015-03-23,split,10.0,1,Face Value Split Rs 10 To Rs 1
+AARTIDRUGS,2015-03-24,bonus,2.0,1,Bonus 1:1
+KANSAINER,2015-03-26,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+WABAG,2015-03-26,bonus,2.0,1,Bonus 1 : 1
+KSERASERA,2015-03-30,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+MENONBE,2015-04-09,split,5.0,1,Face Value Split (Sub-Division) - From Rs 5/- Per Share To Re 1/- Per Share
+INSECTICID,2015-04-16,bonus,1.5,1,Bonus 1:2
+PITTIENG,2015-04-16,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+TITAGARH,2015-04-23,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+VIVIDHA,2015-05-28,bonus,11.0,1,Bonus 10:1
+FCL,2015-06-11,split,5.0,1,Face Valus Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+INFY,2015-06-15,bonus,2.0,1,Annual General Meeting/ Dividend - Rs 29.50/- Per Share And Bonus 1:1
+CMAHENDRA,2015-06-18,bonus,2.0,1,Bonus 1:1
+JMTAUTOLTD,2015-06-25,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+SRSLTD,2015-06-25,bonus,2.0,1,Bonus 1:1
+RELAXO,2015-07-01,bonus,2.0,1,Bonus 1:1
+FEDERALBNK,2015-07-08,bonus,2.0,1,Bonus 1:1
+KOTAKBANK,2015-07-08,bonus,2.0,1,Bonus 1: 1
+MAITHANALL,2015-07-15,bonus,2.0,1,Bonus 1:1
+AUROPHARMA,2015-07-20,bonus,2.0,1,Bonus 1:1
+MOTHERSON,2015-07-23,bonus,1.5,1,Annual General Meeting / Dividend - Rs 3/- Per Share / Bonus - 1:2
+MBLINFRA,2015-07-28,bonus,2.0,1,Bonus 1:1
+SIGNET,2015-08-17,split,10.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 1/- Per Share
+CEMPRO,2015-08-21,split,10.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+DHFL,2015-09-09,bonus,2.0,1, Bonus 1:1
+BEL,2015-09-14,bonus,3.0,1, Bonus 2:1
+AEGISLOG,2015-09-16,split,10.0,1, Face Value Split From Rs 10 To Rs 1
+ALANKIT,2015-09-23,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+APCOTEXIND,2015-09-23,bonus,2.0,1, Bonus 1:1
+COLPAL,2015-09-23,bonus,2.0,1, Bonus 1:1
+DIVISLAB,2015-09-23,bonus,2.0,1, Bonus 1:1
+ZYDUSLIFE,2015-10-06,split,5.0,1, Face Value Split (Sub-Division) - From Rs 5/- Per Share To Re 1/- Per Share
+BATAINDIA,2015-10-07,split,2.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+SHIVAMAUTO,2015-10-08,bonus,2.0,1, Bonus 1: 1
+LAMBODHARA,2015-10-15,split,2.0,1, Face Value Split From Rs 10 To Rs 5
+RUBYMILLS,2015-10-21,bonus,2.0,1, Bonus 1:1
+SARLAPOLY,2015-10-29,split,10.0,1, Face Value Split From Rs 10 To Re 1 (Record Date Revised)
+SHILPAMED,2015-11-06,split,2.0,1, Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+AVANTIFEED,2015-11-26,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+NATCOPHARM,2015-11-26,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+JAMNAAUTO,2015-12-03,split,2.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+JKIL,2015-12-10,split,2.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+ECLERX,2015-12-17,bonus,1.3333333333333333,1, Bonus 1:3
+SMSPHARMA,2015-12-17,split,10.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+INDTERRAIN,2015-12-21,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+VENKEYS,2015-12-21,bonus,1.5,1, Bonus 1:2
+MARICO,2015-12-22,bonus,2.0,1, Bonus 1:1
+ALLCARGO,2015-12-30,bonus,2.0,1, Bonus 1:1
+KOTHARIPRO,2016-01-05,bonus,1.5,1, Bonus 1:2
+GREENPLY,2016-01-06,split,5.0,1, Face Value Split (Sub-Division) - From Rs 5/- Per Share To Re 1/- Per Share
+MOLDTKPAC,2016-02-17,split,2.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+PRAKASHSTL,2016-03-03,split,10.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+MINDTREE,2016-03-09,bonus,2.0,1, Bonus 1:1
+RAMASTEEL,2016-03-14,split,10.0,2, Bonus 4:1/Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+VEEDOL,2016-03-16,bonus,4.0,2, Bonus 1:1/Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share 
+PRECWIRE,2016-03-21,split,2.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+WELSPUNLIV,2016-03-21,split,10.0,1, Interim Div - Rs 6/- Per Share + Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share 
+VIVIDHA,2016-03-30,bonus,1.3333333333333333,1, Bonus 1:3
+VIVIMEDLAB,2016-04-06,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+DISHMAN,2016-05-02,bonus,2.0,1, Bonus 1:1
+GMBREW,2016-05-30,bonus,1.25,1, Bonus 1:4
+NBCC,2016-06-02,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+LUXIND,2016-06-06,split,5.0,1, Face Value Split From Rs 10 To Rs 2
+PINCON,2016-06-23,bonus,2.0,1, Bonus 1:1
+ITC,2016-07-01,bonus,1.5,1, Bonus 1:2
+BPCL,2016-07-13,bonus,2.0,1, Bonus 1:1
+HATSUN,2016-07-13,bonus,1.4,1, Bonus 2:5
+SOLARINDS,2016-07-13,split,5.0,1, Fv Splt Frm Rs 10 To Rs 2
+GANESHHOU,2016-07-14,bonus,1.5,1, Bonus 1:2
+GRINDWELL,2016-07-14,bonus,2.0,1, Bonus 1:1
+BERGEPAINT,2016-07-15,bonus,1.4,1, Bonus 2:5
+KTIL,2016-08-11,bonus,2.08,2, Bonus 1:25/ Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+PNCINFRA,2016-08-12,split,5.0,1, Face Value Split From Rs 10 To Rs 2
+PILITA,2016-08-24,split,4.0,1, Face Value Split (Sub-Division) - From Rs 4/- Per Share To Re 1/- Per Share
+PFC,2016-08-26,bonus,2.0,1, Bonus 1:1
+MENONBE,2016-08-30,bonus,1.2,1, Bonus 1:5
+VGUARD,2016-08-30,split,10.0,1, Face Value Split From Rs 10 To Re 1
+NAVA,2016-09-01,bonus,2.0,1, Bonus 1:1
+TECHNO,2016-09-06,bonus,2.0,1, Bonus 1:1
+BAJFINANCE,2016-09-08,split,10.0,2, Bonus 1:1/Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+TRENT,2016-09-12,split,10.0,1, Face Value Split From Rs 10 To Re 1
+UNOMINDA,2016-09-12,split,5.0,1, Face Value Split From Rs 10 To Rs 2
+HINDPETRO,2016-09-14,bonus,3.0,1, Bonus 2:1
+SYMPHONY,2016-09-14,bonus,2.0,1, Bonus 1:1
+JMTAUTOLTD,2016-09-21,split,2.0,1, Face Value Split From Rs 2 To Re 1
+RECLTD,2016-09-28,bonus,2.0,1, Bonus 1:1
+KAJARIACER,2016-10-04,split,2.0,1, Face Value Split From Rs 2 To Re 1
+GRASIM,2016-10-06,split,5.0,1, Face Value Split From Rs 10 To Re 2
+SECURKLOUD,2016-10-10,split,2.6666666666666665,2, Bonus 1:3/Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+SHAH,2016-10-13,split,10.0,1, Face Value Split From Rs 10 To Re 1
+IOC,2016-10-18,bonus,2.0,1, Bonus 1:1
+ALANKIT,2016-10-19,bonus,2.0,1, Bonus 1:1
+CAPLIPOINT,2016-10-19,split,5.0,1, Fv Splt Frm Rs 10 To Rs 2
+VIJIFIN,2016-10-25,split,10.0,1, Fv Splt Frm Rs 10 To Re 1
+BHAGERIA,2016-10-26,split,2.0,1, Fv Splt Frm Rs 10 To Rs 5
+ICIL,2016-11-11,split,5.0,1, Fv Splt Frm Rs 10 To Rs 2
+KARURVYSYA,2016-11-17,split,5.0,1, Fv Splt Frm Rs 10 To Rs 2
+CGCL,2016-11-23,split,5.0,1, Fv Splt Frm Rs 10 To Rs 2
+KPRMILL,2016-11-29,split,2.0,1, Fv Splt Frm Rs 10 To Rs 5
+SUNILHITEC,2016-12-01,split,20.0,2, Bonus 1:1/Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+INDIANHUME,2016-12-09,bonus,2.0,1, Bonus 1:1
+KNRCON,2016-12-13,split,5.0,1, Fv Splt Frm Rs 10 To Rs 2
+ALANKIT,2016-12-15,split,2.0,1, Fv Splt Frm Rs 2 To Re 1
+ONGC,2016-12-15,bonus,1.5,1, Bonus 1: 2
+BALMLAWRIE,2016-12-26,bonus,4.0,1, Bonus 3:1
+GULPOLY,2016-12-27,split,5.0,1, Fv Splt Frm Rs 5 To Re 1
+ENGINERSIN,2016-12-30,bonus,2.0,1, Bonus 1:1
+JSWSTEEL,2017-01-04,split,10.0,1, Fv Splt Frm Rs 10 To Re 1
+STERTOOLS,2017-01-09,split,5.0,1, Fv Splt Frm Rs 10 To Rs 2
+GATECH,2017-01-10,bonus,1.25,1, Bonus 1:4
+OIL,2017-01-12,bonus,1.3333333333333333,1, Bonus 1:3
+LTFOODS,2017-02-07,split,10.0,1, Fv Splt Frm Rs 10 To Re 1
+GAYAPROJ,2017-02-10,split,5.0,1, Face Value Split From Rs 10/- Per Share To Rs 2/- Per Share
+ORBTEXP,2017-02-14,bonus,2.0,1, Bonus 1:1/Interim Dividend Rs 2/- Per Share (Purpose Revised)
+COMPINFO,2017-02-16,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+NBCC,2017-02-17,bonus,1.5,1, Bonus 1:2
+GAIL,2017-03-09,bonus,1.3333333333333333,1, Bonus 1:3
+ABMINTLTD,2017-03-15,bonus,6.0,1, Bonus 5:1
+VGUARD,2017-03-15,bonus,1.4,1, Bonus 2:5
+BEL,2017-03-16,split,10.0,1, Face Value Split From Rs 10/- Per Share To Re 1/- Per Share
+POLYMED,2017-03-24,bonus,2.0,1, Bonus 1:1
+CONCOR,2017-04-05,bonus,1.25,1, Bonus 1:4
+BLS,2017-04-26,split,10.0,1, Face Value Split From Rs 10/- Per Share To Re 1/- Per Share
+BEARDSELL,2017-05-04,split,6.0,2, Bonus 1:5/Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+ADVENZYMES,2017-05-25,split,5.0,1, Face Value Split From Rs 10/- Per Share To Rs 2/- Per Share
+HINDCOMPOS,2017-05-25,split,3.0,2, Bonus 1:2/Face Value Split (Sub-Division) From Rs 10 Per Share To Rs 5 Per Share
+MUTHOOTCAP,2017-06-12,bonus,1.1,1, Bonus 1:10
+WIPRO,2017-06-13,bonus,2.0,1, Bonus 1:1
+BIOCON,2017-06-15,bonus,3.0,1, Bonus 2:1
+ICICIBANK,2017-06-20,bonus,1.1,1, Annual General Meeting/Dividend - Rs 2.50 Per Share/Bonus 1:10 (Revised)
+ARCOTECH,2017-06-22,split,5.0,1, Face Value Split From Rs 10/- Per Share To Rs 2/- Per Share
+GODREJCP,2017-06-22,bonus,2.0,1, Bonus 1:1
+KITEX,2017-06-22,bonus,1.4,1, Bonus 2:5
+PETRONET,2017-07-03,bonus,2.0,1, Bonus 1:1
+PLASTIBLEN,2017-07-03,bonus,2.0,1, Bonus 1:1
+SANWARIA,2017-07-03,bonus,2.0,1, Bonus 1:1
+MOTHERSON,2017-07-05,bonus,1.5,1, Bonus 1:2
+PCJEWELLER,2017-07-06,bonus,2.0,1, Bonus 1:1
+MAANALU,2017-07-10,bonus,2.0,1, Bonus 1:1
+MHRIL,2017-07-10,bonus,1.5,1, Bonus 1:2
+HINDPETRO,2017-07-11,bonus,1.5,1, Bonus 1:2/ Dividend - Rs 1.10 Per Share
+MUNJALAU,2017-07-11,bonus,2.0,1, Bonus 1:1
+LYPSAGEMS,2017-07-12,bonus,1.4,1, Bonus 2:5
+BPCL,2017-07-13,bonus,1.5,1, Bonus 1:2
+CUB,2017-07-13,bonus,1.1,1, Bonus 1:10
+GPTINFRA,2017-07-13,bonus,2.0,1, Bonus 1:1
+LT,2017-07-13,bonus,1.5,1, Bonus 1:2
+NAVINFLUOR,2017-07-19,split,5.0,1, Face Value Split From Rs 10/- Per Share To Rs 2/- Per Share
+SUNTECK,2017-07-25,split,2.0,1, Face Value Split (Sub-Division) - From Rs 2/- Per Share To Rs 1/- Per Share
+JAYAGROGN,2017-08-01,bonus,2.0,1, Bonus 1:1  
+CORALFINAC,2017-08-03,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+VIJIFIN,2017-08-04,bonus,1.1,1, Bonus 1:10
+DWARKESH,2017-08-10,split,10.0,1, Annual General Meeting/Dividend - Rs 10 Per Share/Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share (Purpose Revised)
+CCAVENUE,2017-08-31,split,10.0,1, Annual General Meeting/Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+DOLLAR,2017-08-31,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+RELIANCE,2017-09-07,bonus,2.0,1, Bonus 1:1
+DECCANCE,2017-09-11,split,2.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share 
+NESCO,2017-09-15,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+TATAELXSI,2017-09-18,bonus,2.0,1, Bonus 1:1
+YESBANK,2017-09-21,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share 
+SUTLEJTEX,2017-09-26,split,10.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share 
+MANPASAND,2017-09-27,bonus,2.0,1, Bonus 1:1
+MOIL,2017-09-27,bonus,2.0,1, Bonus 1:1
+BEL,2017-09-28,bonus,1.1,1, Bonus 1:10
+BHARATFORG,2017-09-28,bonus,2.0,1, Bonus 1:1
+BHEL,2017-09-28,bonus,1.5,1, Bonus 1:2  
+TARIL,2017-09-28,split,10.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+PANAMAPET,2017-10-03,bonus,1.5,1, Bonus 1:2
+JAMNAAUTO,2017-10-05,split,5.0,1, Face Value Split (Sub-Division) - From Rs 5/- Per Share To Re 1/- Per Share
+HERITGFOOD,2017-10-10,split,2.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+CANFINHOME,2017-10-12,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+POKARNA,2017-10-18,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+SIYSIL,2017-10-25,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+ATLASCYCLE,2017-10-30,split,2.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+INFINITE,2017-11-01,bonus,1.0384615384615385,1, Bonus 1:26
+IGL,2017-11-09,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+NBIFIN,2017-12-07,split,2.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+BALKRISIND,2017-12-21,bonus,2.0,1, Bonus 1:1
+CASTROLIND,2017-12-21,bonus,2.0,1, Bonus 1:1
+M&M,2017-12-21,bonus,2.0,1, Bonus 1:1
+VAKRANGEE,2017-12-21,bonus,2.0,1, Bonus 1:1
+JINDWORLD,2017-12-26,split,2.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+BILENERGY,2018-01-11,bonus,2.0,1, Bonus 1:1
+LANDSMILL,2018-01-23,bonus,3.0,1, Bonus 2:1
+IOC,2018-03-15,bonus,2.0,1, Bonus 1:1
+INDNIPPON,2018-03-21,split,2.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+LAOPALA,2018-03-22,bonus,2.0,1, Bonus 1:1
+GAIL,2018-03-27,bonus,1.3333333333333333,1, Bonus 1:3
+KELLTONTEC,2018-03-27,bonus,2.0,1, Bonus 1:1
+OIL,2018-03-27,bonus,1.5,1, Bonus 1:2
+MARATHON,2018-04-05,split,2.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+AMRUTANJAN,2018-04-13,split,2.0,1, Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+PCBL,2018-04-19,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+NBCC,2018-04-25,split,2.0,1, Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+MMTC,2018-05-03,bonus,1.5,1, Bonus 1:2
+GMBREW,2018-05-21,bonus,1.25,1, Bonus 1:4
+TCS,2018-05-31,bonus,2.0,1, Bonus 1:1 /Dividend- Rs 29 Per Share
+GRUH,2018-06-06,bonus,2.0,1, Bonus 1:1
+LUMAXTECH,2018-06-07,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+LGBBROSLTD,2018-06-14,bonus,2.0,1, Bonus 1:1
+UNITDSPR,2018-06-15,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+EPL,2018-06-20,bonus,2.0,1, Bonus 1:1
+EMAMILTD,2018-06-21,bonus,2.0,1, Bonus 1:1/Dividend- Rs 7 Per Share
+JUBLFOOD,2018-06-21,bonus,2.0,1, Bonus 1:1
+HIKAL,2018-06-22,bonus,1.5,1, Bonus 1:2
+UNIPLY,2018-06-25,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+AVANTIFEED,2018-06-26,split,3.0,2, Bonus 1:2/Face Value Split (Sub-Division) From Rs 2/- Per Share To Re 1/- Per Share
+CONCOR,2018-06-26,split,2.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+FILATEX,2018-06-27,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+NIACL,2018-06-27,bonus,2.0,1, Bonus 1:1/ Dividend- Rs 5 Per Share
+JYOTHYLAB,2018-06-28,bonus,2.0,1, Bonus 1:1
+CUB,2018-07-10,bonus,1.1,1, Bonus 1:10
+UNOMINDA,2018-07-11,bonus,3.0,1, Bonus 2:1/Dividend- Rs 1.60 Per Share
+ASHOKA,2018-07-12,bonus,1.5,1, Bonus 1:2
+GICRE,2018-07-12,bonus,2.0,1, Bonus 1:1/Dividend- Rs 13.5 Per Share
+MMFL,2018-07-18,bonus,2.0,1, Bonus 1:1
+BORORENEW,2018-08-02,bonus,4.0,1, Bonus 3:1
+SUMEETINDS,2018-08-02,bonus,1.25,1, Bonus 1:4
+GALLISPAT,2018-08-07,split,10.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+WHEELS,2018-08-08,bonus,2.0,1, Bonus 1:1
+KARURVYSYA,2018-08-14,bonus,1.1,1, Bonus 1:10
+TIRUMALCHM,2018-08-14,split,10.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+INFY,2018-09-04,bonus,2.0,1, Bonus 1:1
+ZENSARTECH,2018-09-07,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10 /- Per Share To Rs 2/- Per Share
+GLAXO,2018-09-11,bonus,2.0,1, Bonus 1:1
+GODREJCP,2018-09-12,bonus,1.5,1, Bonus 1:2
+IGARASHI,2018-09-27,bonus,1.1237623762376239,1, Bonus 25:202
+JMCPROJECT,2018-10-04,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+CUPID,2018-10-11,bonus,1.2,1, Bonus 1:5
+APOLSINHOT,2018-10-12,split,2.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+IEX,2018-10-19,split,10.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+DAMODARIND,2018-10-25,split,2.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+MOTHERSON,2018-10-30,bonus,1.5,1, Bonus 1:2
+JINDWORLD,2018-10-31,split,5.0,1, Face Value Split (Sub-Division) - From Rs 5/- Per Share To Re 1/- Per Share
+DFMFOODS,2018-11-01,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+SAKUMA,2018-11-12,split,10.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+BRITANNIA,2018-11-29,split,2.0,1, Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+GUJGASLTD,2019-01-15,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+CONCOR,2019-02-04,bonus,1.25,1, Bonus 1:4
+RADIOCITY,2019-02-20,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+WIPRO,2019-03-06,bonus,1.3333333333333333,1, Bonus 1:3
+NTPC,2019-03-19,bonus,1.2,1, Bonus 1:5
+JMA,2019-05-14,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+TTKPRESTIG,2019-05-15,bonus,1.2,1, Bonus 1:5
+SYNGENE,2019-06-11,bonus,2.0,1, Bonus 1:1
+BIOCON,2019-06-12,bonus,2.0,1, Bonus 1:1
+CHOLAFIN,2019-06-14,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+RELAXO,2019-06-26,bonus,2.0,1, Bonus 1:1
+AVADHSUGAR,2019-06-27,bonus,2.0,1, Bonus 1:1
+MAGADSUGAR,2019-06-27,bonus,1.4,1, Bonus 4:10
+UPL,2019-07-02,bonus,1.5,1, Bonus 1:2
+APCOTEXIND,2019-07-04,split,2.5,1, Face Value Split (Sub-Division) - From Rs 5 Per Share To Rs 2 Per Share
+GAIL,2019-07-09,bonus,2.0,1, Bonus 1:1
+BHAGERIA,2019-07-17,bonus,2.0,1, Bonus 1:1
+VBL,2019-07-25,bonus,1.5,1, Bonus 1:2
+RITES,2019-08-08,bonus,1.25,1, Bonus  1:4
+SESHAPAPER,2019-08-19,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+SWELECTES,2019-08-22,bonus,1.5,1, Bonus 1:2
+BRIGADE,2019-08-28,bonus,1.5,1, Bonus 1:2
+ASTRAL,2019-09-16,bonus,1.25,1, Bonus 1:4
+HDFCBANK,2019-09-19,split,2.0,1, Face Value Split (Sub-Division) - From Rs 2 Per Share To Rs 1 Per Share
+AARTIIND,2019-09-27,bonus,2.0,1, Bonus 1:1
+SATIA,2019-10-15,split,10.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+IMPAL,2019-10-25,bonus,1.5,1, Bonus 1:2
+HCLTECH,2019-12-05,bonus,2.0,1, Bonus 1:1
+TRIDENT,2019-12-13,split,10.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 1/- Per Share
+BALMLAWRIE,2019-12-26,bonus,1.5,1, Bonus 1:2
+SIS,2020-01-15,split,2.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+VINATIORGA,2020-02-05,split,2.0,1, Face Value Split (Sub-Division) - From Rs 2/- Per Share To Rs 1/- Per Share
+RADIOCITY,2020-03-12,bonus,1.25,1, Bonus 1:4
+KTKBANK,2020-03-17,bonus,1.1,1, Bonus 1:10
+IRCON,2020-04-03,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+MOTOGENFIN,2020-06-19,split,2.0,1, Face Value Split (Sub-Division) - From Rs 10 Per Share To Rs 5  Per Share
+DHARAN,2020-07-02,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+KUANTUM,2020-07-14,split,10.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+EICHERMOT,2020-08-24,split,10.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+ELGIEQUIP,2020-09-24,bonus,2.0,1, Bonus 1:1
+COHANCE,2020-09-25,bonus,2.0,1, Bonus 1:1
+LAURUSLABS,2020-09-29,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+AARTIDRUGS,2020-09-30,bonus,4.0,1, Bonus 3:1
+GAEL,2020-10-01,split,2.0,1, Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+SAGARDEEP,2020-10-05,bonus,1.5,1, Bonus 1:2
+SHRENIK,2020-10-08,split,6.0,2, Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+MAHESHWARI,2020-10-13,bonus,2.0,1, Bonus 1:1
+SDBL,2020-10-15,split,2.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+HATSUN,2020-12-09,bonus,1.3333333333333333,1, Bonus 1:3
+APLAPOLLO,2020-12-15,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+VISHAL,2020-12-16,bonus,1.5,1, Bonus 1:2
+VALIANTORG,2020-12-24,bonus,2.0,1, Bonus 1:1
+PILANIINVS,2020-12-31,bonus,1.4,1, Bonus 2:5
+KNRCON,2021-02-03,bonus,2.0,1, Bonus 1:1
+BASML,2021-02-12,split,2.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+MARINE,2021-02-18,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10 Per Share To Rs 2 Per Share
+ASTRAL,2021-03-18,bonus,1.3333333333333333,1, Bonus 1:3
+CCAVENUE,2021-03-18,bonus,2.0,1, Bonus 1:1
+DIXON,2021-03-18,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+LIBAS,2021-04-06,bonus,1.2,1, Bonus 1:5
+FINPIPE,2021-04-15,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+SHARDAMOTR,2021-04-16,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+VAIBHAVGBL,2021-05-07,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+ALKYLAMINE,2021-05-11,split,2.5,1, Face Value Split (Sub-Division) - From Rs 5/- Per Share To Rs 2/- Per Share
+IRCON,2021-05-20,bonus,2.0,1, Bonus 1:1
+JAYBARMARU,2021-06-07,bonus,2.0,1, Bonus 1:1
+VBL,2021-06-10,bonus,1.5,1, Bonus 1:2
+AARTIIND,2021-06-22,bonus,2.0,1, Bonus 1:1
+INVENTURE,2021-06-24,split,10.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+SALASAR,2021-07-13,bonus,2.0,1, Bonus 1:1
+MOKSH,2021-07-14,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+VEEDOL,2021-07-26,split,5.0,2, Face Value Split (Sub-Division) - From Rs 5/- Per Share To Re 2/- Per Share
+POWERGRID,2021-07-29,bonus,1.3333333333333333,1, Bonus 1:3
+MAANALU,2021-08-02,bonus,2.0,1, Bonus 1: 1
+GLOBE,2021-08-03,bonus,15.0,2, Bonus 2:1
+DVL,2021-08-05,bonus,1.5,1, Bonus 1:2
+DHARAN,2021-08-12,split,10.0,2, Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+SAGCEM,2021-08-17,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+BCG,2021-08-18,bonus,1.25,1, Bonus 1:4
+REDINGTON,2021-08-18,bonus,2.0,1, Bonus 1:1
+MITTAL,2021-08-31,bonus,1.1,1, Bonus 1:10
+RAJMET,2021-09-02,bonus,1.5,1, Bonus 1:2
+MHRIL,2021-09-08,bonus,1.5,1, Bonus 1:2
+GANGAFORGE,2021-09-13,split,10.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+MAHLIFE,2021-09-14,bonus,3.0,1, Bonus 2:1
+KANPRPLA,2021-09-15,bonus,1.5,1, Bonus 1:2
+APLAPOLLO,2021-09-16,bonus,2.0,1, Bonus 1:1
+TPLPLASTEH,2021-09-16,bonus,2.0,1, Bonus 1:1
+CESC,2021-09-17,split,10.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+LIBAS,2021-09-21,bonus,1.2,1, Bonus 1:5
+ARTEMISMED,2021-09-23,split,10.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+KPRMILL,2021-09-24,split,5.0,1, Face Value Split (Sub-Division) - From Rs 5/- Per Share To Re 1/- Per Share
+CLEDUCATE,2021-09-30,split,2.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+AFFLE,2021-10-07,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+TIRUPATIFL,2021-10-07,bonus,8.75,2, Bonus 3:4
+SRF,2021-10-13,bonus,5.0,1, Bonus 4:1
+VISHWARAJ,2021-10-21,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+GPIL,2021-10-26,bonus,4.0,2, Bonus 1:1
+IRCTC,2021-10-28,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+NIPPOBATRY,2021-10-28,split,2.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+BIGBLOC,2021-11-15,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+MANINFRA,2021-11-17,bonus,1.5,1, Bonus 1:2
+SSWL,2021-11-18,split,2.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+APOLLOPIPE,2021-12-02,bonus,3.0,1, Bonus 2:1
+IEX,2021-12-03,bonus,3.0,1, Bonus 2:1
+TTKPRESTIG,2021-12-14,split,10.0,1, Face Value Split (Sub-Division) - From Rs 10 Per Share To Re 1 Per Share
+KKCL,2021-12-16,bonus,5.0,1, Bonus 4:1
+PRECWIRE,2021-12-22,split,5.0,1, Face Value Split (Sub-Division) - From Rs 5/- Per Share To Re 1/- Per Share
+PTL,2021-12-23,split,2.0,1, Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+ANDHRSUGAR,2021-12-30,split,5.0,1, Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+IMFA,2022-01-07,bonus,2.0,1,Bonus 1:1
+IPCALAB,2022-01-10,split,2.0,1,Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+ONEPOINT,2022-01-18,bonus,7.5,2,Bonus 1:2
+AURIGROW,2022-01-20,bonus,2.0,1,Bonus 1:1
+AAKASH,2022-02-03,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+ESSENTIA,2022-02-03,split,3.0,1,Face Value Split (Sub-Division) - From Rs 3/- Per Share To Re 1/- Per Share
+SCHAEFFLER,2022-02-08,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+GREENLAM,2022-02-10,split,5.0,1,Face Value Split (Sub-Division) - From Rs 5/- Per Share To Re 1/- Per Share
+JBMA,2022-02-21,split,2.5,1,Face Value Split (Sub-Division) - From Rs 5/- Per Share To Rs 2/- Per Share
+HGS,2022-02-22,bonus,2.0,1,Bonus 1:1
+SBC,2022-02-22,split,20.0,2,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+EASEMYTRIP,2022-02-28,bonus,2.0,1,Bonus 1:1
+SUPREMEENG,2022-03-03,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+VISHAL,2022-03-10,bonus,3.0,1,Bonus 2:1
+CCAVENUE,2022-03-14,bonus,2.0,1,Bonus 1:1
+RKFORGE,2022-03-14,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+BCG,2022-03-15,bonus,1.6666666666666667,1,Bonus 2:3
+RAJRATAN,2022-03-15,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+DRCSYSTEMS,2022-03-16,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+BSE,2022-03-21,bonus,3.0,1,Bonus 2:1
+AURIGROW,2022-03-24,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+NDL,2022-03-24,bonus,3.0,1,Bonus 2:1
+VTL,2022-03-24,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+GOLDIAM,2022-03-28,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+SUULD,2022-03-30,bonus,2.0,1,Bonus 1:1
+PCBL,2022-04-11,split,2.0,1,Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+ARIHANTCAP,2022-04-12,split,5.0,1,Face Value Split (Sub-Division) - From Rs 5/- Per Share To Re 1/- Per Share
+DUCON,2022-04-18,bonus,1.1,1,Bonus 1:10
+JUBLFOOD,2022-04-19,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+SAREGAMA,2022-04-26,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+BBOX,2022-05-13,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+BLS,2022-05-13,bonus,2.0,1,Bonus 1:1
+JETFREIGHT,2022-05-19,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+VBL,2022-06-06,bonus,1.5,1,Bonus 1:2
+AUBANK,2022-06-09,bonus,2.0,1,Bonus 1:1
+COSMOFIRST,2022-06-16,bonus,1.5,1,Bonus 1:2
+AJANTPHARM,2022-06-22,bonus,1.5,1,Bonus- 1:2
+NAZARA,2022-06-24,bonus,2.0,1,Bonus 1:1
+SALASAR,2022-06-27,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 1/- Per Share
+IOC,2022-06-30,bonus,1.5,1,Bonus 1:2
+PAISALO,2022-06-30,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+RATNAMANI,2022-06-30,bonus,1.5,1,Bonus 1:2
+XPROINDIA,2022-07-01,bonus,1.5,1,Bonus 1:2
+UNOMINDA,2022-07-07,bonus,2.0,1,Bonus 1:1
+TORNTPHARM,2022-07-08,bonus,2.0,1,Bonus 1:1
+GMMPFAUDLR,2022-07-11,bonus,3.0,1,Bonus 2:1
+STEELXIND,2022-07-12,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+SONAMLTD,2022-07-14,bonus,2.0,1,Bonus 1:1
+RGL,2022-07-19,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+HNDFDS,2022-07-21,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+HARDWYN,2022-07-25,bonus,1.5,1,Bonus 1:2
+TATASTEEL,2022-07-28,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+RECLTD,2022-08-17,bonus,1.3333333333333333,1,Bonus 1:3
+MGEL,2022-08-18,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+RAMASTEEL,2022-08-25,split,5.0,1,Face Value Split (Sub-Division) - From Rs 5/- Per Share To Re 1/- Per Share
+PDSL,2022-08-26,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+KRITIKA,2022-08-30,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+SOTL,2022-09-01,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+DANGEE,2022-09-06,split,15.0,2,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+GAIL,2022-09-06,bonus,1.5,1,Bonus 1:2
+BANSWRAS,2022-09-08,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+SONATSOFTW,2022-09-08,bonus,1.3333333333333333,1,Bonus 1:3
+BAJAJFINSV,2022-09-13,bonus,10.0,2,Bonus 1:1
+BEL,2022-09-15,bonus,3.0,1,Bonus 2:1
+RAJMET,2022-09-15,bonus,1.5,1,Bonus 1:2
+ECLERX,2022-09-21,bonus,1.5,1,Bonus 1:2
+CHOICEIN,2022-09-22,bonus,2.0,1,Bonus 1:1
+BSHSL,2022-09-23,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+RUBYMILLS,2022-09-23,bonus,2.0,1,Bonus 1:1
+SAKSOFT,2022-09-23,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+BHARATGEAR,2022-09-27,bonus,1.5,1,Bonus 1:2
+LANDSMILL,2022-09-28,bonus,15.0,2,Bonus 1:2
+RAMRAT,2022-09-28,bonus,2.0,1,Bonus 1:1
+INSECTICID,2022-09-30,bonus,1.5,1,Bonus 1:2
+MOTHERSON,2022-10-03,bonus,1.5,1,Bonus 1:2
+AHLEAST,2022-10-06,bonus,1.5,1,Bonus 1:2
+AJOONI,2022-10-07,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+RUCHIRA,2022-10-10,bonus,1.1,1,Bonus 1:10
+SBCL,2022-10-12,bonus,1.5,1,Bonus 1:2
+HLEGLAS,2022-10-18,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+MBAPL,2022-10-18,bonus,2.0,1,Bonus 1:1
+GLOBAL,2022-10-19,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+TPLPLASTEH,2022-10-19,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+AXITA,2022-10-21,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+DIL,2022-10-27,bonus,2.0,1,Bonus 1:1
+KSHITIJPOL,2022-10-27,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+SIKKO,2022-10-28,bonus,1.5,1,Bonus 1:2
+TDPOWERSYS,2022-10-31,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+NYKAA,2022-11-10,bonus,6.0,1,Bonus 5:1
+SSWL,2022-11-10,split,5.0,1,Face Value Split (Sub-Division) - From Rs 5/- Per Share To Re 1/- Per Share
+GPTINFRA,2022-11-11,bonus,2.0,1,Bonus 1:1
+MSUMI,2022-11-16,bonus,1.4,1,Bonus 2:5
+EASEMYTRIP,2022-11-21,bonus,8.0,2,Bonus 3:1
+DEVIT,2022-11-25,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+MAHSEAMLES,2022-11-25,bonus,2.0,1,Bonus 1:1
+RAJMET,2022-11-30,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+LIKHITHA,2022-12-02,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+BLS,2022-12-08,bonus,2.0,1,Bonus 1:1
+CLEDUCATE,2022-12-16,bonus,2.0,1,Bonus 1:1
+LANCER,2022-12-16,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+SFL,2022-12-21,bonus,2.0,1,Bonus 1:1
+PRECWIRE,2022-12-22,bonus,1.5,1,Bonus 1:2
+ZIMLAB,2022-12-22,bonus,3.0,1,Bonus 2:1
+FILATEX,2022-12-27,split,2.0,1,Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+SECURCRED,2023-01-04,bonus,4.0,1,Bonus 3:1
+RAMASTEEL,2023-01-06,bonus,5.0,1,Bonus 4:1
+SPLPETRO,2023-01-06,split,2.0,1,Face Value Split (Sub-Division) - From Rs 4/- Per Share To Rs 2/- Per Share
+RADIOCITY,2023-01-13,bonus,1.1,1,Scheme Of Arrangement - Bonus Ncrps 1:10
+VISHNU,2023-01-13,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+KPIGREEN,2023-01-18,bonus,2.0,1,Bonus 1:1
+SHRADHA,2023-01-20,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+GVPTECH,2023-01-23,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+SERVOTECH,2023-02-03,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+ACCURACY,2023-02-15,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+VCL,2023-02-15,split,2.0,1,Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+IRB,2023-02-22,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+VINNY,2023-02-24,bonus,23.0,2,Bonus 13:10
+360ONE,2023-03-02,bonus,4.0,2,Bonus 1:1
+OSIAHYPER,2023-03-13,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+ASTRAL,2023-03-14,bonus,1.3333333333333333,1,Bonus 1:3
+MEDICO,2023-03-16,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+HITECH,2023-03-17,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+DEEPINDS,2023-04-10,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+TIPSMUSIC,2023-04-21,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+GOYALALUM,2023-04-25,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+APOLLO,2023-05-04,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+SIRCA,2023-05-11,bonus,2.0,1,Bonus 1:1
+VISAKAIND,2023-05-15,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+SRPL,2023-05-19,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+RADHIKAJWE,2023-05-26,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+VSSL,2023-05-26,bonus,2.0,1,Bonus 1:1
+LODHA,2023-05-31,bonus,2.0,1,Bonus 1:1
+HARDWYN,2023-06-05,bonus,13.333333333333332,2,Bonus 1:3
+IONEXCHANG,2023-06-12,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+VBL,2023-06-15,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+BLUESTARCO,2023-06-20,bonus,2.0,1,Bonus 1:1
+GULPOLY,2023-06-21,bonus,1.2,1,Bonus 1:5
+INDIAMART,2023-06-21,bonus,2.0,1,Bonus 1:1
+AKI,2023-06-22,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+KANSAINER,2023-07-04,bonus,1.5,1,Bonus 1:2
+BEPL,2023-07-05,bonus,1.5,1,Bonus 1:2
+SADHNANIQ,2023-07-05,bonus,1.2222222222222223,1,Bonus 2:9
+ROTO,2023-07-07,bonus,2.0,1,Bonus 1:1
+APTECHT,2023-07-14,bonus,1.4,1,Bonus 2:5
+THANGAMAYL,2023-07-17,bonus,2.0,1,Bonus 1:1
+ANMOL,2023-07-18,bonus,5.0,1,Bonus 4:1
+NDRAUTO,2023-07-24,bonus,2.0,1,Bonus 1:1
+SHRIPISTON,2023-07-24,bonus,2.0,1,Bonus 1:1
+MAANALU,2023-07-27,bonus,4.0,2,Bonus 1:1
+SERVOTECH,2023-07-28,split,2.0,1,Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+AKSHAR,2023-07-31,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+KAMOPAINTS,2023-08-01,bonus,2.0,1,Bonus 1:1
+NINSYS,2023-08-03,bonus,1.8,1,Bonus 4:5
+SARDAEN,2023-08-04,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+IRISDOREME,2023-08-11,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+OSWALSEEDS,2023-08-18,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+GNA,2023-09-01,bonus,2.0,1,Bonus 1:1
+JTLIND,2023-09-07,bonus,2.0,1,Bonus 1:1
+ADFFOODS,2023-09-11,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+POWERGRID,2023-09-12,bonus,1.3333333333333333,1,Bonus 1:3
+SARVESHWAR,2023-09-15,bonus,30.0,2,Bonus 2:1
+JBCHEPHARM,2023-09-18,split,2.0,1,Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+PFC,2023-09-21,bonus,1.25,1,Bonus 1:4
+BERGEPAINT,2023-09-22,bonus,1.2,1,Bonus 1:5
+HAL,2023-09-28,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+FOCUS,2023-10-06,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+SURYAROSNI,2023-10-06,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+SIGACHI,2023-10-09,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+THEMISMED,2023-10-10,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+GENSOL,2023-10-17,bonus,3.0,1,Bonus 2:1
+MBAPL,2023-10-20,bonus,2.0,1,Bonus 1:1
+GEEKAYWIRE,2023-10-23,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+KRISHANA,2023-10-25,bonus,2.0,1,Bonus 1:1
+JAYBARMARU,2023-10-26,split,2.5,1,Face Value Split (Sub-Division) - From Rs 5/- Per Share To Rs 2/- Per Share
+BCLIND,2023-10-27,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+TALBROAUTO,2023-10-27,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+MITTAL,2023-11-01,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+CANTABIL,2023-11-02,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+DPWIRES,2023-11-08,bonus,1.1428571428571428,1,Bonus 1:7
+HPAL,2023-11-09,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+HINDCON,2023-11-10,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+MKPL,2023-11-10,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+ATALREAL,2023-11-16,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+SHAILY,2023-11-23,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+SAFARI,2023-12-12,bonus,2.0,1,Bonus 1:1
+SONATSOFTW,2023-12-12,bonus,2.0,1,Bonus 1:1
+TPHQ,2023-12-14,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+KRITIKA,2023-12-19,bonus,3.0,1,Bonus 2:1
+AXITA,2023-12-22,bonus,1.3333333333333333,1,Bonus 1:3
+HMAAGRO,2023-12-29,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+ALLCARGO,2024-01-02,bonus,4.0,1,Bonus 3:1
+NESTLEIND,2024-01-05,split,10.0,1,Face Value Split (Sub-Division) - From Rs10/- Per Share To Re 1/- Per Share
+PGIL,2024-01-05,split,2.0,1,Face Value Split (Sub-Division) - From Rs10/- Per Share To Rs 5/- Per Share
+COCHINSHIP,2024-01-10,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+ESSENTIA,2024-01-11,bonus,2.0,1,Bonus 1:1
+NEWGEN,2024-01-12,bonus,2.0,1,Bonus 1:1
+SBC,2024-01-19,bonus,1.5,1,Bonus 1:2
+DOLPHIN,2024-01-25,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+KANANIIND,2024-01-30,bonus,2.0,1,Bonus 1:1
+SALASAR,2024-02-01,bonus,5.0,1,Bonus 4:1
+OSWALSEEDS,2024-02-02,bonus,1.2,1,Bonus 1:5
+SANDUMA,2024-02-02,bonus,6.0,1,Bonus 5:1
+AKSHAR,2024-02-15,bonus,1.2,1,Bonus 1:5
+KPIGREEN,2024-02-15,bonus,1.5,1,Bonus 1:2
+CHOICEIN,2024-02-20,bonus,2.0,1,Bonus 1:1
+MASFIN,2024-02-22,bonus,3.0,1,Bonus 2:1
+RPPL,2024-02-26,bonus,3.0,1,Bonus 2:1
+DRCSYSTEMS,2024-02-27,bonus,3.0,1,Bonus 2:1
+FIEMIND,2024-02-28,bonus,2.0,1,Bonus 1:1
+CGCL,2024-03-05,split,4.0,2,Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+MANORAMA,2024-03-07,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+GAEL,2024-03-15,bonus,2.0,1,Bonus 1:1
+MKPL,2024-03-15,bonus,3.0,1,Bonus 2:1
+RAMASTEEL,2024-03-19,bonus,3.0,1,Bonus 2:1
+ADVANIHOTR,2024-03-20,bonus,2.0,1,Bonus 1:1
+NRL,2024-03-20,bonus,1.5,1,Bonus 1:2
+PAISALO,2024-03-20,bonus,2.0,1,Bonus 1:1
+REFEX,2024-03-22,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+LAL,2024-03-28,bonus,15.454545454545453,2,Bonus 6:11
+PERSISTENT,2024-03-28,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+CUPID,2024-04-04,split,20.0,2,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+BTML,2024-04-05,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+SBGLP,2024-04-18,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+ANUP,2024-04-23,bonus,2.0,1,Bonus 1:1
+BBL,2024-04-24,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+BHAGCHEM,2024-05-02,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 1/- Per Share
+SONAMLTD,2024-05-10,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+CANBK,2024-05-15,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+VARDMNPOLY,2024-05-17,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+BDL,2024-05-24,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+GMBREW,2024-05-24,bonus,1.25,1,Bonus 1:4
+INOXWIND,2024-05-24,bonus,4.0,1,Bonus 3:1
+SDBL,2024-05-24,split,2.5,1,Face Value Split (Sub-Division) - From Rs 5/- Per Share To Rs 2/- Per Share
+BALAXI,2024-05-30,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+DAVANGERE,2024-05-31,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+MOTILALOFS,2024-06-10,bonus,4.0,1,Bonus 3:1
+KAMOPAINTS,2024-06-14,split,5.0,1,Face Value Split (Sub-Division) - From Rs 5/- Per Share To Re 1/- Per Share
+BPCL,2024-06-21,bonus,2.0,1,Bonus 1:1
+HINDPETRO,2024-06-21,bonus,1.5,1,Bonus 1:2
+PREMEXPLN,2024-06-21,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+AURIONPRO,2024-06-27,bonus,2.0,1,Bonus 1:1
+SHAREINDIA,2024-06-27,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+AVONMORE,2024-06-28,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 1/- Per Share
+OIL,2024-07-02,bonus,1.5,1,Bonus 1:2
+GPTINFRA,2024-07-03,bonus,2.0,1,Bonus 1:1
+REMSONSIND,2024-07-05,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+VERTOZ,2024-07-05,split,20.0,2,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+PGEL,2024-07-10,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+MMFL,2024-07-16,bonus,2.0,1,Bonus 1:1
+KPIGREEN,2024-07-18,split,2.0,1,Face Value Split (Sub-Division) - From Rs10/- Per Share To Rs 5/- Per Share
+ELECON,2024-07-19,split,2.0,1,Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+ALMONDZ,2024-07-23,split,6.0,1,Face Value Split (Sub-Division) - From Rs 6/- Per Share To Re 1/- Per Share
+KSB,2024-07-25,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+AARTECH,2024-08-09,bonus,3.0,2,Bonus 1:2
+DJML,2024-08-09,bonus,3.0,1,Bonus 2:1
+FILATFASH,2024-08-09,split,5.0,1,Face Value Split (Sub-Division) - From Rs 5/- Per Share To Re 1/- Per Share
+KAPSTON,2024-08-09,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+RUSHIL,2024-08-09,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+SAKUMA,2024-08-09,bonus,5.0,1,Bonus 4:1
+GRPLTD,2024-08-12,bonus,4.0,1,Bonus 3:1
+EIHAHOTELS,2024-08-13,bonus,2.0,1,Bonus 1:1
+CDSL,2024-08-23,bonus,2.0,1,Bonus 1:1
+SAPPHIRE,2024-09-05,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+VSTIND,2024-09-06,bonus,11.0,1,Bonus 10:1
+ANDHRAPAP,2024-09-11,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+BIGBLOC,2024-09-12,bonus,2.0,1,Bonus 1:1
+VBL,2024-09-12,split,2.5,1,Face Value Split (Sub-Division) - From Rs 5/- Per Share To Rs 2/- Per Share
+KIMS,2024-09-13,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+MONARCH,2024-09-13,bonus,2.0,1,Bonus 1:1
+SPORTKING,2024-09-13,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+RPPL,2024-09-17,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+NDL,2024-09-19,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+SAKSOFT,2024-09-19,bonus,1.25,1,Bonus 1:4
+AXITA,2024-09-20,bonus,1.3333333333333333,1,Bonus 1:3
+MINDTECK,2024-09-20,bonus,1.25,1,Bonus 1:4
+PHOENIXLTD,2024-09-20,bonus,2.0,1,Bonus 1:1
+RITES,2024-09-20,bonus,2.0,1,Bonus 1:1
+UEL,2024-09-20,bonus,1.25,1,Bonus 1:4
+NDRAUTO,2024-09-25,bonus,2.0,1,Bonus 1:1
+SANGHVIMOV,2024-09-27,split,2.0,1,Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+GPIL,2024-10-04,split,5.0,1,Face Value Split (Sub-Division) - From Rs 5/- Per Share To Re 1/- Per Share
+NBCC,2024-10-07,bonus,1.5,1,Bonus 1:2
+POWERMECH,2024-10-08,bonus,2.0,1,Bonus 1:1
+JINDALSAW,2024-10-09,split,2.0,1,Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+VAISHALI,2024-10-15,split,10.0,2,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+POCL,2024-10-16,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+HEG,2024-10-18,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+SUKHJITS,2024-10-25,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+DRREDDY,2024-10-28,split,5.0,1,Face Value Split (Sub-Division) - From Rs 5/- Per Share To Re 1/- Per Share
+RELIANCE,2024-10-28,bonus,2.0,1,Bonus 1:1
+JASH,2024-10-30,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+PREMIERPOL,2024-11-05,split,5.0,1,Face Value Split (Sub-Division) - From Rs 5/- Per Share To Re 1/- Per Share
+MOTISONS,2024-11-08,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+ROTO,2024-11-08,split,2.0,1,Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+WEL,2024-11-12,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+JTLIND,2024-11-14,split,2.0,1,Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+SHAKTIPUMP,2024-11-25,bonus,6.0,1,Bonus 5:1
+EASEMYTRIP,2024-11-29,bonus,2.0,1,Bonus 1:1
+RPEL,2024-11-29,bonus,2.0,1,Bonus 1:1
+DIACABS,2024-12-03,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+WIPRO,2024-12-03,bonus,2.0,1,Bonus 1:1
+TARACHAND,2024-12-05,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+GLOBAL,2024-12-10,split,2.5,1,Face Value Split (Sub-Division) - From Rs 5/- Per Share To Rs 2/- Per Share
+SHRADHA,2024-12-10,split,2.5,1,Face Value Split (Sub-Division) - From Rs 5/- Per Share To Rs 2/- Per Share
+EXXARO,2024-12-13,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+PCJEWELLER,2024-12-16,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+SKYGOLD,2024-12-16,bonus,10.0,1,Bonus 9:1
+LINC,2024-12-20,split,4.0,2,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+HARDWYN,2024-12-27,bonus,1.4,1,Bonus 2:5
+MAZDOCK,2024-12-27,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+NMDC,2024-12-27,bonus,3.0,1,Bonus 2:1
+BANCOINDIA,2024-12-30,bonus,2.0,1,Bonus 1:1
+SURYAROSNI,2025-01-01,bonus,2.0,1,Bonus 1:1
+GARFIBRES,2025-01-03,bonus,5.0,1,Bonus 4:1
+KPIGREEN,2025-01-03,bonus,1.5,1,Bonus 1:2
+JAGSNPHARM,2025-01-08,split,2.5,1,Face Value Split (Sub-Division) - From Rs 5/- Per Share To Rs 2/- Per Share
+KAMDHENU,2025-01-08,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+SHRIRAMFIN,2025-01-10,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+JAIBALAJI,2025-01-17,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+KITEX,2025-01-17,bonus,3.0,1,Bonus 2:1
+NAVA,2025-01-20,split,2.0,1,Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+MAZDA,2025-01-28,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+IGL,2025-01-31,bonus,2.0,1,Bonus 1:1
+JBMA,2025-01-31,split,2.0,1,Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+SENCO,2025-01-31,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+REDTAPE,2025-02-04,bonus,4.0,1,Bonus 3:1
+KSOLVES,2025-02-06,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+AGIIL,2025-02-07,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+RAMAPHO,2025-02-07,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+TTL,2025-02-12,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+TARIL,2025-02-14,bonus,2.0,1,Bonus 1:1
+KOTHARIPRO,2025-02-18,bonus,2.0,1,Bonus 1:1
+JINDWORLD,2025-02-28,bonus,5.0,1,Bonus 4:1
+COASTCORP,2025-03-04,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+MGEL,2025-03-04,split,2.0,1,Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+ANANDRATHI,2025-03-05,bonus,2.0,1,Bonus 1:1
+SBC,2025-03-10,bonus,1.5,1,Bonus 1:2
+IOLCP,2025-03-11,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+GREENLAM,2025-03-21,bonus,2.0,1,Bonus 1:1
+DHARAN,2025-04-04,bonus,2.0,1,Bonus 1:1
+AFIL,2025-04-17,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+NAVKARURB,2025-04-24,bonus,2.5,1,Bonus 3:2
+ACUTAAS,2025-04-25,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+UNITEDPOLY,2025-05-02,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+NAUKRI,2025-05-07,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+NAVKARURB,2025-05-09,split,2.0,1,Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+BSE,2025-05-23,bonus,3.0,1,Bonus 2:1
+UEL,2025-05-30,bonus,1.68,1,Bonus 17:25
+COFORGE,2025-06-04,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+VESUVIUS,2025-06-10,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+VIMTALABS,2025-06-13,bonus,2.0,1,Bonus 1:1
+BAJFINANCE,2025-06-16,split,10.0,2,Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+VMART,2025-06-23,bonus,4.0,1,Bonus 3:1
+CONCOR,2025-07-04,bonus,1.25,1,Bonus 1:4
+IRISDOREME,2025-07-04,bonus,2.0,1,Bonus 1:1
+PARAS,2025-07-04,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+SHARDAMOTR,2025-07-04,bonus,2.0,1,Bonus 1:1
+DYCL,2025-07-11,bonus,2.0,1,Bonus 1:1
+ROTO,2025-07-11,bonus,3.0,1,Bonus 2:1
+ANUHPHR,2025-07-15,bonus,2.0,1,Bonus 1:1
+ASHOKLEY,2025-07-16,bonus,2.0,1,Bonus 1:1
+IFGLEXPOR,2025-07-18,bonus,2.0,1,Bonus 1:1
+INDOTHAI,2025-07-18,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+MOTHERSON,2025-07-18,bonus,1.5,1,Bonus 1:2
+MSUMI,2025-07-18,bonus,1.5,1,Bonus 1:2
+KELLTONTEC,2025-07-25,split,5.0,1,Face Value Split (Sub-Division) - From Rs 5/- Per Share To Re 1/- Per Share
+NESTLEIND,2025-08-08,bonus,2.0,1,Bonus 1:1
+INDIAGLYCO,2025-08-12,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+VRLLOG,2025-08-14,bonus,2.0,1,Bonus 1:1
+DEVIT,2025-08-21,split,2.5,1,Face Value Split (Sub-Division) - From Rs 5/- Per Share To Rs 2/- Per Share
+AARON,2025-08-25,bonus,2.0,1,Bonus 1:1
+TVSMOTOR,2025-08-25,bonus,5.0,1,Scheme Of Arrangement - Bonus Ncrps 4:1
+HDFCBANK,2025-08-26,bonus,2.0,1,Bonus 1:1
+KARURVYSYA,2025-08-26,bonus,1.2,1,Bonus 1:5
+STEELCAS,2025-08-29,split,5.0,1,Face Value Split (Sub-Division) - From Rs 5/- Per Share To Re 1/- Per Share
+PAVNAIND,2025-09-01,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+PATANJALI,2025-09-11,bonus,3.0,1,Bonus 2:1
+FISCHER,2025-09-12,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+GODFRYPHLP,2025-09-16,bonus,3.0,1,Bonus 2:1
+ZYDUSWELL,2025-09-18,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+TFCILTD,2025-09-19,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+ADANIPOWER,2025-09-22,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+SANDUMA,2025-09-22,bonus,3.0,1,Bonus 2:1
+PIDILITIND,2025-09-23,bonus,2.0,1,Bonus 1:1
+TIMETECHNO,2025-09-23,bonus,2.0,1,Bonus 1:1
+NAZARA,2025-09-26,bonus,4.0,2,Bonus 1:1
+RMDRIP,2025-09-26,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+SHILPAMED,2025-10-03,bonus,2.0,1,Bonus 1:1
+SUMEETINDS,2025-10-03,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+SIGMA,2025-10-06,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+AGIIL,2025-10-10,split,5.0,1,Face Value Split (Sub-Division) - From Rs 5/- Per Share To Re 1/- Per Share
+LGHL,2025-10-10,bonus,2.4,1,Bonus 7:5
+UEL,2025-10-10,bonus,3.0,1,Bonus 2:1
+UNIVASTU,2025-10-13,bonus,3.0,1,Bonus 2:1
+GOKULAGRO,2025-10-14,split,2.0,1,Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+TATAINVEST,2025-10-14,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+ABINFRA,2025-10-17,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+ROLEXRINGS,2025-10-17,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+GEEKAYWIRE,2025-10-30,split,2.0,1,Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+FCL,2025-10-31,bonus,10.0,2,Bonus 4:1
+BEML,2025-11-03,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+SMCGLOBAL,2025-11-14,bonus,2.0,1,Bonus 1:1
+WEBELSOLAR,2025-11-14,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+HDFCAMC,2025-11-26,bonus,2.0,1,Bonus 1:1
+SIKKO,2025-11-27,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+THYROCARE,2025-11-28,bonus,3.0,1,Bonus 2:1
+CAMS,2025-12-05,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+SIKKO,2025-12-08,bonus,2.0,1,Bonus 1:1
+BECTORFOOD,2025-12-12,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+BHARATRAS,2025-12-12,bonus,4.0,2,Bonus 1:1
+MONEYBOXX,2025-12-15,bonus,2.0,1,Bonus 1:1
+LALPATHLAB,2025-12-19,bonus,2.0,1,Bonus 1:1
+KMEW,2025-12-22,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+GRMOVER,2025-12-24,bonus,3.0,1,Bonus 2:1
+NUVAMA,2025-12-26,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+RAMRAT,2025-12-26,bonus,2.0,1,Bonus 1:1
+MCX,2026-01-02,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+ORIENTTECH,2026-01-05,bonus,1.1,1,Bonus 1:10
+SKMEGGPROD,2026-01-12,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+AIIL,2026-01-13,bonus,5.0,1,Bonus 4:1
+AJMERA,2026-01-14,split,5.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share
+KOTAKBANK,2026-01-14,split,5.0,1,Face Value Split (Sub-Division) - From Rs 5/- Per Share To Re 1/- Per Share
+BESTAGRO,2026-01-16,split,15.0,2,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+AXITA,2026-02-13,bonus,1.1,1,Bonus 1:10
+DELPHIFX,2026-02-13,bonus,15.0,2,Bonus 2:1
+ANGELONE,2026-02-26,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+INFOBEAN,2026-02-27,bonus,4.0,1,Bonus 3:1
+VGL,2026-03-02,split,2.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 5/- Per Share
+AQYLON,2026-03-05,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+KAPSTON,2026-03-06,bonus,1.5,1,Bonus 1:2
+SILVERTUC,2026-03-06,bonus,10.0,2,Bonus 1:1
+CUPID,2026-03-09,bonus,5.0,1,Bonus 4:1
+ECLERX,2026-03-13,bonus,2.0,1,Bonus 1:1
+METROPOLIS,2026-03-20,bonus,4.0,1,Bonus 3:1
+KILITCH,2026-03-24,bonus,2.0,1,Bonus 1:1
+V2RETAIL,2026-03-25,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+HIRECT,2026-03-27,bonus,2.0,1,Bonus 1:1
+IRB,2026-03-30,bonus,2.0,1,Bonus 1:1
+RNBDENIMS,2026-04-02,split,3.0,2,Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share
+RMDRIP,2026-04-10,bonus,1.7142857142857142,1,Bonus 5:7
+PASHUPATI,2026-04-17,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share
+AHCL,2026-04-24,bonus,10.0,2,Bonus 1:1
+AVROIND,2026-05-05,split,10.0,1,Face Value Split (Sub-Division) - From Rs 10/- Per Share To Re 1/- Per Share

@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the article."
+title: "FIHMM Deployment Value: reproduction package"
+abstract: >-
+  Reproduction package for a study applying one institutional flow dataset at
+  seven points in a modelling stack and subjecting each to six ascending
+  deployment constraints. Six of seven applications fail; one survives, under
+  five stated boundary conditions.
+type: software
+license: MIT
+version: 1.0.0
+date-released: "2026-08-26"
+keywords:
+  - deployment constraints
+  - forecast evaluation
+  - institutional flow
+  - negative results
+  - reproducibility
+references:
+  - type: article
+    title: "From Statistical Evidence to Decision Value: Six Deployment Constraints on an Institutional Flow Dataset"
+    journal: "IEEE Access"
+    year: 2026

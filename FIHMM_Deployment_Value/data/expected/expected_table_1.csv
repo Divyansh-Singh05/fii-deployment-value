@@ -1,0 +1,3 @@
+information_set,full_sample,training,test_era,tolerance
+contemporaneous_lag0,-5.53,-4.42,-3.25,0.01
+operational_lag_t2,-0.43,-0.09,-0.44,0.01

@@ -1,0 +1,46 @@
+# Universe construction. The modelling universe is the liquid segment in which
+# participation concentration is measurable at all.
+
+record:
+  start: "2011-01-01"
+  end:   "2025-03-31"
+  trades: 25155785
+  distinct_instrument_ids: 5960
+
+panel:
+  start: "2011-01-24"
+  end:   "2025-03-28"
+  instruments: 1028
+  instrument_days: 802806
+  price_panel_rows: 5945010
+  trading_days: 3514
+
+# Per-level scored samples. Reported with their own scope rather than collapsed
+# into one figure; the two market engines differ because the GJR base needs a
+# longer burn-in, and that difference is part of the mechanism by which the two
+# reach opposite verdicts.
+scored_samples:
+  cross_sectional_regression: 577245
+  market_density_ewma_own: 2739
+  market_density_common:   2235
+  weekly_density:          2210
+  hazard_common_episodes:  402
+
+filters:
+  instrument_type: "REG_DL_INSTR_EQ"
+  require_positive_rate: true
+
+# THE CONSTRAINT THAT GOVERNS EVERY ENTITY STATISTIC.
+# Masked participant identifiers appear persistent and are not: they are
+# re-minted at monthly boundaries. Established on a control population whose
+# true persistence is known independently - brokers, a near-fixed set numbering
+# in the hundreds - which fragments into 22,262 identifiers with a median
+# lifetime of one month over a 171-month span. Every entity statistic is
+# therefore WITHIN-DAY, and at most within-month. No measurement tracks an
+# entity across a monthly boundary, and no result depends on doing so.
+entity_persistence:
+  identifiers_masked_participant: 363663
+  identifiers_masked_subaccount: 394398
+  identifiers_broker_control: 22262
+  median_months_per_identifier: 1.0
+  max_aggregation_window: "within_day"

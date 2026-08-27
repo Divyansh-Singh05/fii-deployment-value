@@ -1,0 +1,12 @@
+{
+  "clip": 10.0,
+  "dependent": "clip(z_h1, -CLIP, CLIP) ** 2",
+  "fixed_effects": [
+    "cisin",
+    "TR_DATE"
+  ],
+  "controls": [
+    "vol = log(turnover / trailing-60d mean)"
+  ],
+  "cluster": "TR_DATE"
+}

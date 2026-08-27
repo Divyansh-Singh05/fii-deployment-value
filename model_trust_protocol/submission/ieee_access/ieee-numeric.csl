@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" default-locale="en-US">
+  <info>
+    <title>IEEE (numeric, compact)</title>
+    <id>http://local/ieee-numeric</id>
+    <updated>2026-08-26T00:00:00Z</updated>
+  </info>
+  <macro name="author">
+    <names variable="author">
+      <name initialize-with=". " delimiter=", " and="text" name-as-sort-order="never"/>
+      <substitute><names variable="editor"/></substitute>
+    </names>
+  </macro>
+  <macro name="title">
+    <choose>
+      <if type="article-journal chapter paper-conference" match="any">
+        <text variable="title" quotes="true"/>
+      </if>
+      <else><text variable="title" font-style="italic"/></else>
+    </choose>
+  </macro>
+  <citation collapse="citation-number">
+    <sort><key variable="citation-number"/></sort>
+    <layout prefix="[" suffix="]" delimiter="], [">
+      <text variable="citation-number"/>
+    </layout>
+  </citation>
+  <bibliography entry-spacing="0" second-field-align="flush">
+    <layout suffix=".">
+      <text variable="citation-number" prefix="[" suffix="]"/>
+      <text macro="author" suffix=", "/>
+      <text macro="title" suffix=", "/>
+      <text variable="container-title" font-style="italic" suffix=", "/>
+      <group delimiter=", ">
+        <text variable="volume" prefix="vol. "/>
+        <text variable="issue" prefix="no. "/>
+        <text variable="page" prefix="pp. "/>
+        <date variable="issued"><date-part name="year"/></date>
+      </group>
+    </layout>
+  </bibliography>
+</style>

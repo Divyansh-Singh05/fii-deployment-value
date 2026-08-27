@@ -1,0 +1,65 @@
+# =============================================================================
+# FII Flow Regimes — master configuration
+# Every path, split date, frozen threshold and cost assumption lives here.
+# Stages read this via fii.config; nothing is hardcoded in stage code.
+# =============================================================================
+
+paths:
+  # Root of the extracted research data (see scripts/setup_data.sh).
+  # Override with env var FII_DATA_ROOT without editing this file.
+  data_root: "data"
+  validation_data: "data/VALIDATION_DATA"   # price tape, panels, macro, deals
+  isin_mapping: "data/ISIN_MAPPING"         # raw FII trades, features, states
+  outputs: "outputs"
+
+reproducibility:
+  seed: 7
+  numpy_seed: 7
+
+# Temporal protocol (FROZEN — Module 3). Never move these.
+eras:
+  train_end: "2021-04-30"
+  test_start: "2021-07-01"
+  mask: ["2021-05-01", "2021-06-30"]   # embargo buffer, excluded everywhere
+
+# Regime-overlay thresholds (calibrated on TRAIN era only, Module 3B quantile
+# rule after the GMM falsification).
+#
+# RE-DERIVED 2026-08-21 by the audit rebuild. These are NOT the pre-audit
+# values and must not be compared with them: F_entity_s is a different
+# quantity now. It is the participant Herfindahl taken WITHIN the
+# stock-side-day (docs/02_feature_engineering.md:45), where before it was the
+# value-weighted mean of each participant's own across-stock book
+# concentration. The two rank-correlate -0.25, so the cut points are not
+# commensurable. The freeze still holds in the sense that matters: they are
+# calibrated on TRAIN only and never tuned on TEST.
+#
+# pre-audit values, retained for the record only:
+#   hostage -0.513 | shark_dist +0.877 | shark_acc +0.795
+thresholds:
+  hostage_f_entity_s_max: -0.143
+  shark_dist_f_entity_s_min: 0.790
+  shark_acc_f_entity_buy_s_min: 0.570
+
+# Corporate-action adjustment verification (Module 5B)
+ca_adjustment:
+  obs_ratio_band: 1.3          # tape-confirmation band (x / 1.3)
+  application_guard_abs: 0.50  # null adjusted returns beyond +/-50% w/ factor
+
+# Event-study / panel-regression settings (Modules 5B/7)
+event_study:
+  horizon_days: [10, 20, 30, 60]
+  daily_return_clip: 0.50
+  non_overlap_min_days: 28
+
+# Backtest engine (Module 12)
+backtest:
+  execution_lag_days: 1
+  tcost_bps_oneway: 15.0
+  max_weight: 0.05
+  cost_grid_bps: [0, 5, 10, 15, 30]
+  bootstrap_block_days: 20
+  bootstrap_draws: 2000
+
+models:
+  default: "hmm_regime"        # pipeline --model overrides

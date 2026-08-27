@@ -1,0 +1,26 @@
+# The frozen split. Fixed before any test-era number existed; never amended.
+# Manuscript Fig. 1 (fig:design) renders exactly these dates.
+
+train_end:   "2021-04-30"   # all params, thresholds, specs fixed on data <= this
+embargo:
+  start:     "2021-05-01"
+  end:       "2021-06-30"
+  # Not a chosen buffer: these two months are ABSENT from the flow feed
+  # (masked at source). The embargo and the outage coincide.
+  reason:    "masked at source; doubles as embargo across a structural break"
+test_start:  "2021-07-01"
+test_end:    "2025-03-31"
+
+# Excluded, never imputed. Present in the feed but carrying a wholly null
+# direction flag. All three fall inside the test era - a known asymmetry that
+# is reported rather than adjusted for.
+null_direction_months: ["2023-06", "2023-09", "2023-11"]
+null_direction_share_of_trades: 0.03004
+
+# The two eras are not a repeat sample.
+universe:
+  train_instruments: 618
+  test_instruments:  851
+  common_instruments: 441
+  total_instruments: 1028
+  instrument_days:   802806

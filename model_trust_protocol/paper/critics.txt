@@ -1,0 +1,543 @@
+1. Fatal Flaws
+1.1 The paper does not actually establish the claimed “value” of the dataset
+
+The central construct is not dataset valuation. The paper defines value operationally as surviving a sequence of binary gates: existence, replication, availability, competition, detectability, and execution. That produces an attrition map, not an economic valuation.
+
+Nothing in the manuscript estimates:
+
+willingness to pay for the data;
+marginal contribution to expected utility;
+incremental Sharpe/utility/risk reduction relative to the incumbent system;
+optimal acquisition price;
+data-provider surplus or buyer surplus;
+capacity-adjusted economic value.
+
+The surviving market-level application is simply classified as passing its gates. The paper itself describes the contribution as “a boundary rather than a verdict” and explicitly says the magnitudes are not portable.
+
+That is a conceptual mismatch between the title, research question (“what is ... worth”), and what is actually measured. The paper is defensible as a framework for deployment attrition, but not as a valuation paper without substantially narrowing its claims.
+
+Severity: Fatal to the current framing, not necessarily fatal to the empirical exercise.
+
+1.2 The strongest claimed result is not protected against researcher degrees of freedom
+
+The paper claims that every threshold was fixed before results existed and that applications failing their threshold were not re-specified.
+
+That is not equivalent to an externally registered experimental design.
+
+More importantly, the manuscript admits that eight strategy books and four engine variants were examined without a formal multiplicity correction. It states that this creates asymmetric exposure because a multiplicity correction could threaten the one surviving application.
+
+This is a serious problem because the paper's headline result is exactly:
+
+seven applications → one survives.
+
+That survivor is therefore a selection event. Fixing thresholds conditional on an already-chosen family of models does not establish that the surviving specification itself was selected independently of the data.
+
+The manuscript needs to establish, at minimum:
+
+the complete candidate universe;
+which seven applications were specified before outcome inspection;
+whether the eight books and four engine variants were specified before seeing performance;
+timestamps/version history or a genuine preregistration;
+a correction or selective-inference treatment for the full search family.
+
+Without that, the “one survives” result is not a clean confirmatory result. The paper acknowledges the issue but does not resolve it.
+
+Severity: Fatal to the confirmatory interpretation of the survivor.
+
+1.3 The latent-state/regime component is not sufficiently specified to be independently audited
+
+The abstract says one application is a “latent regime model with a hazard layer.” Yet the manuscript does not provide enough mathematical detail to verify the regime model.
+
+There is no complete specification of:
+
+number of latent states;
+transition matrix;
+emission distribution;
+initialization;
+estimation algorithm;
+convergence criterion;
+treatment of local maxima;
+label switching;
+filtered versus smoothed state probabilities;
+parameter re-estimation frequency;
+one-step-ahead state construction;
+exact construction of “episodes.”
+
+The paper later states that state-derived events are knowable only after the episode ends and that the hazard model is walk-forward. But this is a timing assertion, not a demonstration that the latent-state inference itself uses only information available at the relevant timestamp.
+
+This matters because a hidden-state model is particularly vulnerable to smoothing leakage: an apparently historical state label can depend on future observations even when the downstream hazard regression is technically lagged.
+
+The manuscript therefore does not currently permit a reviewer to establish that the regime-generated labels are truly real-time objects.
+
+Severity: Potentially fatal wherever conclusions depend on the latent-state machinery.
+
+1.4 The panel inference is inadequately justified
+
+Equation (1) uses instrument and date fixed effects and reports standard errors clustered on instrument and calendar month.
+
+This is questionable for a high-dimensional daily panel.
+
+The date fixed effects absorb common daily shocks, but that does not eliminate arbitrary cross-sectional dependence in residuals on each day. Clustering by month is not equivalent to clustering by day. Conversely, instrument clustering handles serial dependence within instruments but not necessarily the cross-sectional dependence induced by common market shocks.
+
+The paper therefore needs to demonstrate that its variance estimator is valid under the actual residual structure.
+
+At minimum I would expect sensitivity to:
+
+instrument × day dependence;
+two-way instrument/date clustering where feasible;
+Driscoll–Kraay-type dependence controls where appropriate;
+block/wild bootstrap;
+inference robust to the very small number of effective time clusters.
+
+This is particularly important because the paper explicitly says that with hundreds of thousands of observations “significance is close to automatic.”
+
+That statement is correct as a warning but does not solve the inference problem.
+
+Severity: Potentially fatal to the reported t-statistics.
+
+1.5 “No look-ahead bias” is asserted more strongly than it is demonstrated
+
+The paper states that parameters are frozen into dated vintages and applied forward without restatement. That is good practice.
+
+But several less obvious leakage channels remain inadequately documented.
+
+The biggest is universe construction. The manuscript says the modelling universe contains 1,028 instruments out of 5,960 identifiers, but never gives a transparent point-in-time rule for inclusion in that 1,028-instrument universe.
+
+If the universe was selected using information such as:
+
+surviving through a minimum period;
+sufficient observations over the full sample;
+future liquidity;
+future trading activity;
+availability across eras;
+
+then the “point-in-time map” is not sufficient protection against survivorship/look-ahead bias.
+
+The manuscript needs an explicit universe-formation algorithm executed recursively at each date, not merely a point-in-time security identifier mapping.
+
+Severity: Potentially fatal for all instrument-level results.
+
+1.6 The two-day “availability” constraint is externally assumed rather than empirically established
+
+The decisive availability result is:
+
+contemporaneous share: −5.53
+two-day lag: −0.32.
+
+The paper interprets this as proof that the effect is contemporaneous structure rather than a forecast.
+
+That conclusion depends entirely on the premise that two days is exactly when the information becomes knowable to the decision maker.
+
+The manuscript does not establish that operational latency from the settlement process, reporting pipeline, or vendor delivery schedule. It simply states that this is “when it becomes knowable.”
+
+A proprietary institutional dataset could have:
+
+same-day feed availability;
+next-day settlement availability;
+delayed vendor publication;
+different timestamps for different fields.
+
+A binary two-day assumption is not an econometric result. It is a deployment assumption. If it is wrong, the principal attrition result changes.
+
+The paper needs a documented information timestamp and sensitivity analysis at alternative lags.
+
+Severity: Fatal to the specific availability conclusion unless the data-generation timeline is independently established.
+
+1.7 The paper conflates statistical replication with economic independence
+
+The replication gate treats a sign flip between training and test as automatic failure and otherwise allows an application to “pass” replication.
+
+But the test era is not necessarily an independent replication in the sense implied by the replication literature.
+
+The training period contains 618 instruments and 508,563 instrument-days; the test contains 851 instruments and 294,243 instrument-days, with only 441 overlapping instruments.
+
+That is a temporal holdout with a changing universe. It is not evidence that the same economic relation independently replicates across samples in a strong sense.
+
+A stable coefficient across time is not the same thing as replication across independent populations.
+
+The manuscript repeatedly uses language such as “replicated” and “by the standard the replication literature applies, all seven pass.” The latter assertion is much stronger than the design establishes.
+
+Severity: Major conceptual flaw; potentially fatal to the replication claim.
+
+2. Methodological Weaknesses
+2.1 The dependent variable in equation (1) is not cleanly motivated
+
+The model predicts squared standardized return:
+
+z
+i,t+1
+2
+	​
+
+=α
+i
+	​
+
++δ
+t
+	​
+
++βs
+i,t
+	​
+
++γ
+′
+x
+i,t
+	​
+
++ϵ
+i,t
+	​
+
+.
+
+The paper describes this as variation that the model's own volatility estimate “has already failed to explain.”
+
+That interpretation is not automatic.
+
+If z is standardized by an estimated past volatility process, then z
+2
+ is partly a generated-regressor/generated-dependent-variable construction. Its properties depend directly on:
+
+the volatility estimator;
+estimation window;
+treatment of zero/near-zero volatility;
+heteroskedasticity;
+serial dependence generated by overlapping windows.
+
+None of these are sufficiently documented in the manuscript.
+
+2.2 The institutional-share variable is mechanically related to turnover
+
+The predictor is the institutional share of instrument turnover, while log turnover is included as a control.
+
+That ratio construction creates several econometric issues:
+
+numerator and denominator are mechanically linked;
+measurement error in total turnover enters both variables;
+volatility can itself increase turnover;
+conditioning on turnover may generate nontrivial ratio/collider effects;
+share can behave differently near the tails of turnover.
+
+The paper treats “share + log turnover” as a straightforward control structure without a decomposition showing that the coefficient identifies what it claims.
+
+A decomposition using gross institutional flow, net institutional flow, total turnover, and independent liquidity controls would be required.
+
+2.3 The missing-direction observations are excluded rather than stress-tested
+
+Three months contain null direction flags covering 3.004% of trades, all in the test era, and these observations are dropped rather than imputed.
+
+That is not automatically innocuous.
+
+If missingness correlates with:
+
+a particular participant;
+a market regime;
+trade size;
+instrument characteristics;
+stressed market conditions;
+
+then deleting those observations changes the economic composition of the test sample.
+
+The manuscript needs missingness diagnostics and bounds/sensitivity under alternative treatments. “Never imputed” is a data-handling choice, not a robustness test.
+
+2.4 The forecast-comparison statistics are under-described
+
+The surviving result rests heavily on the density-forecast comparison in Table 2.
+
+Yet the manuscript does not fully specify:
+
+the exact scoring rule;
+how Student-t parameters are estimated;
+whether degrees of freedom are fixed or estimated;
+rolling versus expanding estimation;
+how forecast errors are serially dependent;
+the exact test statistic underlying “score differential”;
+treatment of nested-model effects;
+small-sample correction.
+
+A “−2.35 versus −0.95” statistic cannot be independently evaluated without these details.
+
+This becomes particularly serious because the scored days differ between baselines: 2,739 versus 2,235.
+
+The comparison is therefore not merely “same sample, two baselines.” Burn-in changes the evaluation set. The paper acknowledges this, but does not show that the difference in evaluation windows is immaterial to the result.
+
+2.5 The expected-shortfall/tail validation is internally inadequate
+
+The limitations section admits that expected shortfall was evaluated through a coverage ratio rather than a direct tail backtest.
+
+That concession is important.
+
+If the paper's claim concerns tail-risk forecasting, center-weighted density scores and coverage ratios are not sufficient substitutes for direct tail-sensitive predictive validation.
+
+The appropriate objection is not merely “another test would be useful.” It is that the surviving use case is specifically presented as a risk density forecast, yet the paper does not adequately establish that the part of the distribution relevant to the decision is improved.
+
+2.6 Execution economics are considerably thinner than the prose suggests
+
+The strategy's breakeven cost is
+
+c
+∗
+=
+E[TO
+t
+	​
+
+]
+E[π
+t
+	​
+
+]
+	​
+
+.
+
+As an accounting identity this is reasonable. As a model of institutional execution cost, it is incomplete.
+
+A constant one-way cost ignores:
+
+nonlinear market impact;
+position size;
+ADV constraints;
+bid-ask variation;
+short-sale constraints;
+borrow availability and fees;
+price impact from concentration;
+capacity;
+turnover clustering;
+execution timing;
+market-state-dependent liquidity.
+
+The paper compares 7.33–7.41 bps against a stated 15 bps “realistic institutional” cost without providing a cost model or source for that assumption.
+
+Thus the statement “the edge is uneconomic” is less robust than the paper presents it.
+
+2.7 Eight books and four engine variants are not a trivial robustness exercise
+
+The manuscript admits that this search was not formally priced for multiplicity.
+
+This affects more than the final survivor. It also affects statements such as:
+
+“highest of eight books in the test era.”
+
+That is explicitly a maximum-selection statistic. It should not be interpreted like the performance of a prespecified book.
+
+The paper needs to distinguish:
+
+confirmatory applications;
+exploratory candidates;
+model-search results;
+final locked specification.
+
+At present, those categories are blurred.
+
+2.8 The hazard-model result is not sufficient to establish economic usefulness
+
+Table 3 shows AUC 0.657 in test versus 0.569 for the age-only baseline, and the paper correctly notes that the model has predictive skill.
+
+But the decision criterion then fails.
+
+This is actually a good empirical distinction, but the manuscript occasionally treats the AUC result as proof that the “skill is real.” AUC itself is not evidence of economic value and is not immune to class imbalance, temporal dependence, or calibration failure.
+
+The paper needs to make the distinction more formally:
+
+statistical discrimination
+
+=decision value.
+
+It currently does so rhetorically more than statistically.
+
+2.9 The ablation conclusion is stronger than the ablation design
+
+The paper says the mechanism is statistically significant in the full panel but vanishes in the preregistered uncertain-label stratum.
+
+That is informative, but it does not demonstrate that the mechanism is irrelevant.
+
+The relevant hypothesis is an incremental conditional-information hypothesis, and the correct interpretation requires demonstrating:
+
+identical estimation sample;
+identical hyperparameters;
+identical forecast vintages;
+identical normalization;
+identical scoring procedure;
+statistically valid comparison of paired score differences.
+
+The manuscript says these were held fixed, but the underlying details are insufficiently documented to audit.
+
+3. Literature & Contribution Gaps
+3.1 The contribution is primarily methodological rhetoric rather than a new econometric method
+
+The paper explicitly says none of the regression, regime, density, or portfolio models is itself a contribution.
+
+That leaves the contribution almost entirely in the ordering of evaluation constraints.
+
+That can be publishable, but the paper must then prove that the ordering provides something genuinely new rather than repackaging familiar concepts:
+
+significance→OOS→real-time→incremental forecast value→decision value→cost.
+
+Those ingredients are individually standard. The novelty claim therefore stands or falls on whether the sequence itself produces a formally new evaluative object.
+
+At present, the paper asserts this rather than formalizing it.
+
+There is no mathematical definition of the proposed “friction boundary,” no theorem, no dominance result, and no formal property such as monotonicity, invariance, or composability across applications.
+
+3.2 The claim that the binding constraint is a property of “use” is underidentified
+
+The manuscript argues that six applications fail at four different constraints, implying that the binding constraint is use-specific.
+
+That inference is weak.
+
+The applications differ simultaneously in:
+
+dependent variable;
+aggregation;
+horizon;
+forecasting architecture;
+baseline;
+decision metric;
+cost structure.
+
+Therefore the observed variation in failure stage could result from different statistical environments, not a general law that “value is a property of use.”
+
+The controlled baseline experiment supports this proposition only for one very specific competition dimension.
+
+The manuscript itself admits that availability and execution are each illustrated by only one application.
+
+So the paper should not elevate this from an empirical pattern in seven cases to a broadly supported mechanism.
+
+3.3 The external control is too weak to support the causal interpretation given to it
+
+The five-day foreign-index predictor is more era-stable than the flow predictors and fails at competition.
+
+That demonstrates that at least one other predictor can attrite under the same machinery.
+
+It does not establish that:
+
+“the difficulty [lies] in the transition from statistical evidence to institutional use rather than in this data.”
+
+There is no matched-control design varying only the dataset while holding:
+
+predictor strength;
+forecast horizon;
+model class;
+sample size;
+baseline;
+dimensionality;
+signal-to-noise ratio;
+
+constant.
+
+One external predictor is illustrative, not diagnostic.
+
+3.4 The literature review does not demonstrate the claimed novelty rigorously enough
+
+The paper repeatedly says that the literature does not systematically evaluate “one dataset through an ordered sequence of deployment constraints.”
+
+For a top-tier submission, that needs a much more systematic closest-literature comparison.
+
+The manuscript should contain a table with columns such as:
+
+Existing paper	Data held fixed?	Multiple constraints?	Real-time availability?	Baseline competition?	Decision metric?	Execution?
+
+Without this, “no prior worked case” is an assertion.
+
+3.5 The paper potentially oversells the Indian-market implications
+
+The paper states that the surviving application is relevant for domestic risk managers and exchange monitoring, and that foreign-flow composition should be reconsidered given shifts toward domestic institutional dominance.
+
+The first claim is not demonstrated by the empirical design. The study shows that a particular density forecast clears the author's decision gates. It does not show that an actual risk manager would adopt it, that the forecast materially changes capital allocation, or that the economic value survives governance constraints.
+
+The latter inference—re-estimating using domestic institutional flow—is plausible as future research but does not follow as an empirical implication of this paper.
+
+4. Formatting & Notation
+4.1 Critical variables are insufficiently defined
+
+Equation (1) introduces s
+i,t
+	​
+
+, x
+i,t
+	​
+
+, and z
+i,t
+	​
+
+, but the precise construction of the volatility standardization is not adequately specified in the surrounding prose.
+
+Equation (2) introduces NF
+t
+	​
+
+, b
+j,t
+	​
+
+, s
+j,t
+	​
+
+, and G
+t−1
+	​
+
+, but the notation is visually difficult to parse and the denominator construction belongs in a formal definition table.
+
+For a quantitative-finance paper, there should be a notation table defining every primitive variable, timing convention, unit, and information timestamp.
+
+4.2 The manuscript repeatedly reports thresholds without formally defining the test statistic
+
+Examples include:
+
+“score differential, threshold ≤ −2.0”;
+“incremental information coefficient ... threshold 0.005”;
+“t = −5.53”;
+“paired statistic on out-of-window log loss 14.42.”
+
+The reader should not have to reconstruct what each statistic is testing from prose.
+
+Table 2 in particular needs a precise mathematical definition of the scoring-difference test and its null distribution.
+
+4.3 “Pass/fail” language is potentially misleading
+
+The six-stage figure is visually effective, but the binary labels obscure important distinctions in effect magnitude. Figure 2 simply shows:
+
+7 → 7 → 6 → 4 → 2 → 1.
+
+That creates the impression of a survival-analysis object without formally defining one.
+
+An academic treatment should distinguish:
+
+statistical failure,economic failure,decision-theoretic failure,information-timing failure.
+
+They are not commensurate binary events.
+
+4.4 The manuscript contains a serious reproducibility weakness despite its emphasis on provenance
+
+The provenance protocol is one of the paper's claimed contributions. It catches stale metrics, missing producing stages, and an outdated effect size.
+
+That is useful, but the final reproducibility claim is explicitly machine-local: reproducibility shows that the authors' computations generated the figures, not that another environment produces identical results.
+
+For a paper whose central methodological message is measurement discipline, this is an uncomfortable weakness.
+
+The framework itself should be reproducible independently of the proprietary raw data.
+
+Overall Editorial Assessment
+
+Recommendation: Reject in current form.
+
+The paper contains a potentially publishable empirical question, but the present manuscript has three structural problems that prevent acceptance at a top quantitative-finance journal:
+
+The title/contribution claims valuation, while the analysis delivers a sequential deployment-attrition framework.
+The single surviving application is exposed to researcher-search and selection concerns that the stated “pre-registration” protocol does not convincingly eliminate.
+Several of the decisive econometric components—especially latent-state construction and density-forecast comparison—are insufficiently specified for independent methodological verification.
+
+The empirical pattern itself is clear: all seven applications have conventional statistical evidence, but the applications successively lose value when information timing, stronger baselines, decision metrics, and execution costs are imposed. The manuscript documents that pattern well.
+
+The problem is that the paper currently treats that pattern as evidence for a general framework, while the design establishes only a single, internally constructed case study. The manuscript's own limitations section effectively concedes this: one market, one dataset, seven applications, one external control, one application supporting availability, and one supporting execution.
+
+The central question for revision is therefore not “can the six failures be made prettier?” It is whether the authors can make the survivor selection, latent-state timing, universe formation, forecast comparison, and definition of dataset value sufficiently rigorous that the headline result becomes an identifiable empirical result rather than a sophisticated post-hoc attrition narrative.

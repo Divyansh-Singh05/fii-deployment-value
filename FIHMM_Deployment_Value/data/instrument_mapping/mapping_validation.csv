@@ -1,0 +1,15 @@
+metric,value,n_chains
+chain_depth,0,547
+chain_depth,1,783
+chain_depth,2,44
+chain_depth,3,1
+confidence_x_status,HIGH/ACTIVE,707
+confidence_x_status,HIGH/DEAD_END,80
+confidence_x_status,LOW/DEAD_END,55
+confidence_x_status,MANUAL/DEAD_END,203
+confidence_x_status,MEDIUM/ACTIVE,45
+confidence_x_status,MEDIUM/DEAD_END,26
+confidence_x_status,PARK/DEAD_END,42
+confidence_x_status,PENDING/DEAD_END,156
+confidence_x_status,REVIEW/DEAD_END,61
+overlapping_intervals,count,0

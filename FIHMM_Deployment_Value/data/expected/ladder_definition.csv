@@ -1,0 +1,7 @@
+level,constraint,question,kind
+L0,Existence,Is the effect present under conventional inference?,statistical
+L1,Persistence,Does it hold on an era the design never touched?,statistical
+L2,Availability,Is it knowable when the decision must be made?,operational
+L3,Competition,Does it beat the baseline it would be deployed against?,operational
+L4,Detectability,Can the metric the decision consumes resolve it?,operational
+L5,Execution,Does the edge exceed the cost of capturing it?,operational

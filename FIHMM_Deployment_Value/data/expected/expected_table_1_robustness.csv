@@ -1,0 +1,6 @@
+estimator,contemporaneous_full,lagged_full,tolerance
+cluster_date,-5.53,-0.43,0.01
+cluster_instrument,-5.81,-0.44,0.01
+cluster_two_way,-5.20,-0.42,0.01
+white,-6.29,-0.45,0.01
+stationary_block_bootstrap,-6.47,-0.47,0.01

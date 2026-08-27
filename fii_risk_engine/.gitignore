@@ -1,0 +1,10 @@
+outputs/*
+# the fitted model ships with the repository — README and DATA.md both say so,
+# and a blanket `outputs/` excluded it, so a fresh checkout had no model at all
+!outputs/phase3/
+outputs/phase3/*
+!outputs/phase3/vintages.parquet
+data/
+__pycache__/
+*.pyc
+.DS_Store

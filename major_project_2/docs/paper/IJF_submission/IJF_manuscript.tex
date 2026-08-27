@@ -1,0 +1,803 @@
+% ============================================================
+% BLINDED MANUSCRIPT — Indian Journal of Finance
+% Times New Roman 12pt, double spaced, 1-inch margins.
+% NO author name or affiliation appears in this file (double-blind review).
+% ============================================================
+\documentclass[12pt]{article}
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{newtxtext,newtxmath}   % Times New Roman-metric text and math
+\usepackage{setspace}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{ragged2e}
+\usepackage{titlesec}
+\usepackage[hyphens]{url}
+\usepackage[hidelinks]{hyperref}
+\urlstyle{same}   % DOIs render in Times, not typewriter
+
+% IJF requires a UNIFORM 12pt Times face throughout, so headings must not be
+% enlarged. Primary headings: uppercase, bold, 12pt. (Sub-headings are set
+% inline in the body as bold italic 12pt.)
+\titleformat{\section}{\normalfont\normalsize\bfseries}{}{0pt}{}
+\titlespacing*{\section}{0pt}{1.2\baselineskip}{0.4\baselineskip}
+
+\doublespacing
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.6\baselineskip}
+
+% APA-style hanging indent for the reference list
+\newenvironment{apareferences}
+  {\begin{list}{}{%
+     \setlength{\leftmargin}{0.5in}%
+     \setlength{\itemindent}{-0.5in}%
+     \setlength{\listparindent}{0pt}%
+     \setlength{\itemsep}{0.5\baselineskip}}}
+  {\end{list}}
+
+\begin{document}
+
+\sloppy
+
+% ------------------------------------------------------------
+% TITLE
+% ------------------------------------------------------------
+\begin{center}
+{\bfseries FAT TAILS, INSTITUTIONAL FLOW, AND THE LIMITS OF VOLATILITY
+SIGNALS: DENSITY FORECASTING EVIDENCE FROM CUSTODIAN-LEVEL FOREIGN
+INSTITUTIONAL TRADING IN INDIA}
+\end{center}
+
+\vspace{\baselineskip}
+
+% ------------------------------------------------------------
+% ABSTRACT
+% ------------------------------------------------------------
+\textbf{Abstract}
+
+\emph{Purpose:} This study examined whether the composition of foreign
+institutional investor (FII) trading carried information about the risk of
+Indian equities that standard volatility models did not already contain, and
+whether any such information survived conversion into out-of-sample density
+forecasts.
+
+\emph{Design/Methodology/Approach:} Fourteen years of masked custodian-level
+FII transaction records (January 2011 to March 2025, approximately 24 million
+trades) were merged with a corporate-action-adjusted price panel. A gap-aware
+hidden Markov model classified daily flow composition, and an empirical,
+past-only conditional density engine was estimated walk-forward under a strict
+information embargo. Forecasts were scored using the continuous ranked
+probability score, Kupiec and Christoffersen backtests, probability integral
+transform uniformity, and Diebold--Mariano tests. Four hypotheses were
+pre-registered before estimation, with pass criteria fixed in advance.
+
+\emph{Findings:} Flow composition added nothing to stock-day density forecasts.
+The same engine nevertheless outperformed the Gaussian benchmark decisively:
+per-stock Kupiec pass rates were 90.4\% against 60.4\%, because standardized
+losses beyond four sigma occurred 85 times more often than a Gaussian implied.
+Two flow effects survived. Institutional share of turnover predicted next-day
+volatility, and aggregate FII inflow improved market-level risk forecasts, but
+the effect vanished against a competitive asymmetric GARCH benchmark.
+
+\emph{Practical Implications:} Gaussian value-at-risk systems materially
+understate Indian equity tail risk. Regression significance is a weak guide to
+forecasting value.
+
+\emph{Originality/Value:} Composition-based, pre-registered density evaluation
+of institutional flow in an emerging market.
+
+\vspace{0.5\baselineskip}
+
+\textbf{Keywords:} density forecasting, foreign institutional investors,
+value-at-risk, tail risk, pre-registration, emerging markets
+
+\vspace{0.5\baselineskip}
+
+\textbf{JEL Classification Codes:} C58, G15, G17
+
+\vspace{0.5\baselineskip}
+
+\textbf{Paper Submission Date:} [INSERT]
+
+\textbf{Paper Sent Back for Revision:} [INSERT]
+
+\textbf{Paper Acceptance Date:} [INSERT]
+
+\vspace{\baselineskip}
+
+% ------------------------------------------------------------
+\section*{INTRODUCTION}
+
+Foreign institutional investors have been the most closely watched marginal
+participant in Indian equities for three decades. Regulators publish their
+aggregate daily net purchases, financial media treat those figures as a
+sentiment barometer, and a substantial literature reports that FII flows
+co-move with returns and volatility. Almost all of that literature works with
+a single aggregate rupee number per day. The underlying regulatory records,
+however, are far richer: every trade is reported at the custodian level, so
+the \emph{composition} of institutional trading, that is, how many distinct
+institutions were active, how concentrated their participation was, and
+whether they were buying or selling, is observable in principle.
+
+This study asked whether that composition carried risk information beyond what
+a conventional volatility model already knew. The question matters because it
+separates two claims that are routinely conflated. The first is that flow
+correlates with subsequent volatility, which is a statement about a regression
+coefficient. The second is that flow improves a risk forecast, which is a
+statement about an out-of-sample loss function and is what a risk manager
+actually needs. The distance between the two claims is the central concern of
+this paper.
+
+The study was designed so that a negative answer would be as informative as a
+positive one. Four hypotheses were pre-registered with pass criteria fixed in
+advance, and every attempt is reported here, including three that failed. The
+evaluation used proper scoring rules rather than significance tests alone,
+because a proper scoring rule is the only instrument that answers the question
+a practitioner asks.
+
+Three results emerged. Flow composition added nothing to stock-day density
+forecasts, a finding established with power to detect very small effects. The
+forecasting machinery built to test that hypothesis nevertheless outperformed
+the standard Gaussian benchmark by a wide margin, for a reason unrelated to
+institutional flow: Indian equity returns, even after standardization by a
+conditional volatility estimate, are far more extreme than a normal
+distribution admits. Finally, two genuine flow effects were isolated at
+different levels of aggregation, one cross-sectional and one at the market
+level, and the boundary at which each stopped being useful was measured
+precisely.
+
+% ------------------------------------------------------------
+\section*{REVIEW OF LITERATURE}
+
+\textbf{\emph{Institutional Flow and Emerging Market Prices}}
+
+The foundational work on foreign participation in emerging markets established
+that liberalization affected the cost of capital and volatility structure of
+local markets (Bekaert \& Harvey, 2000). Subsequent research documented that
+international investor flows exhibit strong persistence and that portfolio
+flows into emerging markets responded to, and partially forecast, local
+returns (Froot et al., 2001). For India specifically, the relationship between
+foreign flows and volatility has been examined repeatedly. Foreign
+institutional investment has been linked to stock market volatility using
+conditional heteroskedasticity models (Dadhich et al., 2015), asymmetric
+volatility responses to portfolio flows have been documented (Varughese \&
+Mathew, 2017), and the association between institutional flows and implied
+volatility has been examined in the derivatives segment (Sharma et al.,
+2023). These studies share two features: they use aggregate flow magnitudes,
+and they evaluate in-sample coefficients rather than out-of-sample forecasts.
+
+A parallel literature examined institutional trading at the transaction level,
+finding that institutional herding and correlated trading affect prices, and
+that the price impact of institutional trades separates into transitory and
+permanent components (Sias, 2004). The microstructure tradition provides the
+identification logic: the probability of informed trading can be estimated
+from order-flow counts alone (Easley et al., 1996), which offers a route to
+distinguishing information-driven from liquidity-driven institutional
+activity without observing prices.
+
+\textbf{\emph{Volatility Modelling and Density Evaluation}}
+
+The benchmark against which any volatility claim must be judged is well
+established. Generalized autoregressive conditional heteroskedasticity
+(Bollerslev, 1986) and its asymmetric extension, which allows negative returns
+to raise conditional variance more than positive ones (Glosten et al., 1993),
+remain difficult to beat. Comparative evidence suggests that a simple
+GARCH(1,1) is rarely outperformed by more elaborate specifications in
+out-of-sample forecasting (Hansen \& Lunde, 2005), which sets a high bar for
+any claimed improvement.
+
+Evaluation methodology is equally settled. Interval forecasts are assessed
+through unconditional coverage (Kupiec, 1995) and conditional coverage tests
+that detect clustering of violations (Christoffersen, 1998). Full predictive
+densities require strictly proper scoring rules, of which the continuous
+ranked probability score is the standard choice (Gneiting \& Raftery, 2007).
+Comparisons between competing forecasts rest on tests of equal predictive
+accuracy (Diebold \& Mariano, 1995), implemented with
+heteroskedasticity-and-autocorrelation-consistent standard errors (Newey \&
+West, 1987).
+
+\textbf{\emph{Tail Risk}}
+
+A recurring finding is that conditional normality fails in the tails even
+after volatility standardization. Extreme value methods applied to
+heteroskedastic financial series produce materially different tail estimates
+from Gaussian ones (McNeil \& Frey, 2000), and the practical consequence is
+that Gaussian value-at-risk systems understate capital requirements in exactly
+the region where losses concentrate.
+
+\textbf{\emph{The Research Gap}}
+
+Three gaps motivated this study. First, the Indian FII literature works almost
+exclusively with aggregate flow magnitudes; the composition of that flow has
+not been evaluated as a risk variable. Second, that literature reports
+regression coefficients rather than out-of-sample density performance, so it
+is unknown whether reported significance would survive conversion into a
+forecast. Third, pre-registration is essentially absent from this literature,
+which makes published effect sizes difficult to interpret given the number of
+specifications available to a researcher.
+
+% ------------------------------------------------------------
+\section*{DATA AND METHODOLOGY}
+
+\textbf{\emph{Data}}
+
+The primary source was a masked custodian-level record of foreign
+institutional transactions in Indian equities covering January 2011 through
+March 2025, comprising approximately 24 million trades. Each record carries a
+masked entity identifier, security identifier, trade date, direction, quantity,
+and value. Only equity buy and sell trades with a positive rate were retained.
+These were merged with a daily price panel constructed from exchange
+bhavcopies and adjusted for corporate actions, together with the India VIX,
+the Nifty 50 index, and the rupee--dollar exchange rate.
+
+The sample was split at a frozen boundary. The training era ended 30 April
+2021 and the test era began 1 July 2021, with the intervening two months
+excluded because the source feed contains no records for them. This split was
+fixed before any modelling and was never revisited. The training era contains
+508,563 stock-days across 618 securities; the test era contains 294,243
+stock-days across 851 securities. The test era is therefore a different
+universe rather than a repeated sample, which strengthens any out-of-sample
+claim.
+
+Three further months (June, September, and November 2023) carry a completely
+null trade-direction field in the source archive, affecting 3.0\% of trades.
+These were excluded rather than imputed, since imputing direction would
+fabricate the dependent construct of the study. All exclusions fall inside the
+test era and are reported rather than silently dropped.
+
+\textbf{\emph{Flow Composition and the State Model}}
+
+Daily flow features were computed within each stock-day and rank-normalized
+across the cross-section, which by construction removes level information and
+isolates composition. A three-state Gaussian hidden Markov model in the
+regime-switching tradition (Hamilton, 1989) was estimated on these features. Because the FII feed contains gaps of varying length, the
+transition matrix was raised to the power of the number of elapsed trading
+days between observations, so that state belief decays correctly across
+holes rather than advancing one step per observation. Model parameters were
+re-estimated walk-forward, producing a sequence of parameter vintages, each
+of which used only data available at its own as-of date.
+
+\textbf{\emph{The Density Forecasting Engine}}
+
+Let $r_{i,t+h}$ denote the $h$-day forward return of stock $i$ and
+$\sigma_{i,t}$ an exponentially weighted volatility estimate computed from
+past returns only. The standardized outcome is
+
+\begin{equation}
+z_{i,t+h} = \frac{r_{i,t+h}}{\sigma_{i,t}\sqrt{h}}.
+\end{equation}
+
+The engine estimates the conditional density of $z$ non-parametrically from
+matured past outcomes, weighted by the posterior probability that stock $i$
+occupied each flow-composition state on day $t$:
+
+\begin{equation}
+\hat{f}_{i,t}(z) = \sum_{a=1}^{A} \pi_{i,t}(a)\, \hat{f}_a(z),
+\end{equation}
+
+where $\pi_{i,t}(a)$ is the filtered posterior over archetypes and
+$\hat{f}_a$ is the empirical density of standardized outcomes historically
+associated with archetype $a$. Every outcome entering $\hat{f}_a$ satisfies
+$s + h \le \mathrm{asof}$, so no forecast can use an outcome that had not
+matured at the time the forecast was made. The benchmark replaces
+$\hat{f}_{i,t}$ with the standard normal, giving the conventional
+exponentially weighted moving average value-at-risk engine used throughout the
+industry.
+
+The critical control is a variant in which the archetype weights are replaced
+by their unconditional climatological values, holding all other machinery
+fixed. Comparing the conditional engine against this control isolates the
+contribution of flow information from the contribution of distributional
+shape.
+
+\textbf{\emph{Market-Level Engine}}
+
+At the market level the density was specified parametrically. Next-day Nifty
+returns were modelled as $r_{t+1} = s \cdot m_t \cdot \sigma_t \cdot T_\nu$,
+where $T_\nu$ is a standardized Student-$t$ variate, $\sigma_t$ is a
+conditional volatility estimate, and the tilt is
+
+\begin{equation}
+m_t = \exp(\theta' x_t), \qquad m_t \in [0.5,\, 2.0],
+\end{equation}
+
+with $x_t$ a vector of conditioning variables. All parameters were estimated
+by maximum likelihood on the expanding past, first fitted after 750 scored
+days, refitted every 21 trading days, and applied out of sample to the
+following block. Aggregate flow entered at a two-day lag throughout,
+reflecting the publication delay of the underlying disclosure, so every
+specification is deployable in real time.
+
+\textbf{\emph{Evaluation Protocol and Pre-Registration}}
+
+Forecasts were evaluated using the continuous ranked probability score,
+pinball loss at the 5\% and 1\% quantiles, Kupiec unconditional coverage
+tests, Christoffersen independence tests, and probability integral transform
+uniformity assessed against a date-block bootstrap null constructed with a
+stationary resampling scheme (Politis \& Romano, 1994) rather than a textbook
+chi-square, which is invalid under cross-sectional dependence. Differences in
+predictive accuracy were tested by Diebold--Mariano statistics with
+Newey--West standard errors.
+
+Four hypotheses were pre-registered in dated documents written before
+estimation. Each specified the exact variable construction, the control set,
+the model comparison, and a numerical pass bar requiring both full-sample
+significance and same-signed consistency across the two eras. Every
+pre-registered attempt is reported in the results, including those that
+failed.
+
+% ------------------------------------------------------------
+\section*{RESULTS AND DISCUSSION}
+
+\textbf{\emph{Flow Composition Adds Nothing to Stock-Day Densities}}
+
+The primary hypothesis was rejected. The archetype-conditional mixture was
+statistically indistinguishable from the identical machinery with conditioning
+removed, at every horizon and in every stratum examined, including strata
+selected for high flow uncertainty where any conditioning effect should be
+largest. The comparison was powered to detect differences above roughly 0.03\%
+of the score. Composition, as measured here, carries no incremental
+information about the shape of the conditional return distribution once
+volatility is controlled.
+
+This is a clean negative result rather than an inconclusive one, and it
+constrains the interpretation of the aggregate-flow literature: whatever
+information FII activity carries, it does not reside in the cross-sectional
+composition of daily trading at the individual stock level.
+
+\textbf{\emph{The Gaussian Benchmark Fails in the Tail}}
+
+The engine nevertheless outperformed the benchmark decisively, as Table 1
+shows, and the reason has nothing to do with flow.
+
+\begin{table}[htbp]
+\centering
+\emph{Table 1. Density Forecast Performance, Empirical Engine Versus Gaussian
+Benchmark, One-Day Horizon}
+\vspace{0.3\baselineskip}
+\begin{singlespace}
+\begin{tabular}{lcc}
+\toprule
+Evaluation criterion & Empirical engine & Gaussian benchmark \\
+\midrule
+Breach rate at 1\% level (target 1.00\%) & 1.04\% & 1.62\% \\
+Kupiec test $p$-value at 1\% level & 0.673 & 0.000 \\
+Probability integral transform statistic & 0.7 & 303.3 \\
+Per-stock Kupiec pass rate & 90.4\% & 60.4\% \\
+Expected shortfall coverage (target 1.000) & 1.027 & 1.246 \\
+Mean continuous ranked probability score & 0.55785 & 0.56095 \\
+\bottomrule
+\end{tabular}
+\end{singlespace}
+\vspace{0.3\baselineskip}
+\begin{singlespace}
+\RaggedRight
+Note. Walk-forward out-of-sample results on 578,481 stock-days
+covering 562 securities, February 2016 to March 2025. Both engines share an
+identical volatility estimate and identical evaluation dates; they differ only
+in the assumed shape of the standardized distribution. Source: Authors'
+calculations.
+\end{singlespace}
+\end{table}
+
+The mechanism appears in Table 2. Standardized losses, that is, losses already
+scaled by a conditional volatility estimate, occur at the extremes far more
+often than a normal distribution permits.
+
+\begin{table}[htbp]
+\centering
+\emph{Table 2. Observed and Gaussian-Implied Frequencies of Extreme
+Standardized Losses}
+\vspace{0.3\baselineskip}
+\begin{singlespace}
+\begin{tabular}{lccc}
+\toprule
+Threshold & Observed count & Gaussian expectation & Ratio \\
+\midrule
+Below $-4$ standard deviations & 1,562 & 18.3 & 85 \\
+Below $-5$ standard deviations & 742 & 0.17 & 4,475 \\
+Below $-6$ standard deviations & 398 & 0.00 & Approx.\ 700,000 \\
+Below $-8$ standard deviations & 133 & 0.00 & Not defined \\
+\bottomrule
+\end{tabular}
+\end{singlespace}
+\vspace{0.3\baselineskip}
+\begin{singlespace}
+\RaggedRight
+Note. Counts computed on the same 578,481 stock-days as Table 1.
+Source: Authors' calculations.
+\end{singlespace}
+\end{table}
+
+A Gaussian engine is not marginally conservative in this market; it is wrong
+by orders of magnitude in precisely the region where capital is destroyed. The
+empirical engine estimated the ratio of expected shortfall to value-at-risk at
+1.39 to 1.41, against the 1.146 that a Gaussian imposes by construction
+regardless of market conditions. The engine did fail at the twenty-day
+horizon, where the breach rate reached 12.4\%, and it is not presented as a
+long-horizon tool.
+
+\textbf{\emph{Institutional Share of Turnover Predicts Volatility}}
+
+A distinct hypothesis concerned the level rather than the composition of
+institutional participation: whether the share of a stock's turnover
+attributable to institutional trading predicts its next-day volatility.
+Table 3 reports the result, with the squared standardized outcome as the
+dependent variable, so the test asks whether the share explains volatility
+that the engine's own estimate has already failed to capture.
+
+\begin{table}[htbp]
+\centering
+\emph{Table 3. Institutional Share of Turnover and Next-Day Volatility}
+\vspace{0.3\baselineskip}
+\begin{singlespace}
+\begin{tabular}{lccc}
+\toprule
+Specification & Full sample & Training era & Test era \\
+\midrule
+Date fixed effects & $-0.0283$ & $-0.0370$ & $-0.0198$ \\
+ & $(-5.25)$ & $(-4.43)$ & $(-2.85)$ \\
+Stock and date fixed effects & $-0.0300$ & $-0.0365$ & $-0.0232$ \\
+ & $(-5.53)$ & $(-4.42)$ & $(-3.25)$ \\
+Adding own lagged volatility & $-0.0255$ & $-0.0332$ & $-0.0180$ \\
+ & $(-4.59)$ & $(-3.87)$ & $(-2.50)$ \\
+Share observable only at two-day lag & $-0.0015$ & $-0.0020$ & $-0.0008$ \\
+ & $(-0.32)$ & $(-0.30)$ & $(-0.13)$ \\
+\bottomrule
+\end{tabular}
+\end{singlespace}
+\vspace{0.3\baselineskip}
+\begin{singlespace}
+\RaggedRight
+Note. Dependent variable is the squared standardized next-day
+return. Sample comprises 577,245 stock-days, 972 securities, and 2,081 trading
+dates. Date-clustered $t$-statistics in parentheses. Logarithm of turnover is
+included as a control in every specification and enters with a $t$-statistic
+above 24 throughout. Source: Authors' calculations.
+\end{singlespace}
+\end{table}
+
+The effect is negative, statistically strong, and present in both eras under
+the demanding two-way fixed-effects specification. Stock-days with a lower
+institutional share of turnover are subsequently more volatile. Sorting on the
+within-day quintile of institutional share produced a monotone gradient in
+implied volatility from 1.0911 in the lowest quintile to 1.0357 in the
+highest, a spread of 5.3\%. The result is robust to the choice of
+winsorization threshold, is stronger when absolute rather than squared
+standardized returns are used, and is stronger in high-volatility regimes.
+
+The final row of Table 3 is the finding's own limit. When the share is lagged
+to the point at which it would genuinely be observable to a market
+participant, the coefficient collapses to zero. The effect is therefore
+economic rather than tradeable, and it is reported as such.
+
+\textbf{\emph{Aggregate Flow Improves Market-Level Risk Forecasts}}
+
+The one deployable positive result concerns aggregate flow at the index level.
+A pre-registered regression established that aggregate net FII inflow observed
+at a two-day lag predicted lower absolute next-day Nifty returns beyond the
+information already in the India VIX, with a $t$-statistic of $-4.78$ on the
+full sample and $-2.49$ and $-2.51$ in the two eras separately, clearing the
+pre-registered bar.
+
+A natural objection is that this reflects the leverage effect, since inflows
+follow rising markets and rising markets precede lower volatility. The
+objection was tested directly by adding signed-return controls. The
+coefficient retained a $t$-statistic of $-4.23$ on the full sample and
+remained significant in both eras, and past signed returns explained only
+2.8\% of the variation in the flow variable. The signal is incremental
+information, not a repackaged leverage effect.
+
+Converting the regression into a forecasting engine produced the results in
+Table 4. All three pre-registered conditions were satisfied.
+
+\begin{table}[htbp]
+\centering
+\emph{Table 4. Pre-Registered Gate for the Market-Level Flow Engine}
+\vspace{0.3\baselineskip}
+\begin{singlespace}
+\begin{tabular}{p{2.0in}p{1.7in}p{1.5in}}
+\toprule
+Condition fixed in advance & Requirement & Outcome \\
+\midrule
+Predictive accuracy against a volatility-index benchmark &
+Diebold--Mariano statistic at or below $-2.0$ &
+$-2.35$ (satisfied) \\
+Consistency across eras &
+Lower mean score in both training and test eras &
+$-0.0019$ and $-0.0004$ (satisfied) \\
+Interval calibration preserved &
+Kupiec $p$-value above 0.01 at both levels &
+0.225 and 0.161 (satisfied) \\
+\bottomrule
+\end{tabular}
+\end{singlespace}
+\vspace{0.3\baselineskip}
+\begin{singlespace}
+\RaggedRight
+Note. Based on 2,739 scored trading days. All parameters were
+estimated walk-forward on past data only. Source: Authors' calculations.
+\end{singlespace}
+\end{table}
+
+The economic magnitude was modest but real. At matched one-percent coverage,
+the flow-augmented engine required approximately 2\% less capital, and the
+average loss in excess of the value-at-risk threshold fell from 0.770\% to
+0.613\%, an improvement of roughly one-fifth. The gain was monotone in the
+signal, being negligible on quiet days and largest on days of strong inflow,
+and it concentrated in the one-percent tail rather than in the centre of the
+distribution.
+
+\textbf{\emph{The Boundary: Where the Signal Stops Converting}}
+
+Three further pre-registered attempts extended the engine, and all three
+failed. Table 5 summarizes them, because a boundary measured from both sides
+is more informative than a single success.
+
+\begin{table}[htbp]
+\centering
+\emph{Table 5. Pre-Registered Engine Extensions and Their Outcomes}
+\vspace{0.3\baselineskip}
+\begin{singlespace}
+\begin{tabular}{p{2.1in}p{1.5in}p{1.6in}}
+\toprule
+Extension & Question tested & Outcome \\
+\midrule
+Asymmetric GARCH base &
+Does flow survive a competitive volatility benchmark? &
+Not satisfied ($-0.95$) \\
+Global conditioning variables &
+Do exchange rate, United States equity, dollar index, and policy rate
+differentials help? &
+Not satisfied ($-0.67$) \\
+Weekly horizon &
+Does a five-day horizon recover the signal? &
+Screen satisfied, engine not satisfied ($+1.58$) \\
+\bottomrule
+\end{tabular}
+\end{singlespace}
+\vspace{0.3\baselineskip}
+\begin{singlespace}
+\RaggedRight
+Note. Entries report Diebold--Mariano statistics against the
+relevant benchmark; negative values favour the augmented model, and the
+pre-registered threshold was $-2.0$ in every case. Source: Authors'
+calculations.
+\end{singlespace}
+\end{table}
+
+Three lessons follow. First, the dollar index and the policy-rate differential
+added nothing once the rupee exchange rate was included, indicating that the
+India-relevant component of global dollar conditions is already impounded in
+the currency. Second, the weekly spillover from United States equity returns
+to Indian volatility was the most era-stable coefficient estimated anywhere in
+this study, with $t$-statistics of $-3.50$, $-2.72$, and $-4.39$ on the full
+sample and the two eras, and yet it produced no density-forecast improvement
+whatsoever, because an asymmetric GARCH benchmark already absorbs the shock
+through the index's own lagged returns.
+
+Third, and most generally, the same pattern recurred four times with four
+different signals. Conditioning variables with regression $t$-statistics
+between three and five failed to improve a well-specified conditional density
+forecast, and succeeded only against a weak benchmark. A modulation of
+conditional volatility of one to two percent is genuine, survives every
+control tested, and still lies below the detection threshold of a proper
+scoring rule over roughly 2,700 observations. This is the distance between
+significance and forecasting value, and it is large.
+
+\textbf{\emph{Robustness and Internal Audit}}
+
+Two classes of check were applied. First, a look-ahead audit re-executed the
+entire forecasting chain against inputs truncated at each as-of date and
+confirmed that pre-truncation and post-truncation quantities agreed exactly,
+verifying that no forecast used unavailable information.
+
+Second, an internal review of the estimation code identified two defects and
+both were corrected before the results reported here were finalized. One
+concerned models whose conditioning parameters were applied out of sample
+before sufficient estimation history had accumulated, which asymmetrically
+penalized parameter-rich specifications; a minimum-history rule was imposed
+symmetrically across all models. The other concerned optimizer
+path-dependence on a flat likelihood surface, which was resolved by tightening
+convergence tolerances and adding a derivative-free polish step. The
+market-level engine result in Table 4 was unchanged to every reported digit
+under both corrections, whereas two apparent near-misses widened into clear
+failures, and one apparent recovery of a positive result proved to be an
+artifact and was discarded. This experience is reported because it illustrates
+concretely how small claimed edges can be manufactured or destroyed by
+estimation choices that are rarely documented.
+
+Finally, no strategy constructed from any of these signals was profitable
+after realistic transaction costs. The best test-era gross Sharpe ratio was
+1.51, which became $-1.53$ at a fifteen basis point round-trip cost. Costs
+bind, and that is itself a result.
+
+% ------------------------------------------------------------
+\section*{CONCLUSION}
+
+This study asked whether the composition of foreign institutional trading
+carried risk information in Indian equities, and answered in the negative at
+the level of individual stock-day return distributions, with power to detect
+very small effects. That negative result is credible precisely because it was
+pre-registered and because the same machinery produced strong positive
+findings elsewhere.
+
+The most consequential finding was incidental to the original question.
+Standardized Indian equity returns are so far from Gaussian in the tails, with
+four-sigma losses occurring 85 times more frequently than a normal
+distribution implies, that an empirical conditional density estimated from
+past outcomes alone raised the proportion of securities passing a standard
+coverage test from 60.4\% to 90.4\%. Two genuine flow effects were isolated:
+institutional share of turnover predicts cross-sectional volatility but not at
+a deployable lag, and aggregate inflow improves market-level risk forecasts by
+about 2\% of capital, though not against an asymmetric GARCH benchmark.
+
+The unifying contribution is a measurement of the distance between statistical
+significance and forecasting value. Across four independent signals, that
+distance was large and systematic.
+
+% ------------------------------------------------------------
+\section*{RESEARCH IMPLICATIONS}
+
+For practitioners, the first implication is direct. Institutions using
+Gaussian value-at-risk systems on Indian equities are understating tail risk
+substantially, and the correction requires no new data, only the replacement
+of a distributional assumption with an empirical one estimated from past
+standardized outcomes.
+
+For risk managers at the index level, aggregate FII flow is a usable
+conditioning variable that improves tail calibration at a genuinely deployable
+lag, provided the underlying volatility model is simple. Institutions already
+running asymmetric GARCH systems should not expect a gain.
+
+For researchers, the implication is methodological. A regression coefficient
+significant at conventional levels is weak evidence that a variable will
+improve a forecast. Studies claiming predictive content for volatility should
+report out-of-sample density performance against a competitive benchmark, and
+pre-registration materially improves the interpretability of the resulting
+effect sizes.
+
+For regulators, the institutional share of turnover is a screening variable
+constructed entirely from data already collected, associating lower
+institutional participation with elevated subsequent volatility.
+
+% ------------------------------------------------------------
+\section*{LIMITATIONS OF THE STUDY AND SCOPE FOR FURTHER RESEARCH}
+
+Several limitations qualify these findings. The transaction records are masked
+at the entity level, so institution-specific characteristics such as mandate,
+domicile, or investment style cannot be observed, and heterogeneity across
+institutional types could not be tested. The records contain no intraday
+timestamps, so trade aggressiveness and execution timing, which the
+microstructure literature identifies as central to price impact, are outside
+the scope of this study.
+
+Five months of flow data are unavailable, two masked at source and three
+carrying a null direction field, together representing approximately 3\% of
+trades and falling entirely within the test era. These were excluded rather
+than imputed, which is conservative but reduces test-era power.
+
+The forecasting results apply to end-of-day risk measurement at horizons of
+one and five trading days; the engine is not calibrated at twenty days and
+should not be deployed there. All results concern a single emerging market
+over a single fourteen-year window that includes one extreme volatility
+episode.
+
+Four extensions appear promising. Intraday data would permit the
+aggressiveness and timing dimensions to be tested directly. Unmasked or
+partially classified entity identifiers would allow institutional
+heterogeneity to be examined. Replication in other emerging markets with
+comparable custodian-level disclosure would establish whether the tail
+findings generalize. Finally, the systematic gap between regression
+significance and density-forecast improvement documented here deserves study
+in its own right, since it bears on a large body of published volatility
+research.
+
+% ------------------------------------------------------------
+\section*{AUTHOR'S CONTRIBUTION}
+
+[INSERT NAME] conceived the research question, designed the empirical
+strategy, constructed the data pipeline, wrote and audited all estimation
+code, pre-registered the hypotheses, interpreted the results, and prepared the
+manuscript.
+
+\section*{CONFLICT OF INTEREST}
+
+The author certifies that there is no conflict of interest with any financial
+or non-financial interest in the subject matter discussed in this manuscript.
+
+\section*{FUNDING ACKNOWLEDGEMENT}
+
+The author received no financial support for the research, authorship, and/or
+publication of this article.
+
+% ------------------------------------------------------------
+\section*{REFERENCES}
+
+\begin{singlespace}
+\begin{apareferences}
+
+\item Bekaert, G., \& Harvey, C. R. (2000). Foreign speculators and emerging
+equity markets. \emph{The Journal of Finance, 55}(2), 565--613.
+\url{https://doi.org/10.1111/0022-1082.00220}
+
+\item Bollerslev, T. (1986). Generalized autoregressive conditional
+heteroskedasticity. \emph{Journal of Econometrics, 31}(3), 307--327.
+\url{https://doi.org/10.1016/0304-4076(86)90063-1}
+
+\item Christoffersen, P. F. (1998). Evaluating interval forecasts.
+\emph{International Economic Review, 39}(4), 841--862.
+\url{https://doi.org/10.2307/2527341}
+
+\item Dadhich, G., Chotia, V., \& Chaudhry, O. (2015). Impact of foreign
+institutional investments on stock market volatility in India. \emph{Indian
+Journal of Finance, 9}(10), 22--35.
+\url{https://doi.org/10.17010/ijf/2015/v9i10/79561}
+
+\item Diebold, F. X., \& Mariano, R. S. (1995). Comparing predictive accuracy.
+\emph{Journal of Business \& Economic Statistics, 13}(3), 253--263.
+\url{https://doi.org/10.1080/07350015.1995.10524599}
+
+\item Easley, D., Kiefer, N. M., O'Hara, M., \& Paperman, J. B. (1996).
+Liquidity, information, and infrequently traded stocks. \emph{The Journal of
+Finance, 51}(4), 1405--1436.
+\url{https://doi.org/10.1111/j.1540-6261.1996.tb04074.x}
+
+\item Froot, K. A., O'Connell, P. G. J., \& Seasholes, M. S. (2001). The
+portfolio flows of international investors. \emph{Journal of Financial
+Economics, 59}(2), 151--193.
+\url{https://doi.org/10.1016/S0304-405X(00)00084-2}
+
+\item Glosten, L. R., Jagannathan, R., \& Runkle, D. E. (1993). On the
+relation between the expected value and the volatility of the nominal excess
+return on stocks. \emph{The Journal of Finance, 48}(5), 1779--1801.
+\url{https://doi.org/10.1111/j.1540-6261.1993.tb05128.x}
+
+\item Gneiting, T., \& Raftery, A. E. (2007). Strictly proper scoring rules,
+prediction, and estimation. \emph{Journal of the American Statistical
+Association, 102}(477), 359--378.
+\url{https://doi.org/10.1198/016214506000001437}
+
+\item Hamilton, J. D. (1989). A new approach to the economic analysis of
+nonstationary time series and the business cycle. \emph{Econometrica, 57}(2),
+357--384. \url{https://doi.org/10.2307/1912559}
+
+\item Hansen, P. R., \& Lunde, A. (2005). A forecast comparison of volatility
+models: Does anything beat a GARCH(1,1)? \emph{Journal of Applied
+Econometrics, 20}(7), 873--889. \url{https://doi.org/10.1002/jae.800}
+
+\item Kupiec, P. H. (1995). Techniques for verifying the accuracy of risk
+measurement models. \emph{The Journal of Derivatives, 3}(2), 73--84.
+\url{https://doi.org/10.3905/jod.1995.407942}
+
+\item McNeil, A. J., \& Frey, R. (2000). Estimation of tail-related risk
+measures for heteroscedastic financial time series: An extreme value approach.
+\emph{Journal of Empirical Finance, 7}(3--4), 271--300.
+\url{https://doi.org/10.1016/S0927-5398(00)00012-8}
+
+\item Newey, W. K., \& West, K. D. (1987). A simple, positive semi-definite,
+heteroskedasticity and autocorrelation consistent covariance matrix.
+\emph{Econometrica, 55}(3), 703--708. \url{https://doi.org/10.2307/1913610}
+
+\item Politis, D. N., \& Romano, J. P. (1994). The stationary bootstrap.
+\emph{Journal of the American Statistical Association, 89}(428), 1303--1313.
+\url{https://doi.org/10.1080/01621459.1994.10476870}
+
+\item Sharma, V. K., Bhatia, S., \& Roy, H. (2023). Investment behavior of
+foreign institutional investors and implied volatility dynamics: An empirical
+study on the Indian equity derivatives market. \emph{Journal of Risk and
+Financial Management, 16}(11), Article 470.
+\url{https://doi.org/10.3390/jrfm16110470}
+
+\item Sias, R. W. (2004). Institutional herding. \emph{The Review of Financial
+Studies, 17}(1), 165--206. \url{https://doi.org/10.1093/rfs/hhg035}
+
+\item Varughese, A., \& Mathew, T. (2017). Asymmetric volatility of the Indian
+stock market and foreign portfolio investments: An empirical study.
+\emph{Indian Journal of Finance, 11}(6), 36--49.
+\url{https://doi.org/10.17010/ijf/2017/v11i6/115595}
+
+\end{apareferences}
+\end{singlespace}
+
+\end{document}

@@ -1,0 +1,7 @@
+metric,ewma_base_A8,gjr_base_A2
+diebold_mariano_t,-2.22,0.28
+train_score_advantage_x100,-0.0024,-0.0001
+test_score_advantage_x100,-0.0004,0.0002
+kupiec_p_5pct,0.375,0.486
+kupiec_p_1pct,0.248,0.248
+scored_days,2235.0,2235.0

@@ -1,0 +1,62 @@
+# Level 5 (Execution). Manuscript eq:breakeven and Section "Level 5".
+#
+# WHY THIS FILE IS EXPLICIT ABOUT THE INSTRUMENT.
+# The producing backtest engine models cost as a single one-way rate applied to
+# turnover (`tcost_bps_oneway`), reported at 0 / 15 / 30 bp. It does NOT model an
+# instrument. That is a real limitation of the programme: a bare bp rate cannot
+# distinguish delivery cash equity from futures or intraday, and in the Indian
+# market those differ by more than the entire measured edge. A5's breakeven is
+# 7.33 bp (train) / 7.41 bp (test), so the instrument decides the verdict.
+#
+# A5 is a mechanical long-short across hundreds of NSE cash-segment names,
+# rebalanced daily. Cash delivery is therefore the applicable stack, and it is
+# declared here so the comparison is auditable rather than implicit.
+
+instrument: "cash_equity_delivery"
+segment: "NSE cash"
+rebalance: "daily"
+side_convention: "one_way"    # rates below are per side unless noted
+
+# Indian cash-delivery cost stack, one way, in basis points.
+# STT alone exceeds A5's breakeven. This does not weaken the paper's finding;
+# it means the execution constraint binds harder than the headline 15 bp implies.
+cost_stack_bps:
+  securities_transaction_tax: 10.0   # 0.10% per side, delivery equity
+  exchange_transaction_charge: 0.30
+  sebi_turnover_fee: 0.01
+  stamp_duty: 1.5                    # buy side only
+  institutional_brokerage: 3.0       # indicative; 2-5 bp range
+  gst_on_charges: 0.6                # 18% on brokerage + exchange charges
+  # Impact is size-dependent and is reported separately, not summed blindly.
+  market_impact_reference: 2.0       # Nifty-50 basket, small size
+
+# Reported as a grid, never as a single assumed figure. The breakeven is a
+# property of the strategy; a net Sharpe is a property of the assumption.
+cost_grid_bps: [0, 5, 7.5, 10, 15, 20, 30]
+headline_cost_bps: 15                # the manuscript's comparison point
+
+alternative_instruments:
+  # Recorded so a reader whose book differs can locate themselves. A5 as
+  # implemented is NOT one of these; they are stated to show what would have to
+  # change for the breakeven to be attainable.
+  index_futures:
+    stt_bps_sell_side: 5.0
+    note: "no delivery STT or stamp duty; ~7 bp breakeven is conceivable here"
+  intraday_cash:
+    stt_bps_sell_side: 2.5
+    note: "requires same-day unwind, which A5's daily rebalance does not do"
+
+breakeven_expected:
+  train_bps: 7.33
+  test_bps: 7.41
+net_sharpe_at_headline:
+  train: -1.42
+  test: -1.53
+gross_sharpe:
+  train: 1.36
+  test: 1.51
+
+not_priced:
+  - "capacity"
+  - "borrow / short availability"
+  - "market impact at realised size"

@@ -1,0 +1,4 @@
+quantity,training,test,tolerance
+gross_sharpe,1.36,1.51,0.01
+breakeven_one_way_bps,7.33,7.41,0.01
+net_sharpe_at_15bp,-1.42,-1.53,0.01

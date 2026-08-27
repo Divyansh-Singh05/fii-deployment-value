@@ -1,0 +1,30 @@
+# environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+.DS_Store
+
+# unpacked dataset - it lives in data_archive/ as split tar parts, and
+# unpack_data.sh restores it. Never commit the unpacked copies.
+major_project_2/data/
+major_project_2/outputs/
+fii_risk_engine/outputs/
+
+# quarantined artifacts: these predate the audit that rebuilt the state object
+# and must never enter a reported number
+*PREAUDIT*
+*BASELINE*
+*_smoke*
+*_trunc*
+*_unit*
+
+# LaTeX build noise
+*.aux
+*.log
+*.blg
+*.out
+*.synctex.gz

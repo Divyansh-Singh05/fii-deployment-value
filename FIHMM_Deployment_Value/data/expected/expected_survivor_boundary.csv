@@ -1,0 +1,13 @@
+condition,statistic,value,verdict,tolerance
+gate_common_window,diebold_mariano_t,-2.22,PASS,0.01
+gate_own_window,diebold_mariano_t,-2.35,PASS,0.01
+bare_baseline,diebold_mariano_t,-1.29,FAIL,0.01
+multiplicity_raw,one_sided_p,0.0095,PASS,0.0001
+multiplicity_holm,adjusted_p,0.038,PASS,0.001
+multiplicity_common_window,adjusted_p,0.052,FAIL,0.001
+nested_block_bootstrap_own,one_sided_p,0.028,PASS,0.002
+nested_block_bootstrap_common,one_sided_p,0.033,PASS,0.002
+nested_clark_west,t_statistic,1.27,FAIL,0.01
+nested_clark_west,one_sided_p,0.10,FAIL,0.01
+crisis_concentration,share_of_advantage,0.5236,DIAGNOSTIC,0.02
+crisis_concentration,dm_excluding_mar_apr_2020,-1.935,FAIL,0.02

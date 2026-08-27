@@ -1,0 +1,7 @@
+level,constraint,question,applications_lost,still_standing
+L0,existence,is the effect present under conventional inference?,0,7
+L1,persistence,does it hold on an era the design never touched?,0,7
+L2,availability,is it knowable when the decision must be made?,1,6
+L3,competition,does it beat the baseline it faces in use?,2,4
+L4,detectability,can the consuming metric resolve it?,2,2
+L5,execution,does the edge exceed the cost of capturing it?,1,1

@@ -1,0 +1,29 @@
+# Read-only source trees. Nothing in this repository writes to them.
+#
+# Override any root with an environment variable, e.g.
+#   export CONVGAP_RESEARCH_ROOT="/path/to/Major Project 2"
+#   export CONVGAP_ENGINE_ROOT="/path/to/fii_risk_engine"
+#
+# `sha256` is recorded at first verification. A later run that reads a
+# different digest reports the evidence as STALE rather than silently
+# accepting the new value.
+
+trees:
+  research:
+    env_var: CONVGAP_RESEARCH_ROOT
+    default: ~/Desktop/Major Project 2
+    description: >
+      Research object. 62 pipeline stages, panel econometrics, backtests,
+      market-level density engines, Phase II state forecasting.
+  engine:
+    env_var: CONVGAP_ENGINE_ROOT
+    default: ~/Desktop/fii_risk_engine
+    description: >
+      Standalone stock-day distributional risk engine, stages s01-s13.
+  local:
+    env_var: CONVGAP_LOCAL_ROOT
+    default: .
+    description: >
+      This repository. Holds artifacts re-derived by convgap itself, for
+      figures the source programme reports but does not produce - see
+      src/convgap/replication/.

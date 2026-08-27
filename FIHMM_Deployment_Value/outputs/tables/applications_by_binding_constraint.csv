@@ -1,0 +1,9 @@
+id,application,binding_level,constraint,evidence
+A1,Institutional share -> next-day stock volatility,L2,availability,"t = -5.53 contemporaneous, -0.43 at the deployable lag"
+A2,"Market density, flow tilt on a GJR-GARCH base",L3,competition,DM +0.28; the better-specified base already holds the information
+A4,Episode-end hazard model,L3,competition,real skill (AUC 0.657 test) but loses 31 bp to a three-line rule
+A5,Cross-sectional concentration book,L5,execution,breakeven 7.41 bp against a cost stack whose STT alone is 10 bp/side
+A6,Participant-composition feature block,L4,detectability,"74.8 bp in the extremes, incremental IC 0.0012 against a 0.005 bar"
+A7,Flow-regime conditioning in the stock-day density,L4,detectability,indistinguishable from its own ablation where it should bind hardest
+A8,Aggregate flow -> market-level density (EWMA base),survives,-,clears all six; reported under five stated boundary conditions
+Cext,Foreign index return -> domestic weekly volatility (CONTROL),L3,competition,"+1.58 against a -2.0 gate; a NON-FLOW predictor, same failure"

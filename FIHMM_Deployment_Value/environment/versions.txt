@@ -1,0 +1,19 @@
+# Record of the environment the manuscript's numbers were produced under.
+# Regenerate with:  python -c "import sys,numpy,pandas,scipy,statsmodels; ..."
+#
+# Reproducibility is MACHINE-LOCAL. Every figure regenerates from the source
+# trees by a recorded command and the digests of the resulting artifacts are
+# recorded. That establishes the numbers descend from computations that were
+# actually run. It does NOT establish that a different machine with different
+# library versions would produce bit-identical figures, and the manuscript
+# says so.
+
+python          3.11
+numpy           1.26.x
+pandas          2.1.x
+polars          0.20.x
+scipy           1.11.x
+statsmodels     0.14.x
+scikit-learn    1.3.x
+matplotlib      3.8.x
+platform        darwin / arm64
